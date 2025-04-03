@@ -6,7 +6,7 @@ import { ScenariosData } from "@/lib/types";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Search, X } from "lucide-react";
+import { Search, X, Shuffle } from "lucide-react";
 
 interface ScenarioListProps {
   scenarios: ScenariosData;
@@ -33,6 +33,63 @@ export default function ScenarioList({ scenarios }: ScenarioListProps) {
     setSelectedScenario(null);
   };
 
+  const navigateToNext = () => {
+    if (!selectedScenario) return;
+    
+    // Find current index in filtered scenarios
+    const currentIndex = filteredScenarios.findIndex(([id]) => id === selectedScenario);
+    if (currentIndex < filteredScenarios.length - 1) {
+      const nextScenarioId = filteredScenarios[currentIndex + 1][0];
+      setSelectedScenario(nextScenarioId);
+    }
+  };
+
+  const navigateToPrevious = () => {
+    if (!selectedScenario) return;
+    
+    // Find current index in filtered scenarios
+    const currentIndex = filteredScenarios.findIndex(([id]) => id === selectedScenario);
+    if (currentIndex > 0) {
+      const previousScenarioId = filteredScenarios[currentIndex - 1][0];
+      setSelectedScenario(previousScenarioId);
+    }
+  };
+
+  const navigateToRandom = () => {
+    if (filteredScenarios.length === 0) return;
+    
+    // Pick a random scenario that is different from the current one
+    if (filteredScenarios.length === 1) {
+      setSelectedScenario(filteredScenarios[0][0]);
+      return;
+    }
+    
+    let randomIndex;
+    let currentIndex = -1;
+    
+    if (selectedScenario) {
+      currentIndex = filteredScenarios.findIndex(([id]) => id === selectedScenario);
+    }
+    
+    // Ensure we pick a different scenario if possible
+    do {
+      randomIndex = Math.floor(Math.random() * filteredScenarios.length);
+    } while (filteredScenarios.length > 1 && randomIndex === currentIndex);
+    
+    const randomScenarioId = filteredScenarios[randomIndex][0];
+    setSelectedScenario(randomScenarioId);
+  };
+
+  // Determine if there are next/previous scenarios available
+  const getCurrentScenarioIndex = () => {
+    if (!selectedScenario) return -1;
+    return filteredScenarios.findIndex(([id]) => id === selectedScenario);
+  };
+
+  const currentIndex = getCurrentScenarioIndex();
+  const hasNext = currentIndex < filteredScenarios.length - 1 && currentIndex !== -1;
+  const hasPrevious = currentIndex > 0;
+
   return (
     <div>
       <div className="mb-4 relative">
@@ -47,10 +104,15 @@ export default function ScenarioList({ scenarios }: ScenarioListProps) {
               onChange={(e) => setSearchQuery(e.target.value)}
             />
           </div>
-          {selectedScenario && (
-            <Button variant="outline" onClick={clearSelection}>
-              <X className="h-4 w-4 mr-2" />
-              Close
+          {!selectedScenario && filteredScenarios.length > 0 && (
+            <Button 
+              variant="outline" 
+              size="sm"
+              onClick={navigateToRandom}
+              title="Go to a random scenario"
+            >
+              <Shuffle className="h-4 w-4 mr-2" />
+              Random
             </Button>
           )}
         </div>
@@ -60,6 +122,12 @@ export default function ScenarioList({ scenarios }: ScenarioListProps) {
         <ScenarioDetail
           id={selectedScenario}
           scenario={scenarios[selectedScenario]}
+          onClose={clearSelection}
+          onNext={hasNext ? navigateToNext : undefined}
+          onPrevious={hasPrevious ? navigateToPrevious : undefined}
+          onRandom={navigateToRandom}
+          hasNext={hasNext}
+          hasPrevious={hasPrevious}
         />
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

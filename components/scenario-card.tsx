@@ -3,7 +3,18 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from '@/components/ui/button';
 import { AudioPlayer } from '@/components/ui/audio';
 import { Conversation, Scenario } from '@/lib/types';
-import { PlayCircle, User, Headphones, Play, Download } from 'lucide-react';
+import { 
+  PlayCircle, 
+  User, 
+  Headphones, 
+  Play, 
+  Download, 
+  ArrowLeft, 
+  ArrowRight, 
+  ListRestart,
+  StopCircle,
+  Shuffle
+} from 'lucide-react';
 import { Progress } from '@/components/ui/progress';
 
 interface ScenarioCardProps {
@@ -185,9 +196,24 @@ export function ConversationItem({
 interface ScenarioDetailProps {
   id: string;
   scenario: Scenario;
+  onClose: () => void;
+  onNext?: () => void;
+  onPrevious?: () => void;
+  onRandom?: () => void;
+  hasNext: boolean;
+  hasPrevious: boolean;
 }
 
-export function ScenarioDetail({ id, scenario }: ScenarioDetailProps) {
+export function ScenarioDetail({ 
+  id, 
+  scenario, 
+  onClose, 
+  onNext, 
+  onPrevious,
+  onRandom,
+  hasNext,
+  hasPrevious
+}: ScenarioDetailProps) {
   const [currentPlayingIndex, setCurrentPlayingIndex] = useState<number | null>(null);
   const [summaryUrl, setSummaryUrl] = useState<string | null>(null);
   const [loadingSummary, setLoadingSummary] = useState(false);
@@ -341,10 +367,58 @@ export function ScenarioDetail({ id, scenario }: ScenarioDetailProps) {
     setDownloadQueue([]);
   };
 
+  // Handle navigation - stop any playback
+  const handleNavigate = (navigateFunction?: () => void) => {
+    stopPlayingAll();
+    if (navigateFunction) {
+      navigateFunction();
+    }
+  };
+
   return (
     <Card className="w-full">
       <CardHeader>
-        <CardTitle>{id}</CardTitle>
+        <div className="flex justify-between items-center mb-4">
+          <CardTitle>{id}</CardTitle>
+          <div className="flex gap-2">
+            <Button 
+              variant="outline" 
+              size="sm" 
+              onClick={onClose} 
+              title="Return to scenario list"
+            >
+              <ListRestart className="h-4 w-4 mr-2" />
+              Back to List
+            </Button>
+            <Button 
+              variant="outline" 
+              size="sm" 
+              onClick={() => handleNavigate(onPrevious)} 
+              disabled={!hasPrevious}
+              title="Previous scenario"
+            >
+              <ArrowLeft className="h-4 w-4" />
+            </Button>
+            <Button 
+              variant="outline" 
+              size="sm" 
+              onClick={() => handleNavigate(onNext)} 
+              disabled={!hasNext}
+              title="Next scenario"
+            >
+              <ArrowRight className="h-4 w-4" />
+            </Button>
+            <Button 
+              variant="outline" 
+              size="sm" 
+              onClick={() => handleNavigate(onRandom)} 
+              title="Random scenario"
+            >
+              <Shuffle className="h-4 w-4" />
+            </Button>
+          </div>
+        </div>
+        
         <CardDescription className="flex items-center">
           {scenario.summary}
           <Button 
@@ -382,6 +456,7 @@ export function ScenarioDetail({ id, scenario }: ScenarioDetailProps) {
               variant="outline"
               onClick={stopPlayingAll}
             >
+              <StopCircle className="h-4 w-4 mr-2" />
               Stop Playback
             </Button>
           )}
