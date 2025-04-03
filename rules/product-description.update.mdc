@@ -1,0 +1,4 @@
+1. on the scenerio view .. introduce a button that plays the full conversation with only one click
+2. show a progress bar for each dialog box while audio is being requested and downloaded
+3. dialog should continuously play and autoplay after download when it is its turn in the queue ... allow current download
+ 
