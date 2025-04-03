@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { AudioPlayer } from '@/components/ui/audio';
 import { Conversation, Scenario } from '@/lib/types';
-import { PlayCircle, User, Headphones, Play } from 'lucide-react';
+import { PlayCircle, User, Headphones, Play, Download } from 'lucide-react';
 import { Progress } from '@/components/ui/progress';
 
 interface ScenarioCardProps {
@@ -38,6 +38,8 @@ interface ConversationItemProps {
   isPlayingAll: boolean;
   onAudioEnded?: () => void;
   isCurrentInQueue: boolean;
+  onAudioLoaded?: (index: number, url: string) => void;
+  preloadedAudio?: string | null;
 }
 
 export function ConversationItem({ 
@@ -48,9 +50,11 @@ export function ConversationItem({
   onPlay, 
   isPlayingAll,
   onAudioEnded,
-  isCurrentInQueue 
+  isCurrentInQueue,
+  onAudioLoaded,
+  preloadedAudio
 }: ConversationItemProps) {
-  const [audioUrl, setAudioUrl] = useState<string | null>(null);
+  const [audioUrl, setAudioUrl] = useState<string | null>(preloadedAudio || null);
   const [loading, setLoading] = useState(false);
   const [loadingProgress, setLoadingProgress] = useState(0);
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -80,6 +84,12 @@ export function ConversationItem({
       setLoadingProgress(100); // Complete
       
       setAudioUrl(data.url);
+      
+      // Notify parent that audio is loaded
+      if (onAudioLoaded) {
+        onAudioLoaded(index, data.url);
+      }
+      
       onPlay();
     } catch (error) {
       console.error('Error fetching audio:', error);
@@ -90,6 +100,13 @@ export function ConversationItem({
       }, 500);
     }
   };
+
+  // Update audioUrl if preloadedAudio changes
+  useEffect(() => {
+    if (preloadedAudio && !audioUrl) {
+      setAudioUrl(preloadedAudio);
+    }
+  }, [preloadedAudio]);
 
   // Auto-fetch audio if it's the current item in queue for playAll
   useEffect(() => {
@@ -138,6 +155,11 @@ export function ConversationItem({
         >
           <Headphones className="h-4 w-4" />
         </Button>
+        {audioUrl && (
+          <span className="ml-2 text-xs text-green-600">
+            ✓
+          </span>
+        )}
       </div>
       <p>{conversation.text}</p>
       
@@ -150,7 +172,7 @@ export function ConversationItem({
       {audioUrl && (isPlaying || isPlayingAll) && (
         <audio 
           ref={audioRef}
-          src={audioUrl || ''} 
+          src={audioUrl} 
           className="mt-2 w-full" 
           controls
           autoPlay
@@ -171,6 +193,12 @@ export function ScenarioDetail({ id, scenario }: ScenarioDetailProps) {
   const [loadingSummary, setLoadingSummary] = useState(false);
   const [loadingSummaryProgress, setLoadingSummaryProgress] = useState(0);
   const [isPlayingAll, setIsPlayingAll] = useState(false);
+  
+  // Download queue system
+  const [downloadQueue, setDownloadQueue] = useState<number[]>([]);
+  const [isDownloading, setIsDownloading] = useState(false);
+  const [preloadedAudio, setPreloadedAudio] = useState<Record<number, string>>({});
+  const [downloadProgress, setDownloadProgress] = useState<Record<string, number>>({});
 
   const playConversation = (index: number) => {
     if (isPlayingAll) return;
@@ -209,10 +237,81 @@ export function ScenarioDetail({ id, scenario }: ScenarioDetailProps) {
     }
   };
 
+  // Process the download queue
+  const processDownloadQueue = useCallback(async () => {
+    if (downloadQueue.length === 0 || isDownloading) return;
+    
+    setIsDownloading(true);
+    const indexToDownload = downloadQueue[0];
+    
+    // Set initial progress for this download
+    setDownloadProgress(prev => ({
+      ...prev,
+      [indexToDownload]: 10
+    }));
+    
+    try {
+      // Simulate progress during API call
+      const progressInterval = setInterval(() => {
+        setDownloadProgress(prev => ({
+          ...prev,
+          [indexToDownload]: Math.min((prev[indexToDownload] || 0) + (Math.random() * 10), 90)
+        }));
+      }, 300);
+      
+      const response = await fetch(`/api/audio?scenarioId=${id}&index=${indexToDownload}`);
+      const data = await response.json();
+      
+      clearInterval(progressInterval);
+      
+      // Set complete progress
+      setDownloadProgress(prev => ({
+        ...prev,
+        [indexToDownload]: 100
+      }));
+      
+      // Add to preloaded audio
+      setPreloadedAudio(prev => ({
+        ...prev,
+        [indexToDownload]: data.url
+      }));
+      
+      // Remove from queue
+      setDownloadQueue(prev => prev.filter(idx => idx !== indexToDownload));
+      
+      // Clear progress after a delay
+      setTimeout(() => {
+        setDownloadProgress(prev => {
+          const newProgress = { ...prev };
+          delete newProgress[indexToDownload];
+          return newProgress;
+        });
+      }, 500);
+      
+    } catch (error) {
+      console.error(`Error pre-downloading audio for index ${indexToDownload}:`, error);
+      // Remove failed download from queue
+      setDownloadQueue(prev => prev.filter(idx => idx !== indexToDownload));
+    } finally {
+      setIsDownloading(false);
+    }
+  }, [downloadQueue, isDownloading, id]);
+
+  // Keep processing the queue
+  useEffect(() => {
+    processDownloadQueue();
+  }, [downloadQueue, isDownloading, processDownloadQueue]);
+
   const playAllConversation = async () => {
+    // Start playback immediately
     setIsPlayingAll(true);
-    // Start with the first conversation
     setCurrentPlayingIndex(0);
+    
+    // Queue up all conversations for download (except the first one which will download on play)
+    const indicesToDownload = Array.from({ length: scenario.conversation.length }, (_, i) => i + 1)
+      .filter(i => i < scenario.conversation.length && !preloadedAudio[i]);
+    
+    setDownloadQueue(prev => [...prev, ...indicesToDownload]);
   };
 
   const handleAudioEnded = () => {
@@ -228,9 +327,18 @@ export function ScenarioDetail({ id, scenario }: ScenarioDetailProps) {
     }
   };
 
+  const handleAudioLoaded = (index: number, url: string) => {
+    setPreloadedAudio(prev => ({
+      ...prev,
+      [index]: url
+    }));
+  };
+
   const stopPlayingAll = () => {
     setIsPlayingAll(false);
     setCurrentPlayingIndex(null);
+    // Clear download queue when stopping
+    setDownloadQueue([]);
   };
 
   return (
@@ -278,6 +386,21 @@ export function ScenarioDetail({ id, scenario }: ScenarioDetailProps) {
             </Button>
           )}
         </div>
+        
+        {/* Download queue status */}
+        {downloadQueue.length > 0 && (
+          <div className="mt-2 text-xs text-gray-500">
+            Pre-downloading {downloadQueue.length} audio file(s)...
+          </div>
+        )}
+        
+        {/* Show progress for current download */}
+        {isDownloading && downloadQueue.length > 0 && (
+          <div className="mt-2 w-full">
+            <div className="text-xs text-gray-500 mb-1">Pre-downloading dialog {downloadQueue[0] + 1}</div>
+            <Progress value={downloadProgress[downloadQueue[0]] || 0} className="h-1 w-full" />
+          </div>
+        )}
       </CardHeader>
       <CardContent>
         <div className="space-y-2">
@@ -292,6 +415,8 @@ export function ScenarioDetail({ id, scenario }: ScenarioDetailProps) {
               onPlay={() => playConversation(index)}
               onAudioEnded={handleAudioEnded}
               isCurrentInQueue={isPlayingAll && currentPlayingIndex === index}
+              onAudioLoaded={handleAudioLoaded}
+              preloadedAudio={preloadedAudio[index] || null}
             />
           ))}
         </div>
