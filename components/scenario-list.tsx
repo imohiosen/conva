@@ -7,6 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Search, X, Shuffle } from "lucide-react";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 interface ScenarioListProps {
   scenarios: ScenariosData;
@@ -115,6 +116,7 @@ export default function ScenarioList({ scenarios }: ScenarioListProps) {
               Random
             </Button>
           )}
+          <ThemeToggle />
         </div>
       </div>
 
