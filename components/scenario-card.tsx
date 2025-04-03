@@ -24,11 +24,16 @@ interface ScenarioCardProps {
 }
 
 export function ScenarioCard({ id, scenario, onSelect }: ScenarioCardProps) {
+  // Create a shortened title from the summary (first 30 characters + ellipsis if needed)
+  const shortTitle = scenario.summary.length > 30 
+    ? `${scenario.summary.substring(0, 30)}...` 
+    : scenario.summary;
+
   return (
     <Card className="w-full hover:shadow-md transition-shadow cursor-pointer" onClick={onSelect}>
       <CardHeader>
-        <CardTitle className="text-lg">{id}</CardTitle>
-        <CardDescription>{scenario.summary}</CardDescription>
+        <CardTitle className="text-lg">{shortTitle}</CardTitle>
+        <CardDescription>{id}</CardDescription>
       </CardHeader>
       <CardFooter>
         <Button variant="ghost" size="sm" className="ml-auto">
@@ -396,11 +401,16 @@ export function ScenarioDetail({
     }
   };
 
+  // Create a shortened title from the summary (first 50 characters + ellipsis if needed)
+  const shortTitle = scenario.summary.length > 50 
+    ? `${scenario.summary.substring(0, 50)}...` 
+    : scenario.summary;
+
   return (
     <Card className="w-full">
       <CardHeader>
         <div className="flex justify-between items-center mb-4">
-          <CardTitle>{id}</CardTitle>
+          <CardTitle>{shortTitle}</CardTitle>
           <div className="flex gap-2">
             <Button 
               variant="outline" 
@@ -441,6 +451,7 @@ export function ScenarioDetail({
         </div>
         
         <CardDescription className="flex items-center">
+          <span className="text-xs mr-2">{id}</span>
           {scenario.summary}
           <Button 
             variant="ghost" 
