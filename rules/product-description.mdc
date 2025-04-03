@@ -6,5 +6,6 @@
 6. use voice lia (speaker 0), aria(speaker 1) and Daniel(summary narrator)
 7. Implementation should be next js (app router style/pattern)
 8. ui should be shadcn
+9. use ts and tsx
 9. I should be about to see and click a scenerio in the ui to load and play
  
