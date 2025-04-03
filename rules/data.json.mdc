@@ -2421,5 +2421,2707 @@
         "speaker_id": 1
       }
     ]
+  },
+  "Szenario 100": {
+    "summary": "Kunde fragt im Café nach einem freien Tisch.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Haben Sie noch einen Platz frei?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Ja, da hinten am Fenster ist noch ein Tisch frei.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ah, wunderbar. Ist der Tisch für zwei Personen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, der Tisch ist für zwei Personen gedacht.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sehr gut. Wir nehmen den Tisch dann.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gerne. Wünschen Sie schon etwas zu trinken?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, bitte. Ich nehme ein Wasser.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Und für Sie?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich hätte gern einen Kaffee.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ein Wasser und einen Kaffee. Kommt sofort.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank. Die Sonne scheint schön hier.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, der Platz am Fenster ist sehr beliebt.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 101": {
+    "summary": "Kunde im Supermarkt sucht nach Nudeln.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie bitte, können Sie mir helfen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, natürlich. Was suchen Sie?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich suche die Nudeln. Ich habe sie nicht gefunden.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Die Nudeln stehen dort hinten, neben dem Reis.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ah, da hinten. Ich bin falsch gelaufen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kein Problem. Das passiert oft. Der Laden ist groß.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, das stimmt. Finden Sie auch die Tomaten dort?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Nein, das Gemüse finden Sie vorne, nahe dem Eingang.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, danke. Das ist sehr nett von Ihnen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Brauchen Sie sonst noch Hilfe?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, danke. Ich glaube, ich finde jetzt alles.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gut. Dann einen schönen Einkauf noch.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 102": {
+    "summary": "Bestellung eines Kuchens und Kaffees im Café.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Was möchten Sie bestellen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Guten Tag. Ich hätte gern ein Stück Kuchen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Welchen Kuchen wünschen Sie? Wir haben Apfelkuchen und Käsekuchen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich nehme den Apfelkuchen, bitte. Sieht der gut aus!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, der ist heute frisch gebacken. Möchten Sie auch etwas trinken?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, einen Kaffee bitte. Einen schwarzen Kaffee.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gerne. Ein Stück Apfelkuchen und einen schwarzen Kaffee.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Genau. Kann ich hier am Tisch bezahlen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, Sie können später bei mir bezahlen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sehr gut. Bringen Sie mir die Rechnung dann?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Natürlich. Ich bringe Ihnen zuerst den Kuchen und den Kaffee.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wunderbar, danke schön.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 103": {
+    "summary": "Kunde im Supermarkt fragt nach Bio-Eiern.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Wo finde ich bitte die Eier?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Die Eier sind im Kühlregal, bei der Milch und Butter.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Haben Sie auch Bio-Eier?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, die Bio-Eier stehen direkt daneben. Achten Sie auf das grüne Zeichen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ah, sehr gut. Ich versuche, nur noch Bio zu kaufen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist eine gute Entscheidung. Viele Kunden fragen danach.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sind diese Eier von Hühnern, die frei laufen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, das steht auf der Packung. Freilandhaltung.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Perfekt. Dann nehme ich diese Packung.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Brauchen Sie vielleicht noch etwas aus diesem Bereich?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, danke. Ich habe die Milch schon gefunden.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Alles klar. Wenn Sie noch Fragen haben, fragen Sie einfach.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 104": {
+    "summary": "Ein Paar bestellt Abendessen im Restaurant.",
+    "conversation": [
+      {
+        "text": "Guten Abend. Haben Sie schon gewählt?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Guten Abend. Ja, ich glaube schon. Was können Sie empfehlen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr beliebt ist heute der Fisch. Wir haben ihn frisch bekommen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Fisch klingt gut. Was gibt es dazu?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Dazu gibt es Kartoffeln und Gemüse der Saison.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das nehme ich. Und für Sie, mein Schatz?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich nehme das Schnitzel mit Pommes.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sehr gerne. Einmal Fisch mit Kartoffeln und Gemüse, und einmal Schnitzel mit Pommes. Möchten Sie etwas trinken?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, bitte. Einen Weißwein für mich.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Und ich nehme ein Bier.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ein Weißwein und ein Bier. Kommt sofort.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 105": {
+    "summary": "Kunde reklamiert im Café einen kalten Kaffee.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie bitte!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, bitte? Ist etwas nicht in Ordnung?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Mein Kaffee ist leider kalt. Ich habe ihn gerade erst bekommen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, das tut mir leid. Wirklich? Er ist direkt aus der Maschine gekommen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, fühlen Sie selbst. Er ist nur noch lauwarm.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sie haben Recht. Das darf nicht passieren. Ich entschuldige mich.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Könnte ich bitte einen neuen, heißen Kaffee bekommen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Selbstverständlich. Ich mache Ihnen sofort einen neuen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank. Das ist nett.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Der neue Kaffee geht natürlich aufs Haus.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, das ist aber freundlich. Danke schön.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Keine Ursache. Kommt sofort.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 106": {
+    "summary": "Kunde im Supermarkt fragt nach dem Preis eines Produkts ohne Etikett.",
+    "conversation": [
+      {
+        "text": "Entschuldigung, können Sie mir kurz helfen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, was gibt es?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich habe hier diese Flasche Saft, aber ich finde keinen Preis.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Lassen Sie mich mal sehen. Oh, da fehlt tatsächlich das Etikett.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Können Sie nachschauen, was der Saft kostet?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Einen Moment, ich scanne den Code hier am Regal.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, ich warte hier.",
+        "speaker_id": 0
+      },
+      {
+        "text": "So, der Saft kostet zwei Euro und fünfzig Cent.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Zwei fünfzig. Alles klar, danke für Ihre Hilfe.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gerne. Soll ich ein Etikett holen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, das ist nicht nötig. Ich nehme ihn sowieso.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gut. Schönen Tag noch.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 107": {
+    "summary": "Kunde im Restaurant fragt nach vegetarischen Optionen.",
+    "conversation": [
+      {
+        "text": "Haben Sie die Karte für mich?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, hier bitte. Unsere Speisekarte.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke schön. Sagen Sie, haben Sie auch vegetarische Gerichte?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Selbstverständlich. Wir haben eine Auswahl an vegetarischen Speisen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sind diese extra gekennzeichnet?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, achten Sie auf das kleine grüne Blatt neben dem Gericht.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ah, perfekt. Das sehe ich jetzt. Das Gemüse-Curry klingt interessant.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist sehr lecker. Mit frischem Gemüse und Reis.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gut, dann hätte ich das gern. Ist das sehr scharf?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Nein, es ist mild gewürzt. Wir können es aber schärfer machen, wenn Sie wünschen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, mild ist gut für mich. Danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gerne. Möchten Sie schon etwas trinken?",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 108": {
+    "summary": "Zwei Freunde treffen sich zufällig im Café.",
+    "conversation": [
+      {
+        "text": "Hallo Anna! Was machst du denn hier?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hallo Thomas! Zufall! Ich trinke nur schnell einen Kaffee.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich auch. Hast du kurz Zeit? Setzen wir uns zusammen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, klar. Ich habe noch zehn Minuten. Super Idee.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wie geht es dir? Lange nicht gesehen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Mir geht es gut, danke. Viel Arbeit, wie immer. Und dir?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Auch gut. Ich war gerade einkaufen. Brauchte ein paar Kleinigkeiten.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Was hast du Schönes bekommen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ach, nichts Besonderes. Nur Brot, Milch und ein neues Buch.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ein Buch? Was liest du denn gerade?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Einen Krimi. Sehr spannend. Ich erzähle dir davon, wenn ich fertig bin.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay, gern. Aber jetzt muss ich leider los.",
+        "speaker_id": 1
+      },
+       {
+        "text": "Schade. Aber schön, dich kurz gesehen zu haben.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Fand ich auch. Wir telefonieren bald!",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 109": {
+    "summary": "Kunde im Supermarkt kann sein Portemonnaie nicht finden.",
+    "conversation": [
+      {
+        "text": "So, das macht dann vierundzwanzig Euro und dreißig Cent.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay. Einen Moment bitte...",
+        "speaker_id": 0
+      },
+      {
+        "text": "...",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh nein. Ich glaube, ich finde mein Geld nicht.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Schauen Sie ruhig nochmal nach. In der Tasche?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, ich suche... Hier ist es nicht. Vielleicht im Auto?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist ärgerlich. Wollen Sie kurz nachsehen gehen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, bitte. Können Sie die Sachen kurz hier lassen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Natürlich. Ich stelle den Wagen zur Seite.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank. Ich beeile mich.",
+        "speaker_id": 0
+      },
+      {
+        "text": "(kommt zurück) Ich habe es gefunden! Es war in der Jacke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Na wunderbar! Dann können wir jetzt bezahlen.",
+        "speaker_id": 1
+      }
+    ]
+  },
+    "Szenario 110": {
+    "summary": "Kellner nimmt im Restaurant die Getränkebestellung auf.",
+    "conversation": [
+      {
+        "text": "Guten Abend. Kann ich Ihnen schon Getränke bringen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Guten Abend. Ja, gerne. Ich hätte gern ein Wasser.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Mit oder ohne Kohlensäure?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Bitte ohne.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ein stilles Wasser. Und für Sie?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich nehme einen Apfelsaft.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gerne. Ein stilles Wasser und einen Apfelsaft.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Haben Sie vielleicht auch die Weinkarte für uns?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Natürlich. Ich bringe sie Ihnen sofort mit den Getränken.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super, danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Möchten Sie vielleicht schon Brot und Butter vorab?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh ja, das wäre nett.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kommt alles zusammen.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 111": {
+    "summary": "Kunde im Café fragt nach WLAN.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie, haben Sie hier WLAN für Kunden?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, das haben wir. Das Netzwerk heißt 'Cafe_Sonne'.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Brauche ich dafür ein Passwort?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, das Passwort steht hier auf diesem kleinen Schild.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ah, 'Sonnenschein123'. Alles klar, danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Funktioniert es?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Einen Moment, ich versuche es... Ja, ich bin verbunden.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gut. Kann ich Ihnen noch etwas bringen? Einen Kaffee vielleicht?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, gerne. Einen Cappuccino, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kommt sofort.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich arbeite hier ein bisschen. Ist das in Ordnung?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Natürlich, kein Problem. Nehmen Sie sich Zeit.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 112": {
+    "summary": "Kunde im Supermarkt fragt, ob ein Produkt vorrätig ist.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Ich suche eine bestimmte Sorte Tee.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Welchen Tee meinen Sie denn?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Den Kräutertee 'Abendruhe'. Ich sehe ihn hier im Regal nicht mehr.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Lassen Sie mich nachsehen. Manchmal sind die Regale leer, aber wir haben noch Ware im Lager.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das wäre super, wenn Sie schauen könnten.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Einen Moment bitte... Ja, wir haben noch einige Packungen im Lager.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, das ist gut! Könnten Sie mir eine Packung holen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Selbstverständlich. Warten Sie bitte kurz hier.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke, das ist sehr freundlich.",
+        "speaker_id": 0
+      },
+      {
+        "text": "(kommt zurück) Hier bitte. Der Tee 'Abendruhe'.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Perfekt! Vielen herzlichen Dank für Ihre Mühe.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Immer wieder.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 113": {
+    "summary": "Kunde im Restaurant möchte bezahlen.",
+    "conversation": [
+      {
+        "text": "Entschuldigung, wir würden gerne bezahlen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, natürlich. Hat es Ihnen geschmeckt?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, es war sehr lecker. Vielen Dank.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das freut mich zu hören. Möchten Sie zusammen oder getrennt bezahlen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wir zahlen zusammen, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Das macht dann zusammen achtundfünfzig Euro.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Hier sind sechzig Euro. Stimmt so.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Vielen herzlichen Dank! Das ist sehr nett.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gern geschehen. Der Service war auch sehr gut.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Danke schön. Ich hoffe, wir sehen uns bald wieder.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Bestimmt. Einen schönen Abend noch.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ihnen auch. Auf Wiedersehen.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 114": {
+    "summary": "Kunde im Café fragt nach Kuchen ohne Nüsse.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Die Kuchen sehen alle toll aus.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Ja, unsere Bäckerin macht sehr gute Arbeit.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich habe eine Frage. Ich habe eine Nussallergie. Welcher Kuchen ist ohne Nüsse?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, das ist wichtig zu wissen. Lassen Sie mich nachsehen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Der Apfelkuchen hier, ist der sicher ohne Nüsse?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, der Apfelkuchen ist ohne Nüsse gebacken. Da können Sie sicher sein.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Und der Käsekuchen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Der Käsekuchen auch. Der Boden ist ohne Nüsse.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sehr gut. Dann nehme ich ein Stück Käsekuchen, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gerne. Möchten Sie ihn hier essen oder mitnehmen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich esse ihn hier. Mit einem Tee, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kommt sofort an Ihren Tisch.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 115": {
+    "summary": "Kunde im Supermarkt an der Kasse; ein Artikel lässt sich nicht scannen.",
+    "conversation": [
+      {
+        "text": "Hallo.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hallo. Legen Sie die Waren bitte hier auf das Band.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay.",
+        "speaker_id": 0
+      },
+      {
+        "text": "... (scannt)... Dieser Joghurt hier... der Code funktioniert nicht.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, komisch. Haben Sie noch einen anderen davon?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Nein, das ist der einzige. Ich versuche es nochmal... Nein, geht nicht.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Was machen wir jetzt?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich rufe kurz einen Kollegen. Er kann den Preis nachschauen. Moment bitte.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, kein Problem.",
+        "speaker_id": 0
+      },
+      {
+        "text": "(Kollege kommt) Ja, der Joghurt kostet neunzig Cent.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gut, danke. Dann tippe ich das manuell ein.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Entschuldigen Sie die kleine Verzögerung.",
+        "speaker_id": 1
+      },
+       {
+        "text": "Alles gut. Passiert.",
+        "speaker_id": 0
+      }
+    ]
+  },
+   "Szenario 116": {
+    "summary": "Kunde im Restaurant fragt nach einem Kinderstuhl.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Wir haben reserviert auf den Namen Berger.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag, Familie Berger. Herzlich willkommen. Ihr Tisch ist hier bereit.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke schön. Sagen Sie, hätten Sie vielleicht auch einen Kinderstuhl für unseren Kleinen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Selbstverständlich. Ich hole Ihnen sofort einen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das wäre super. Er kann noch nicht gut auf einem normalen Stuhl sitzen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kein Problem, dafür haben wir die Stühle ja.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ist der Stuhl sicher?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, er ist stabil und hat auch einen Gurt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Perfekt. Dann kann er sicher bei uns am Tisch sitzen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Genau. (stellt Stuhl hin) Hier bitte. Passt das so?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, wunderbar. Vielen Dank für Ihre Hilfe.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Immer gerne. Darf ich Ihnen schon die Karten bringen?",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 117": {
+    "summary": "Kunde im Café möchte draußen sitzen, aber alle Tische sind besetzt.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Ist draußen vielleicht noch ein Tisch frei?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Leider sind im Moment alle Tische draußen besetzt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, schade. Das Wetter ist so schön heute.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, da wollen alle gerne draußen sitzen. Drinnen hätten wir noch Platz.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Hm. Wie lange muss man ungefähr warten, bis draußen etwas frei wird?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist schwer zu sagen. Vielleicht zehn oder fünfzehn Minuten?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, wir könnten vielleicht kurz warten?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gerne. Sie können sich hier an die Bar setzen und schon etwas trinken, wenn Sie möchten.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gute Idee. Dann nehmen wir erstmal zwei Apfelsäfte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kommt sofort. Ich sage Ihnen Bescheid, sobald ein Tisch frei wird.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super, vielen Dank.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ah, sehen Sie, da vorne stehen gerade Leute auf!",
+        "speaker_id": 1
+      },
+      {
+        "text": "Perfekt! Dann hat sich das Warten ja gelohnt.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 118": {
+    "summary": "Kunde im Supermarkt fragt nach der Herkunft des Fleisches.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie, können Sie mir etwas zu diesem Fleisch sagen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, gerne. Das ist Rindfleisch aus der Region.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Aus der Region? Das ist gut. Wissen Sie auch von welchem Hof?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, das kommt vom Bauer Huber. Wir arbeiten schon lange mit ihm zusammen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ist das auch Bio-Qualität?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Nein, Bio ist es nicht direkt, aber Bauer Huber achtet sehr auf gute Haltung.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, das ist wichtig für mich. Ich möchte kein Fleisch aus Massentierhaltung.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das verstehen wir. Deswegen bieten wir dieses Fleisch an.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gut, dann nehme ich zwei von diesen Stücken.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gerne. Soll ich sie Ihnen einpacken?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hier bitte. Sonst noch ein Wunsch von der Theke?",
+        "speaker_id": 1
+      },
+       {
+        "text": "Nein, danke, das war alles.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 119": {
+    "summary": "Kunde im Restaurant beschwert sich über lange Wartezeit.",
+    "conversation": [
+      {
+        "text": "Entschuldigung! Wir warten schon sehr lange auf unser Essen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, entschuldigen Sie vielmals. Wie lange warten Sie denn schon?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Bestimmt schon vierzig Minuten. Wir haben nur zwei Hauptgerichte bestellt.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Vierzig Minuten? Das ist wirklich zu lange. Es tut mir sehr leid. Ich frage sofort in der Küche nach.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, bitte. Wir haben Hunger.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich verstehe das. (kommt zurück) Ihr Essen ist gleich fertig. Es gab ein kleines Problem in der Küche.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Was für ein Problem?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ein Gerät ist kurz ausgefallen. Aber jetzt läuft alles wieder.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Na gut. Hoffentlich kommt es jetzt wirklich bald.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, es kommt in den nächsten fünf Minuten. Als Entschuldigung gehen die nächsten Getränke aufs Haus.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, okay. Das ist nett, danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich bitte nochmals um Entschuldigung für die Unannehmlichkeiten.",
+        "speaker_id": 1
+      }
+    ]
+  },
+    "Szenario 120": {
+    "summary": "Kunde im Café fragt nach laktosefreier Milch.",
+    "conversation": [
+      {
+        "text": "Guten Tag, ich hätte gern einen Milchkaffee.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Sehr gerne.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Haben Sie vielleicht auch laktosefreie Milch?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, wir haben laktosefreie Milch und auch Hafermilch, wenn Sie möchten.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, super. Dann nehme ich bitte laktosefreie Milch.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Alles klar. Ein Milchkaffee mit laktosefreier Milch.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Kostet das extra?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, wir berechnen fünfzig Cent Aufpreis für die Spezialmilch.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, das ist in Ordnung für mich.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gut. Möchten Sie sonst noch etwas?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, danke. Nur den Kaffee.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kommt sofort zu Ihnen an den Tisch.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 121": {
+    "summary": "Kunde im Supermarkt fragt nach Pfandflaschenrückgabe.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie, wo kann ich hier meine Pfandflaschen abgeben?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Der Pfandautomat steht dort drüben, neben dem Eingang.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ah, ich habe ihn nicht gesehen. Danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Funktioniert er denn?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, ich glaube schon. Die Leute stehen an.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Manchmal ist er leider voll oder kaputt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Was mache ich, wenn er nicht funktioniert?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Dann können Sie die Flaschen ausnahmsweise an der Kasse abgeben. Aber versuchen Sie es erst am Automaten.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, das mache ich. Danke für die Information.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kein Problem. Sie bekommen dann einen Bon für die Kasse.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, das kenne ich. Den löse ich dann beim Bezahlen ein.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Genau richtig.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 122": {
+    "summary": "Kellner im Restaurant erklärt die Tagesempfehlung.",
+    "conversation": [
+      {
+        "text": "Haben Sie vielleicht auch eine Tagesempfehlung, die nicht auf der Karte steht?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, heute haben wir als besondere Empfehlung Lammkeule mit Rosmarinkartoffeln und Bohnen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, Lammkeule klingt sehr gut. Ist die zart?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, sehr zart. Sie wurde lange bei niedriger Temperatur gegart.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das hört sich köstlich an. Was kostet die Empfehlung denn?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Die Lammkeule kostet heute zweiundzwanzig Euro.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay. Ich glaube, das nehme ich.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Eine ausgezeichnete Wahl. Haben Sie dazu einen Weinwunsch?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, vielleicht einen kräftigen Rotwein? Was passt gut dazu?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich empfehle unseren spanischen Rioja. Der passt wunderbar zum Lamm.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gut, dann nehme ich ein Glas davon.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gerne. Kommt sofort.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 123": {
+    "summary": "Kunde im Café möchte ein Croissant, aber es gibt keine mehr.",
+    "conversation": [
+      {
+        "text": "Guten Morgen. Ich hätte gern ein Croissant.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Morgen. Oh, es tut mir leid, die Croissants sind für heute leider schon alle ausverkauft.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh nein! Wirklich? Ich bin extra deswegen gekommen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das tut mir leid. Sie sind immer sehr schnell weg. Morgen früh haben wir wieder frische.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Schade. Haben Sie vielleicht noch etwas anderes Ähnliches? Ein süßes Gebäck?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, wir haben noch frische Schokobrötchen oder Rosinenschnecken.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Hm, eine Rosinenschnecke klingt auch gut.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Die sind auch sehr lecker. Möchten Sie eine?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, dann nehme ich eine Rosinenschnecke, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gerne. Möchten Sie dazu einen Kaffee?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, einen großen Milchkaffee, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kommt sofort.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 124": {
+    "summary": "Kunde im Supermarkt bezahlt mit Karte, aber das Gerät hat Probleme.",
+    "conversation": [
+      {
+        "text": "Das macht dann sechsunddreißig Euro und zwanzig Cent.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, ich zahle mit Karte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gerne. Bitte hier reinstecken.",
+        "speaker_id": 1
+      },
+      {
+        "text": "... Es dauert lange.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, das Gerät macht manchmal Probleme. Einen Moment... Ah, Verbindungsfehler.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh. Und jetzt?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Wir versuchen es einfach nochmal. Bitte Karte nochmal raus und rein.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay... Wieder Verbindungsfehler.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist ja ärgerlich. Haben Sie vielleicht Bargeld dabei?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich glaube schon... Ja, hier. Passt das so?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, perfekt. Vielen Dank und Entschuldigung für die Störung.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Kein Problem. Das kann passieren.",
+        "speaker_id": 0
+      }
+    ]
+  },
+   "Szenario 125": {
+    "summary": "Gast im Restaurant fragt nach glutenfreien Optionen.",
+    "conversation": [
+      {
+        "text": "Guten Abend. Haben Sie auch glutenfreie Gerichte auf der Karte?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Abend. Ja, wir haben einige Optionen. Was interessiert Sie denn besonders?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich würde gerne Nudeln essen. Haben Sie glutenfreie Nudeln?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, wir können die meisten unserer Nudelgerichte auch mit glutenfreien Nudeln zubereiten.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das ist ja super! Dann hätte ich gern die Nudeln mit Tomatensoße, aber bitte glutenfrei.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gerne. Nudeln mit Tomatensoße, glutenfrei. Dauert einen kleinen Moment länger.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das ist kein Problem. Hauptsache, es ist sicher glutenfrei.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Darauf achten wir in der Küche sehr genau. Keine Sorge.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank. Das ist eine große Erleichterung.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Möchten Sie dazu etwas trinken?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, ein Wasser ohne Kohlensäure, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kommt sofort.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 126": {
+    "summary": "Kunde im Café bestellt zum Mitnehmen.",
+    "conversation": [
+      {
+        "text": "Hallo. Ich hätte gern zwei Cappuccino zum Mitnehmen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hallo. Gerne. Mit normaler Milch?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, bitte. Und einen Muffin.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Welchen Muffin möchten Sie? Schoko oder Blaubeere?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich nehme den Schokomuffin.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Alles klar. Zwei Cappuccino und ein Schokomuffin zum Mitnehmen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Genau. Wie lange dauert das ungefähr?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Nur ein paar Minuten. Ich mache die Kaffees sofort.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super. Ich bezahle dann gleich.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das macht zusammen acht Euro und zehn Cent.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Hier bitte. (gibt Geld)",
+        "speaker_id": 0
+      },
+      {
+        "text": "Danke schön. Hier sind Ihre Getränke und der Muffin. Vorsicht, heiß!",
+        "speaker_id": 1
+      },
+       {
+        "text": "Danke! Schönen Tag noch.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 127": {
+    "summary": "Kunde im Supermarkt sucht eine bestimmte Marke Butter.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie, ich suche eine bestimmte Butter.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja? Welche Marke suchen Sie denn?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Die Butter von 'Alpenglück'. Ich sehe sie hier nicht.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ah, 'Alpenglück'. Die steht normalerweise hier im Kühlregal. Vielleicht ist sie gerade aus?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh nein. Ich brauche genau diese Butter für einen Kuchen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Lassen Sie mich kurz im System nachsehen, ob wir noch welche haben.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, bitte. Das wäre nett.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, wir haben sie. Sie steht nur an einem anderen Platz, bei den Sonderangeboten.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Bei den Sonderangeboten? Warum das denn?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sie ist diese Woche im Angebot. Gehen Sie einfach den Gang hier runter, dann links.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super! Vielen Dank für den Tipp.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Dann finden Sie sie bestimmt.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 128": {
+    "summary": "Gast im Restaurant ist unzufrieden mit dem Essen.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie bitte!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, bitte? Ist alles in Ordnung mit Ihrem Essen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Leider nicht. Das Fleisch ist sehr trocken und zäh.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, das tut mir aufrichtig leid. Darf ich es mir kurz ansehen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, bitte. Ich kann es kaum schneiden.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sie haben Recht, das sieht nicht gut aus. Das entspricht nicht unserem Standard. Bitte entschuldigen Sie.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Was können wir da machen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich biete Ihnen an, Ihnen sofort ein neues Stück Fleisch zubereiten zu lassen. Oder möchten Sie etwas anderes von der Karte wählen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ein neues Stück wäre gut. Aber bitte nicht wieder so trocken.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich spreche sofort mit dem Koch. Das neue Gericht geht selbstverständlich aufs Haus.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich bringe Ihnen in der Zwischenzeit noch ein Getränk, wenn Sie mögen?",
+        "speaker_id": 1
+      },
+       {
+        "text": "Ja, ein Wasser wäre nett.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 129": {
+    "summary": "Kunde im Café fragt, ob Hunde erlaubt sind.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Eine Frage: Sind Hunde hier im Café erlaubt?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Ja, kleine und ruhige Hunde sind bei uns willkommen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, das ist schön zu hören. Ich habe meinen kleinen Hund dabei.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Solange er niemanden stört, ist das kein Problem. Sie können gerne Platz nehmen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super. Darf er auch Wasser bekommen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Selbstverständlich. Ich bringe Ihnen gerne eine Schüssel mit frischem Wasser.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das ist sehr aufmerksam, vielen Dank.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Machen wir gerne für unsere vierbeinigen Gäste.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Dann setzen wir uns hier an den Tisch in der Ecke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gut. Was darf ich Ihnen bringen? Kaffee? Kuchen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich nehme einen Tee und ein Stück Apfelkuchen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kommt sofort. Und das Wasser für den Hund auch.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 130": {
+    "summary": "Kunde im Supermarkt sucht nach Toilettenpapier.",
+    "conversation": [
+      {
+        "text": "Entschuldigung, wo finde ich denn das Toilettenpapier?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das Toilettenpapier steht im Gang Nummer fünf, bei den Haushaltswaren.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gang fünf... Okay, danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Dort finden Sie auch Küchenrollen und Taschentücher.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ah, gut zu wissen. Ich brauche auch Küchenrollen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Dann sind Sie dort genau richtig.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ist das Papier gerade im Angebot?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich glaube, diese Woche nicht. Aber wir haben verschiedene Marken zur Auswahl.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, ich schaue mal. Danke für die Hilfe.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Wenn Sie noch etwas suchen, melden Sie sich einfach.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Mach ich. Schönen Tag.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ihnen auch.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 131": {
+    "summary": "Gast im Restaurant reserviert einen Tisch für den nächsten Abend.",
+    "conversation": [
+      {
+        "text": "Guten Abend. Ich möchte gerne einen Tisch reservieren.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Abend. Sehr gerne. Für heute Abend?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, für morgen Abend, bitte. Um neunzehn Uhr.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Morgen Abend um neunzehn Uhr. Für wie viele Personen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Für vier Personen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Einen Moment, ich schaue nach... Ja, um neunzehn Uhr haben wir noch einen schönen Tisch für vier Personen frei.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wunderbar. Können wir einen Tisch am Fenster bekommen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich notiere Ihren Wunsch. Wir versuchen unser Bestes, ihn zu erfüllen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank. Auf welchen Namen darf ich reservieren?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Auf den Namen 'Schmidt', bitte.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Alles klar. Tisch für vier Personen, morgen um neunzehn Uhr, auf den Namen Schmidt. Ist notiert.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Perfekt. Vielen Dank und bis morgen.",
+        "speaker_id": 1
+      },
+       {
+        "text": "Wir freuen uns auf Sie. Auf Wiedersehen.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 132": {
+    "summary": "Kunde im Café fragt nach der Toilette.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie, könnten Sie mir sagen, wo die Toilette ist?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, natürlich. Gehen Sie hier geradeaus durch, an der Bar vorbei.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Geradeaus durch...",
+        "speaker_id": 0
+      },
+      {
+        "text": "Dann die kleine Treppe runter. Unten finden Sie die Toiletten.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Eine Treppe runter? Okay.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, links sind die Damen, rechts die Herren.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Alles klar, vielen Dank für die Beschreibung.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Ist alles in Ordnung mit Ihrem Kaffee?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, der Kaffee ist sehr gut. Danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das freut uns.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich komme gleich wieder an meinen Platz.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kein Problem.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 133": {
+    "summary": "Kunde im Supermarkt bemerkt einen Fehler auf dem Kassenbon.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie bitte, ich glaube, hier stimmt etwas nicht mit dem Bon.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh? Lassen Sie mich mal sehen. Was genau meinen Sie?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Dieser Joghurt hier wurde zweimal berechnet, aber ich habe nur einen gekauft.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Tatsächlich. Da steht er zweimal drauf. Das tut mir leid, mein Fehler beim Scannen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Kann passieren. Können wir das korrigieren?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Selbstverständlich. Ich storniere den einen Joghurt und gebe Ihnen das Geld zurück.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "So, das sind dann neunzig Cent, die Sie zurückbekommen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Hier bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Vielen Dank für Ihre Aufmerksamkeit. Gut, dass Sie es bemerkt haben.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, ich schaue meistens kurz auf den Bon.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist klug. Schönen Tag noch!",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 134": {
+    "summary": "Kellner im Restaurant fragt nach dem Essen und bietet Dessert an.",
+    "conversation": [
+      {
+        "text": "Hat es Ihnen geschmeckt? War alles zu Ihrer Zufriedenheit?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, es war ausgezeichnet. Wirklich sehr lecker.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das freut mich und den Koch sehr zu hören.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Besonders der Fisch war perfekt.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Wunderbar. Darf ich Ihnen die Teller abräumen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Möchten Sie vielleicht noch unsere Dessertkarte sehen? Oder einen Kaffee?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh ja, die Dessertkarte sehen wir uns gerne an.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hier bitte. Wir haben heute auch frisches Eis.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Eis klingt gut bei dem Wetter. Was für Sorten haben Sie?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Vanille, Schokolade und Erdbeere.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Dann nehme ich eine Kugel Erdbeere, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gerne. Und für Sie?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich nehme einen Espresso.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 135": {
+    "summary": "Kunde im Café beschwert sich über laute Musik.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie, könnten Sie bitte die Musik etwas leiser machen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, ist die Musik zu laut? Entschuldigung.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, ein bisschen. Man kann sich kaum unterhalten.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Verstehe. Ich mache sie sofort leiser. Ist das so besser?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, viel besser. Vielen Dank.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kein Problem. Sagen Sie einfach Bescheid, wenn etwas nicht passt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das ist nett. Wir wollten uns hier in Ruhe unterhalten.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das sollen Sie auch können. Genießen Sie Ihren Aufenthalt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Der Kuchen ist übrigens sehr lecker.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das freut mich zu hören.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wir bestellen gleich noch einen Kaffee.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gerne. Winken Sie mir einfach.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 136": {
+    "summary": "Kunde im Supermarkt sucht glutenfreies Brot.",
+    "conversation": [
+      {
+        "text": "Guten Tag, wo finde ich denn glutenfreies Brot?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Glutenfreie Produkte haben wir in einem extra Regal.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ein extra Regal? Wo steht das?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gehen Sie bitte zu den Backwaren und dann nach links. Da ist ein Regal mit 'Frei von'-Produkten.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ah, 'Frei von'. Okay, danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Dort finden Sie Brot, Nudeln und andere glutenfreie Sachen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super. Die Auswahl ist hoffentlich gut?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, wir versuchen, eine gute Auswahl anzubieten. Die Nachfrage ist groß.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das glaube ich. Immer mehr Leute brauchen das.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Genau. Wenn Sie es nicht finden, komme ich gerne mit.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke, aber ich glaube, ich finde es jetzt.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Alles klar. Dann viel Erfolg!",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 137": {
+    "summary": "Kellner im Restaurant empfiehlt einen Wein zum Essen.",
+    "conversation": [
+      {
+        "text": "Wir haben uns für das Rinderfilet entschieden.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Eine ausgezeichnete Wahl. Das Filet ist sehr zart.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Können Sie uns dazu einen passenden Rotwein empfehlen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gerne. Mögen Sie lieber einen kräftigen oder einen leichteren Wein?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Eher kräftig, aber nicht zu schwer.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Dann empfehle ich Ihnen unseren italienischen Primitivo. Er ist fruchtig, aber mit Charakter.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Primitivo klingt gut. Ist der trocken?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, er ist trocken und passt hervorragend zum Rindfleisch.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gut, dann nehmen wir eine Flasche davon.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gerne. Ich bringe Ihnen die Flasche und öffne sie am Tisch.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Perfekt, danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Darf ich Ihnen vorab schon Wasser bringen?",
+        "speaker_id": 1
+      },
+       {
+        "text": "Ja, gerne. Eine Flasche stilles Wasser.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 138": {
+    "summary": "Kunde im Café bekommt den falschen Kuchen.",
+    "conversation": [
+      {
+        "text": "Hier bitte, Ihr Apfelkuchen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Entschuldigung, ich hatte aber Käsekuchen bestellt.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh! Wirklich? Verzeihung, da habe ich wohl etwas verwechselt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, ich mag Apfelkuchen nicht so gern.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das tut mir sehr leid. Ich bringe Ihnen sofort den Käsekuchen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke schön.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Dieser Apfelkuchen geht natürlich zurück. Bitte entschuldigen Sie den Fehler.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Kann passieren.",
+        "speaker_id": 0
+      },
+      {
+        "text": "(kommt zurück) Hier ist Ihr Käsekuchen. Ich hoffe, er schmeckt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Bestimmt. Vielen Dank für den schnellen Tausch.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Der Kaffee dazu ist okay?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, der Kaffee ist perfekt.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 139": {
+    "summary": "Kunde im Supermarkt fragt nach Einkaufswagen.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Wo finde ich denn hier die Einkaufswagen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Die Wagen stehen draußen vor dem Eingang.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ach so, draußen. Ich habe hier drinnen gesucht.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, die meisten stehen draußen. Sie brauchen eine Münze dafür, einen Euro.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, ich habe gar kein Bargeld dabei. Nur Karte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kein Problem. Kommen Sie kurz mit zur Information, wir haben Chips zum Ausleihen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wirklich? Das ist ja super Service!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Machen wir gerne. Hier bitte, ein Chip für den Wagen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank. Den bringe ich dann nach dem Einkauf zurück?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Genau. Oder Sie geben ihn einfach an der Kasse ab.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, das mache ich. Danke für Ihre Hilfe!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Einen schönen Einkauf!",
+        "speaker_id": 1
+      }
+    ]
+  },
+   "Szenario 140": {
+    "summary": "Gast im Restaurant lobt den Koch.",
+    "conversation": [
+      {
+        "text": "Das Essen war wirklich hervorragend!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, das freut uns sehr zu hören!",
+        "speaker_id": 1
+      },
+      {
+        "text": "Könnten Sie bitte dem Koch ein großes Lob von uns ausrichten?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Selbstverständlich. Das mache ich sehr gerne. Er wird sich freuen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Besonders die Soße zum Fleisch war ein Traum.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, unser Koch ist bekannt für seine guten Soßen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wir kommen bestimmt wieder.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das wäre schön. Wir freuen uns auf Ihren nächsten Besuch.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wir möchten dann jetzt gerne bezahlen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Natürlich. Zusammen oder getrennt?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Zusammen bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kommt sofort.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 141": {
+    "summary": "Kunde im Café fragt nach einer Zeitung.",
+    "conversation": [
+      {
+        "text": "Guten Morgen. Haben Sie vielleicht auch Zeitungen hier?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Morgen. Ja, wir haben die lokale Tageszeitung und ein Magazin.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wo liegen die denn?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Die liegen dort drüben auf dem kleinen Tisch am Fenster.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ah, da sehe ich sie. Kann ich mir eine nehmen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, natürlich. Bedienen Sie sich gerne, solange Sie hier sind.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super, danke. Ich lese gerne Zeitung beim Kaffee.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das machen viele unserer Gäste. Was darf es denn zu trinken sein?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Einen großen schwarzen Kaffee, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kommt sofort.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich setze mich dann schon mal mit der Zeitung hin.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Machen Sie das. Der Kaffee kommt an den Platz.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 142": {
+    "summary": "Kunde im Supermarkt fragt nach frischem Ingwer.",
+    "conversation": [
+      {
+        "text": "Entschuldigung, wo finde ich frischen Ingwer?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Frischen Ingwer finden Sie in der Obst- und Gemüseabteilung.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich war gerade dort, habe ihn aber nicht gesehen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Er liegt normalerweise bei den exotischen Früchten oder beim Knoblauch.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ah, beim Knoblauch. Da habe ich nicht geschaut.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Schauen Sie dort mal nach. Wenn er nicht da ist, ist er vielleicht gerade aus.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, ich gehe nochmal hin.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Soll ich kurz mitkommen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, danke. Ich versuche es erst allein.",
+        "speaker_id": 0
+      },
+      {
+        "text": "(kommt zurück) Ich habe ihn gefunden! Er lag etwas versteckt.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Na wunderbar! Dann hat es ja geklappt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja. Danke für den Tipp mit dem Knoblauch.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 143": {
+    "summary": "Gast im Restaurant fragt, ob er den Rest seines Essens mitnehmen kann.",
+    "conversation": [
+      {
+        "text": "Das war sehr lecker, aber ich habe es nicht ganz geschafft.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kein Problem. Das war eine große Portion.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Könnte ich den Rest vielleicht mitnehmen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Selbstverständlich. Wir packen Ihnen das gerne ein.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, das ist ja toll! Ich werfe ungern Essen weg.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das verstehen wir gut. Ich hole eine Box aus der Küche.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank. Das ist sehr nett.",
+        "speaker_id": 0
+      },
+      {
+        "text": "(kommt zurück) Hier bitte. Ich habe es Ihnen eingepackt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super! Vielen herzlichen Dank für den Service.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Möchten Sie noch einen Kaffee oder die Rechnung?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Die Rechnung bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kommt sofort.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 144": {
+    "summary": "Kunde im Café fragt nach veganem Kuchen.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Haben Sie auch veganen Kuchen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Ja, wir haben heute einen veganen Schokokuchen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, das ist ja super! Ist der gut?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, der ist sehr beliebt, auch bei Nicht-Veganern. Sehr schokoladig.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Dann nehme ich gerne ein Stück davon.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gerne. Möchten Sie ihn hier essen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, bitte. Und dazu einen Hafer-Cappuccino.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Perfekt. Ein veganer Schokokuchen und ein Hafer-Cappuccino.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich freue mich, dass Sie vegane Optionen anbieten.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist uns wichtig. Immer mehr Kunden fragen danach.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das glaube ich. Ich setze mich schon mal.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich bringe Ihnen alles an den Platz.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 145": {
+    "summary": "Kunde im Supermarkt fragt nach der Backwarenabteilung.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie, wo finde ich denn die Brötchen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Die frischen Brötchen finden Sie hinten in der Backwarenabteilung.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Hinten? Okay. Ist das Selbstbedienung?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, Sie können sich die Brötchen selbst nehmen und in eine Tüte packen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ah, gut. Gibt es auch Vollkornbrötchen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, wir haben verschiedene Sorten: normale, Vollkorn, Körnerbrötchen...",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super. Dann gehe ich mal nach hinten.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Machen Sie das. Dort finden Sie auch Brot und Kuchen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke für die Auskunft.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich hoffe, es sind noch welche da.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Normalerweise backen wir bis zum Abend nach.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 146": {
+    "summary": "Gast im Restaurant möchte einen Tisch wechseln.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie, wäre es möglich, den Tisch zu wechseln?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh? Ist etwas nicht in Ordnung mit Ihrem Tisch?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Er ist sehr nah an der Tür und es zieht ein bisschen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ah, das verstehe ich. Lassen Sie mich sehen, ob ein anderer Tisch frei ist.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das wäre sehr nett.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, der Tisch dort hinten in der Ecke ist gerade frei geworden. Wäre der besser?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, der sieht viel gemütlicher aus. Den nehmen wir gerne.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gut. Dann helfen ich Ihnen kurz beim Umziehen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank für Ihre Flexibilität.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kein Problem. Wir möchten ja, dass Sie sich wohlfühlen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das tun wir jetzt bestimmt.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Schön. Kann ich Ihnen noch etwas bringen?",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 147": {
+    "summary": "Kunde im Café fragt nach Zucker und Löffel.",
+    "conversation": [
+      {
+        "text": "Mein Kaffee ist da, danke. Aber ich finde keinen Zucker.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, Entschuldigung. Der Zucker steht normalerweise hier auf dem Tresen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ah, da vorne. Und Löffel?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Die Löffel sind direkt daneben. Bedienen Sie sich einfach.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, danke. Ich hole mir schnell beides.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Soll ich es Ihnen bringen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, nein, ich gehe schon. Ist ja nicht weit.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Alles klar.",
+        "speaker_id": 1
+      },
+      {
+        "text": "(kommt zurück) So, jetzt habe ich alles.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Perfekt. Genießen Sie Ihren Kaffee.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke, werde ich.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Wenn noch etwas fehlt, sagen Sie Bescheid.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 148": {
+    "summary": "Kunde im Supermarkt hat seinen Einkaufzettel vergessen.",
+    "conversation": [
+      {
+        "text": "Oh nein... Ich glaube, ich habe meinen Einkaufszettel zu Hause vergessen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, das ist ärgerlich. Wissen Sie noch ungefähr, was Sie brauchen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ein paar Sachen weiß ich noch... Milch, Brot, Eier...",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist ja schonmal ein Anfang.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Aber da waren noch mehr Dinge drauf. Ich weiß es nicht mehr genau.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Vielleicht fällt es Ihnen wieder ein, wenn Sie durch die Gänge gehen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich hoffe es. Sonst muss ich später nochmal kommen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das wäre schade. Brauchen Sie vielleicht Hilfe bei den Grundnahrungsmitteln?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, danke. Milch und Brot finde ich. Aber was war da noch...?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Vielleicht Butter? Oder Käse?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja! Käse! Stimmt, Käse brauche ich auch. Danke!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Manchmal hilft ein kleiner Tipp.",
+        "speaker_id": 1
+      }
+    ]
+  },
+    "Szenario 149": {
+    "summary": "Gast im Restaurant fragt nach der Rechnung und gibt Trinkgeld.",
+    "conversation": [
+      {
+        "text": "Entschuldigung, wir möchten bitte zahlen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, sofort. Hat alles gepasst?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, es war sehr gut, danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Schön. Das macht dann zweiundsiebzig Euro und fünfzig Cent.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay. Machen Sie fünfundsiebzig.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, vielen Dank! Das ist sehr großzügig.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gern geschehen. Der Service war freundlich und schnell.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Danke schön. Das gebe ich gerne weiter.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Kann ich mit Karte zahlen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, natürlich. Hier ist das Gerät.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Perfekt. (bezahlt)",
+        "speaker_id": 0
+      },
+      {
+        "text": "Vielen Dank für Ihren Besuch. Kommen Sie gut nach Hause.",
+        "speaker_id": 1
+      },
+       {
+        "text": "Danke, Ihnen auch einen schönen Abend. Auf Wiedersehen.",
+        "speaker_id": 0
+      }
+    ]
   }
 }
