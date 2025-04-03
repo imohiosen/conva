@@ -162,7 +162,7 @@ export function ConversationItem({
     >
       <div className="flex items-center mb-2">
         <User className="h-4 w-4 mr-2" />
-        <span className="text-sm font-medium">Speaker {conversation.speaker_id === 0 ? 'Liam' : 'River'}</span>
+        <span className="text-sm font-medium">Speaker {conversation.speaker_id === 0 ? 'Liam' : 'Aria'}</span>
         <Button 
           variant="ghost" 
           size="sm" 
