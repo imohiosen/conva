@@ -47,7 +47,7 @@ export function getVoiceForSpeaker(speakerId: number): string {
     case 0:
       return "Liam";
     case 1:
-      return "Aria";
+      return "River";
     default:
       return "Daniel"; // For summary or fallback
   }
