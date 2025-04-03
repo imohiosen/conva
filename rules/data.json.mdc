@@ -5123,5 +5123,2839 @@
         "speaker_id": 0
       }
     ]
+  },
+  "Szenario 150": {
+    "summary": "Eine Person fragt nach dem Weg zum Bahnhof in einer fremden Stadt.",
+    "conversation": [
+      { "text": "Entschuldigen Sie bitte.", "speaker_id": 0 },
+      { "text": "Ja, bitte?", "speaker_id": 1 },
+      { "text": "Können Sie mir helfen? Ich suche den Bahnhof.", "speaker_id": 0 },
+      { "text": "Der Bahnhof? Ja, natürlich.", "speaker_id": 1 },
+      { "text": "Ist er weit von hier?", "speaker_id": 0 },
+      { "text": "Nein, nicht sehr weit. Etwa zehn Minuten zu Fuß.", "speaker_id": 1 },
+      { "text": "Wie komme ich dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße weiter, immer geradeaus.", "speaker_id": 1 },
+      { "text": "Und dann?", "speaker_id": 0 },
+      { "text": "Dann kommt ein großer Platz. Gehen Sie links am Platz vorbei. Dann sehen Sie den Bahnhof schon.", "speaker_id": 1 },
+      { "text": "Geradeaus, dann links am Platz vorbei. Habe ich das richtig verstanden?", "speaker_id": 0 },
+      { "text": "Ja, genau richtig. Sie können ihn nicht verfehlen.", "speaker_id": 1 },
+      { "text": "Vielen Dank für Ihre Hilfe!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Schönen Tag noch!", "speaker_id": 1 },
+      { "text": "Danke, Ihnen auch!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 151": {
+    "summary": "Jemand fragt an einer Bushaltestelle, wann der nächste Bus kommt.",
+    "conversation": [
+      { "text": "Entschuldigen Sie, wissen Sie vielleicht, wann der nächste Bus kommt?", "speaker_id": 0 },
+      { "text": "Welche Linie meinen Sie denn?", "speaker_id": 1 },
+      { "text": "Die Linie fünf in Richtung Stadtmitte.", "speaker_id": 0 },
+      { "text": "Ah, die Fünf. Ich schaue mal auf den Plan.", "speaker_id": 1 },
+      { "text": "Danke, das ist sehr nett.", "speaker_id": 0 },
+      { "text": "Hier steht... der nächste kommt in etwa acht Minuten.", "speaker_id": 1 },
+      { "text": "In acht Minuten? Das ist gut, das ist nicht so lang.", "speaker_id": 0 },
+      { "text": "Nein, das geht. Fahren Sie oft mit dem Bus?", "speaker_id": 1 },
+      { "text": "Nicht so oft. Ich kenne die Zeiten nicht so gut.", "speaker_id": 0 },
+      { "text": "Verstehe. Die Busse hier sind meistens pünktlich.", "speaker_id": 1 },
+      { "text": "Das ist gut zu wissen. Vielen Dank für die Information!", "speaker_id": 0 },
+      { "text": "Keine Ursache. Ich warte auch auf die Fünf.", "speaker_id": 1 },
+      { "text": "Ach, wirklich? Dann können wir ja zusammen warten.", "speaker_id": 0 },
+      { "text": "Ja, warum nicht.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 152": {
+    "summary": "Eine Person fragt nach der Uhrzeit.",
+    "conversation": [
+      { "text": "Entschuldigung, können Sie mir bitte sagen, wie spät es ist?", "speaker_id": 0 },
+      { "text": "Einen Moment, ich schaue auf meine Uhr.", "speaker_id": 1 },
+      { "text": "Danke.", "speaker_id": 0 },
+      { "text": "Es ist jetzt genau halb drei.", "speaker_id": 1 },
+      { "text": "Halb drei schon? Oh je.", "speaker_id": 0 },
+      { "text": "Haben Sie einen Termin?", "speaker_id": 1 },
+      { "text": "Ja, um drei Uhr. Ich muss mich beeilen.", "speaker_id": 0 },
+      { "text": "Ist der Termin weit von hier?", "speaker_id": 1 },
+      { "text": "Nein, zum Glück nicht. Nur ein paar Straßen weiter.", "speaker_id": 0 },
+      { "text": "Dann schaffen Sie das noch gut.", "speaker_id": 1 },
+      { "text": "Ich hoffe es. Vielen Dank für die Auskunft!", "speaker_id": 0 },
+      { "text": "Gern geschehen!", "speaker_id": 1 },
+      { "text": "Dann laufe ich mal los.", "speaker_id": 0 },
+      { "text": "Viel Erfolg!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 153": {
+    "summary": "Jemand ruft in einer Arztpraxis an, um einen Termin zu bestätigen.",
+    "conversation": [
+      { "text": "Praxis Dr. Weber, guten Tag.", "speaker_id": 1 },
+      { "text": "Guten Tag, hier spricht Klein. Ich rufe an wegen meines Termins.", "speaker_id": 0 },
+      { "text": "Ah, Herr Klein. Ja, einen Moment bitte.", "speaker_id": 1 },
+      { "text": "Danke.", "speaker_id": 0 },
+      { "text": "Sie haben einen Termin morgen um elf Uhr, ist das richtig?", "speaker_id": 1 },
+      { "text": "Ja, genau. Ich wollte nur sichergehen, dass der Termin noch besteht.", "speaker_id": 0 },
+      { "text": "Ja, der Termin ist fest eingetragen. Alles in Ordnung.", "speaker_id": 1 },
+      { "text": "Wunderbar. Muss ich etwas Besonderes beachten oder mitbringen?", "speaker_id": 0 },
+      { "text": "Nein, bringen Sie nur Ihre Versicherungskarte mit, wie immer.", "speaker_id": 1 },
+      { "text": "Okay, das mache ich.", "speaker_id": 0 },
+      { "text": "Dann freuen wir uns, Sie morgen zu sehen.", "speaker_id": 1 },
+      { "text": "Ich mich auch. Vielen Dank für die Bestätigung.", "speaker_id": 0 },
+      { "text": "Gern geschehen, Herr Klein. Auf Wiederhören.", "speaker_id": 1 },
+      { "text": "Auf Wiederhören.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 154": {
+    "summary": "Zwei Kollegen sprechen über den Beginn eines Meetings.",
+    "conversation": [
+      { "text": "Hallo Sarah. Weißt du zufällig, wann das Meeting heute Nachmittag beginnt?", "speaker_id": 0 },
+      { "text": "Hallo Mark. Ich glaube, es fängt um vierzehn Uhr an.", "speaker_id": 1 },
+      { "text": "Um vierzehn Uhr? Bist du sicher? Ich dachte, es wäre später.", "speaker_id": 0 },
+      { "text": "Lass mich kurz in meinen Kalender schauen... Ja, hier steht es: Vierzehn Uhr, Raum drei.", "speaker_id": 1 },
+      { "text": "Okay, danke. Raum drei also.", "speaker_id": 0 },
+      { "text": "Genau. Geht es um das neue Projekt?", "speaker_id": 1 },
+      { "text": "Ja, ich glaube schon. Ich habe die Einladung nur kurz gesehen.", "speaker_id": 0 },
+      { "text": "Wir sollten die Unterlagen vielleicht vorher noch einmal anschauen.", "speaker_id": 1 },
+      { "text": "Gute Idee. Hast du sie bekommen?", "speaker_id": 0 },
+      { "text": "Ja, per E-Mail gestern Abend.", "speaker_id": 1 },
+      { "text": "Ah, dann muss ich meine E-Mails noch prüfen. Danke für die Info!", "speaker_id": 0 },
+      { "text": "Kein Problem. Dann sehen wir uns später im Meeting.", "speaker_id": 1 },
+      { "text": "Ja, bis später!", "speaker_id": 0 },
+      { "text": "Bis dann!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 155": {
+    "summary": "Eine Touristin fragt nach dem Weg zum Museum.",
+    "conversation": [
+      { "text": "Verzeihung, könnten Sie mir bitte helfen?", "speaker_id": 0 },
+      { "text": "Ja, gerne. Was suchen Sie?", "speaker_id": 1 },
+      { "text": "Ich suche das große Kunstmuseum.", "speaker_id": 0 },
+      { "text": "Das Kunstmuseum... Ja, das ist nicht weit von hier.", "speaker_id": 1 },
+      { "text": "Oh, das ist gut. Wie komme ich am besten dorthin?", "speaker_id": 0 },
+      { "text": "Am einfachsten ist es, wenn Sie die nächste Straße rechts gehen.", "speaker_id": 1 },
+      { "text": "Die nächste rechts. Okay.", "speaker_id": 0 },
+      { "text": "Dann immer geradeaus, über die Brücke.", "speaker_id": 1 },
+      { "text": "Über die Brücke. Und dann?", "speaker_id": 0 },
+      { "text": "Nach der Brücke sehen Sie schon das große, alte Gebäude auf der linken Seite. Das ist das Museum.", "speaker_id": 1 },
+      { "text": "Rechts, geradeaus über die Brücke, dann links. Verstanden.", "speaker_id": 0 },
+      { "text": "Genau. Es ist wirklich leicht zu finden.", "speaker_id": 1 },
+      { "text": "Vielen herzlichen Dank! Sie haben mir sehr geholfen.", "speaker_id": 0 },
+      { "text": "Gern geschehen. Viel Spaß im Museum!", "speaker_id": 1 },
+      { "text": "Danke!", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 156": {
+    "summary": "Jemand fragt, wie lange ein Geschäft geöffnet ist.",
+    "conversation": [
+      { "text": "Guten Tag.", "speaker_id": 0 },
+      { "text": "Guten Tag. Kann ich Ihnen helfen?", "speaker_id": 1 },
+      { "text": "Ja, bitte. Ich wollte fragen, wie lange Ihr Geschäft heute geöffnet ist?", "speaker_id": 0 },
+      { "text": "Wir haben heute bis achtzehn Uhr geöffnet.", "speaker_id": 1 },
+      { "text": "Bis achtzehn Uhr. Gut, das ist ja noch eine Weile.", "speaker_id": 0 },
+      { "text": "Ja, Sie haben noch Zeit zum Schauen.", "speaker_id": 1 },
+      { "text": "Ich suche ein Geschenk für meine Schwester.", "speaker_id": 0 },
+      { "text": "Ah, okay. In welcher Richtung suchen Sie denn? Schmuck, Kleidung?", "speaker_id": 1 },
+      { "text": "Vielleicht einen schönen Schal?", "speaker_id": 0 },
+      { "text": "Da haben wir eine schöne Auswahl hier drüben.", "speaker_id": 1 },
+      { "text": "Danke, ich schaue mich mal um.", "speaker_id": 0 },
+      { "text": "Gerne. Sagen Sie Bescheid, wenn Sie Hilfe brauchen.", "speaker_id": 1 },
+      { "text": "Ja, mache ich. Danke für die Auskunft zur Öffnungszeit.", "speaker_id": 0 },
+      { "text": "Kein Problem.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 157": {
+    "summary": "Eine Person erkundigt sich nach der Abfahrtszeit eines Zuges.",
+    "conversation": [
+      { "text": "Entschuldigung, können Sie mir sagen, wann der Zug nach München fährt?", "speaker_id": 0 },
+      { "text": "Der nächste Zug nach München? Einen Moment.", "speaker_id": 1 },
+      { "text": "Ja, bitte.", "speaker_id": 0 },
+      { "text": "Der nächste ICE fährt um 15:30 Uhr von Gleis 7.", "speaker_id": 1 },
+      { "text": "Um halb vier von Gleis sieben. Gut.", "speaker_id": 0 },
+      { "text": "Muss ich dafür reservieren?", "speaker_id": 1 },
+      { "text": "Eine Reservierung ist nicht notwendig, aber empfohlen, besonders am Nachmittag.", "speaker_id": 0 },
+      { "text": "Verstehe. Kann ich die Fahrkarte direkt im Zug kaufen?", "speaker_id": 1 },
+      { "text": "Nein, das geht leider nicht mehr. Sie müssen die Fahrkarte vorher kaufen, hier am Schalter oder am Automaten.", "speaker_id": 0 },
+      { "text": "Ah, okay. Dann mache ich das gleich.", "speaker_id": 1 },
+      { "text": "Der Automat ist gleich dort drüben.", "speaker_id": 0 },
+      { "text": "Super. Vielen Dank für die ausführliche Information!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Gute Reise!", "speaker_id": 0 },
+      { "text": "Danke schön!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 158": {
+    "summary": "Jemand fragt einen Passanten nach der nächsten Apotheke.",
+    "conversation": [
+      { "text": "Verzeihung, ich suche dringend eine Apotheke.", "speaker_id": 0 },
+      { "text": "Eine Apotheke? Ja, da gibt es eine ganz in der Nähe.", "speaker_id": 1 },
+      { "text": "Oh, das ist gut. Ist sie weit?", "speaker_id": 0 },
+      { "text": "Nein, nur zwei Minuten von hier.", "speaker_id": 1 },
+      { "text": "Können Sie mir bitte den Weg beschreiben?", "speaker_id": 0 },
+      { "text": "Gehen Sie einfach diese Straße zurück.", "speaker_id": 1 },
+      { "text": "Zurück?", "speaker_id": 0 },
+      { "text": "Ja, bis zur nächsten Ecke. Dort biegen Sie rechts ab.", "speaker_id": 1 },
+      { "text": "An der nächsten Ecke rechts. Okay.", "speaker_id": 0 },
+      { "text": "Und dann sehen Sie schon das große grüne Kreuz. Das ist die Apotheke.", "speaker_id": 1 },
+      { "text": "Super, das klingt einfach. Zurück, Ecke rechts, grünes Kreuz.", "speaker_id": 0 },
+      { "text": "Genau. Sie können sie nicht übersehen.", "speaker_id": 1 },
+      { "text": "Vielen, vielen Dank! Sie retten mich!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Hoffentlich ist es nichts Schlimmes.", "speaker_id": 1 },
+      { "text": "Nur Kopfschmerzen. Danke nochmal!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 159": {
+    "summary": "Zwei Freunde verabreden sich fürs Kino und klären die Zeit.",
+    "conversation": [
+      { "text": "Hallo Max, hier ist Lisa.", "speaker_id": 0 },
+      { "text": "Hallo Lisa! Wie geht's?", "speaker_id": 1 },
+      { "text": "Gut, danke. Du, wegen Kino am Samstag...", "speaker_id": 0 },
+      { "text": "Ja? Hast du schon geschaut, wann der Film läuft?", "speaker_id": 1 },
+      { "text": "Ja, er beginnt um 20 Uhr.", "speaker_id": 0 },
+      { "text": "Um acht? Das passt mir gut.", "speaker_id": 1 },
+      { "text": "Super. Wollen wir uns vorher treffen? Vielleicht um halb acht vor dem Kino?", "speaker_id": 0 },
+      { "text": "Ja, können wir machen. Dann haben wir noch Zeit, die Karten zu holen.", "speaker_id": 1 },
+      { "text": "Genau. Treffen wir uns direkt am Eingang?", "speaker_id": 0 },
+      { "text": "Ja, das ist am einfachsten.", "speaker_id": 1 },
+      { "text": "Okay, dann ist das abgemacht: Samstag, halb acht, vor dem Kino.", "speaker_id": 0 },
+      { "text": "Perfekt. Ich freue mich schon!", "speaker_id": 1 },
+      { "text": "Ich mich auch! Bis Samstag dann.", "speaker_id": 0 },
+      { "text": "Bis Samstag, tschüss!", "speaker_id": 1 },
+      { "text": "Tschüss!", "speaker_id": 0 }
+    ]
+  },
+   "Szenario 160": {
+    "summary": "Eine Person fragt im Hotel nach der Frühstückszeit.",
+    "conversation": [
+      { "text": "Guten Morgen. Entschuldigen Sie die Störung.", "speaker_id": 0 },
+      { "text": "Guten Morgen. Keine Störung. Wie kann ich Ihnen helfen?", "speaker_id": 1 },
+      { "text": "Ich wollte fragen, wann es Frühstück gibt?", "speaker_id": 0 },
+      { "text": "Das Frühstück beginnt um sieben Uhr und geht bis zehn Uhr.", "speaker_id": 1 },
+      { "text": "Von sieben bis zehn Uhr. Gut zu wissen.", "speaker_id": 0 },
+      { "text": "Wo finde ich den Frühstücksraum?", "speaker_id": 1 },
+      { "text": "Der ist im Erdgeschoss. Wenn Sie aus dem Aufzug kommen, gehen Sie nach links.", "speaker_id": 0 },
+      { "text": "Im Erdgeschoss, nach links. Okay.", "speaker_id": 1 },
+      { "text": "Ist es ein Buffet?", "speaker_id": 0 },
+      { "text": "Ja, wir haben ein reichhaltiges Frühstücksbuffet.", "speaker_id": 1 },
+      { "text": "Das klingt wunderbar. Dann komme ich später runter.", "speaker_id": 0 },
+      { "text": "Sehr gerne. Genießen Sie Ihren Aufenthalt.", "speaker_id": 1 },
+      { "text": "Vielen Dank für die Information!", "speaker_id": 0 },
+      { "text": "Immer gerne.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 161": {
+    "summary": "Jemand fragt nach dem Weg zur nächsten U-Bahn-Station.",
+    "conversation": [
+      { "text": "Entschuldigung, könnten Sie mir bitte sagen, wo die nächste U-Bahn-Station ist?", "speaker_id": 0 },
+      { "text": "Die U-Bahn? Ja, die ist ganz nah.", "speaker_id": 1 },
+      { "text": "Oh, wirklich? Das ist ja praktisch.", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße entlang bis zur großen Kreuzung.", "speaker_id": 1 },
+      { "text": "Bis zur Kreuzung. Und dann?", "speaker_id": 0 },
+      { "text": "Dort sehen Sie auf der rechten Seite ein blaues 'U'-Zeichen. Das ist der Eingang.", "speaker_id": 1 },
+      { "text": "Also geradeaus bis zur Kreuzung, und dann rechts ist der Eingang.", "speaker_id": 0 },
+      { "text": "Genau. Sie können es nicht verfehlen. Es sind vielleicht hundert Meter.", "speaker_id": 1 },
+      { "text": "Nur hundert Meter? Perfekt!", "speaker_id": 0 },
+      { "text": "Welche Linie brauchen Sie denn?", "speaker_id": 1 },
+      { "text": "Ich muss zum Hauptbahnhof. Ich glaube, das ist die U2?", "speaker_id": 0 },
+      { "text": "Ja, die U2 fährt von dort direkt zum Hauptbahnhof.", "speaker_id": 1 },
+      { "text": "Wunderbar! Vielen herzlichen Dank für Ihre Hilfe!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Gute Fahrt!", "speaker_id": 1 },
+      { "text": "Danke!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 162": {
+    "summary": "Zwei Nachbarn sprechen über die Zeit für die Müllabfuhr.",
+    "conversation": [
+      { "text": "Hallo Frau Meyer. Wissen Sie zufällig, wann morgen der Müll abgeholt wird?", "speaker_id": 0 },
+      { "text": "Hallo Herr Bauer. Ja, die kommen immer ziemlich früh.", "speaker_id": 1 },
+      { "text": "Früh? Wie früh ungefähr?", "speaker_id": 0 },
+      { "text": "Ich glaube, so gegen sieben Uhr morgens.", "speaker_id": 1 },
+      { "text": "Schon um sieben? Dann sollte ich die Tonne heute Abend rausstellen.", "speaker_id": 0 },
+      { "text": "Ja, das ist besser. Manchmal sind sie auch schon etwas früher da.", "speaker_id": 1 },
+      { "text": "Okay, danke für den Hinweis. Ich vergesse das manchmal.", "speaker_id": 0 },
+      { "text": "Passiert mir auch ab und zu.", "speaker_id": 1 },
+      { "text": "Ist morgen der Restmüll dran oder der Papiermüll?", "speaker_id": 0 },
+      { "text": "Morgen ist der Restmüll dran.", "speaker_id": 1 },
+      { "text": "Gut, danke. Dann weiß ich Bescheid.", "speaker_id": 0 },
+      { "text": "Gerne.", "speaker_id": 1 },
+      { "text": "Schönen Abend noch!", "speaker_id": 0 },
+      { "text": "Ihnen auch!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 163": {
+    "summary": "Eine Person fragt nach der Dauer eines Konzerts.",
+    "conversation": [
+      { "text": "Entschuldigung, können Sie mir sagen, wie lange das Konzert heute Abend ungefähr dauert?", "speaker_id": 0 },
+      { "text": "Das Konzert beginnt um 20 Uhr.", "speaker_id": 1 },
+      { "text": "Ja, das weiß ich. Aber wie lange geht es?", "speaker_id": 0 },
+      { "text": "Normalerweise spielen die Künstler etwa zwei Stunden, mit einer kleinen Pause dazwischen.", "speaker_id": 1 },
+      { "text": "Zwei Stunden plus Pause... Also wird es so gegen halb elf zu Ende sein?", "speaker_id": 0 },
+      { "text": "Ja, das kommt ungefähr hin. Vielleicht ein bisschen später, wenn es Zugaben gibt.", "speaker_id": 1 },
+      { "text": "Okay, das ist gut zu wissen wegen der Heimfahrt.", "speaker_id": 0 },
+      { "text": "Fahren Sie mit öffentlichen Verkehrsmitteln?", "speaker_id": 1 },
+      { "text": "Ja, mit dem letzten Bus.", "speaker_id": 0 },
+      { "text": "Dann sollten Sie die Zeit im Auge behalten.", "speaker_id": 1 },
+      { "text": "Das werde ich tun. Vielen Dank für die Information.", "speaker_id": 0 },
+      { "text": "Gern geschehen. Viel Spaß beim Konzert!", "speaker_id": 1 },
+      { "text": "Danke schön!", "speaker_id": 0 },
+      { "text": "Bitte.", "speaker_id": 1 }
+    ]
+  },
+    "Szenario 164": {
+    "summary": "Jemand fragt nach dem Weg zum nächsten Geldautomaten.",
+    "conversation": [
+      { "text": "Verzeihung, ich suche einen Geldautomaten.", "speaker_id": 0 },
+      { "text": "Einen Geldautomaten? Ja, da vorne ist eine Bank.", "speaker_id": 1 },
+      { "text": "Eine Bank? Oh, das ist gut.", "speaker_id": 0 },
+      { "text": "Gehen Sie einfach die Straße runter, etwa fünfzig Meter.", "speaker_id": 1 },
+      { "text": "Nur fünfzig Meter?", "speaker_id": 0 },
+      { "text": "Ja, auf der linken Seite sehen Sie die große Bank mit den blauen Buchstaben.", "speaker_id": 1 },
+      { "text": "Auf der linken Seite. Okay.", "speaker_id": 0 },
+      { "text": "Draußen an der Wand ist ein Geldautomat.", "speaker_id": 1 },
+      { "text": "Perfekt, genau das brauche ich.", "speaker_id": 0 },
+      { "text": "Ist der Automat immer zugänglich?", "speaker_id": 1 },
+      { "text": "Ja, der Automat draußen ist 24 Stunden zugänglich.", "speaker_id": 0 },
+      { "text": "Wunderbar. Vielen Dank für Ihre schnelle Hilfe!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 },
+      { "text": "Dann gehe ich mal Geld holen.", "speaker_id": 1 },
+      { "text": "Viel Erfolg!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 165": {
+    "summary": "Ein Student fragt einen Kommilitonen nach dem Beginn der nächsten Vorlesung.",
+    "conversation": [
+      { "text": "Hallo Julia! Du, weißt du, wann unsere nächste Vorlesung beginnt?", "speaker_id": 0 },
+      { "text": "Hallo Tim! Meinst du die Vorlesung bei Professor Schmidt?", "speaker_id": 1 },
+      { "text": "Ja, genau die. Ich finde meinen Stundenplan gerade nicht.", "speaker_id": 0 },
+      { "text": "Die fängt um zehn Uhr an.", "speaker_id": 1 },
+      { "text": "Um zehn? Wir haben ja noch fast eine halbe Stunde.", "speaker_id": 0 },
+      { "text": "Ja, zum Glück. Ich wollte mir noch einen Kaffee holen.", "speaker_id": 1 },
+      { "text": "Gute Idee. In welchem Raum ist die Vorlesung nochmal?", "speaker_id": 0 },
+      { "text": "Im Hörsaal C, wie letzte Woche.", "speaker_id": 1 },
+      { "text": "Ah ja, stimmt. Hörsaal C um zehn.", "speaker_id": 0 },
+      { "text": "Genau. Bist du gut vorbereitet?", "speaker_id": 1 },
+      { "text": "Naja, es geht so. Ich habe gestern Abend noch gelesen.", "speaker_id": 0 },
+      { "text": "Ich auch. Hoffentlich wird es nicht zu schwer heute.", "speaker_id": 1 },
+      { "text": "Das hoffe ich auch. Danke für die Info, Julia!", "speaker_id": 0 },
+      { "text": "Kein Problem, Tim. Sehen wir uns dann im Hörsaal.", "speaker_id": 1 },
+      { "text": "Ja, bis gleich!", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 166": {
+    "summary": "Eine Person fragt nach der Abfahrtszeit der Fähre.",
+    "conversation": [
+      { "text": "Entschuldigen Sie, können Sie mir helfen?", "speaker_id": 0 },
+      { "text": "Ja, natürlich. Worum geht es?", "speaker_id": 1 },
+      { "text": "Ich möchte wissen, wann die nächste Fähre zur Insel fährt.", "speaker_id": 0 },
+      { "text": "Die Fähre zur Insel... Die fährt alle zwei Stunden.", "speaker_id": 1 },
+      { "text": "Alle zwei Stunden? Wann genau ist die nächste Abfahrt?", "speaker_id": 0 },
+      { "text": "Die letzte ist gerade weg. Die nächste fährt um 16 Uhr.", "speaker_id": 1 },
+      { "text": "Um vier Uhr erst? Oh, das ist ja noch lange hin.", "speaker_id": 0 },
+      { "text": "Ja, leider. Sie haben etwas Zeit.", "speaker_id": 1 },
+      { "text": "Wie lange dauert die Überfahrt?", "speaker_id": 0 },
+      { "text": "Die Fahrt dauert etwa vierzig Minuten.", "speaker_id": 1 },
+      { "text": "Vierzig Minuten. Okay.", "speaker_id": 0 },
+      { "text": "Kann ich die Fahrkarte hier kaufen?", "speaker_id": 1 },
+      { "text": "Ja, die Fahrkarten bekommen Sie direkt hier am Schalter.", "speaker_id": 0 },
+      { "text": "Gut. Dann warte ich hier. Vielen Dank für die Auskunft.", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 167": {
+    "summary": "Jemand erkundigt sich nach dem Weg zur Bibliothek.",
+    "conversation": [
+      { "text": "Verzeihung, ich bin neu hier. Wo finde ich die Bibliothek?", "speaker_id": 0 },
+      { "text": "Die Bibliothek? Meinen Sie die Stadtbibliothek?", "speaker_id": 1 },
+      { "text": "Ja, genau die.", "speaker_id": 0 },
+      { "text": "Die ist im Zentrum, am Marktplatz.", "speaker_id": 1 },
+      { "text": "Am Marktplatz. Wie komme ich von hier dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie am besten diese Straße entlang bis zum Ende.", "speaker_id": 1 },
+      { "text": "Bis zum Ende. Okay.", "speaker_id": 0 },
+      { "text": "Dort biegen Sie links ab. Dann sehen Sie schon den Marktplatz.", "speaker_id": 1 },
+      { "text": "Links abbiegen. Und wo ist die Bibliothek dann?", "speaker_id": 0 },
+      { "text": "Sie ist in dem großen, modernen Gebäude auf der rechten Seite des Platzes.", "speaker_id": 1 },
+      { "text": "Modernes Gebäude, rechte Seite. Alles klar.", "speaker_id": 0 },
+      { "text": "Wie lange dauert das zu Fuß?", "speaker_id": 1 },
+      { "text": "Etwa fünfzehn Minuten, wenn Sie gemütlich gehen.", "speaker_id": 0 },
+      { "text": "Das ist ja nicht weit. Super, vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 168": {
+    "summary": "Zwei Kollegen klären die Zeit für ein gemeinsames Mittagessen.",
+    "conversation": [
+      { "text": "Hallo Frank. Hast du heute schon Pläne für die Mittagspause?", "speaker_id": 0 },
+      { "text": "Hallo Lena. Nein, noch nicht. Warum fragst du?", "speaker_id": 1 },
+      { "text": "Ich wollte fragen, ob wir zusammen essen gehen wollen?", "speaker_id": 0 },
+      { "text": "Ja, gerne! Gute Idee. Wann hast du Zeit?", "speaker_id": 1 },
+      { "text": "Wie wäre es um halb eins?", "speaker_id": 0 },
+      { "text": "Halb eins passt perfekt. Wohin sollen wir gehen?", "speaker_id": 1 },
+      { "text": "Vielleicht zum Italiener um die Ecke?", "speaker_id": 0 },
+      { "text": "Ja, der ist gut. Da war ich schon lange nicht mehr.", "speaker_id": 1 },
+      { "text": "Super. Treffen wir uns dann um halb eins unten am Eingang?", "speaker_id": 0 },
+      { "text": "Ja, machen wir so.", "speaker_id": 1 },
+      { "text": "Okay, ich freue mich drauf.", "speaker_id": 0 },
+      { "text": "Ich mich auch. Bis später!", "speaker_id": 1 },
+      { "text": "Bis später, Frank!", "speaker_id": 0 },
+      { "text": "Tschüss, Lena!", "speaker_id": 1 }
+    ]
+  },
+    "Szenario 169": {
+    "summary": "Eine Person fragt nach der Dauer einer Stadtführung.",
+    "conversation": [
+      { "text": "Guten Tag. Ich interessiere mich für die Stadtführung.", "speaker_id": 0 },
+      { "text": "Guten Tag. Ja, wir haben eine Führung, die um 14 Uhr beginnt.", "speaker_id": 1 },
+      { "text": "Um 14 Uhr. Perfekt. Wie lange dauert die Führung denn ungefähr?", "speaker_id": 0 },
+      { "text": "Die Führung dauert etwa neunzig Minuten.", "speaker_id": 1 },
+      { "text": "Neunzig Minuten, also anderthalb Stunden.", "speaker_id": 0 },
+      { "text": "Genau. Wir besuchen die wichtigsten Sehenswürdigkeiten im Zentrum.", "speaker_id": 1 },
+      { "text": "Das klingt interessant. Wo ist der Treffpunkt?", "speaker_id": 0 },
+      { "text": "Der Treffpunkt ist direkt hier vor dem Informationsbüro.", "speaker_id": 1 },
+      { "text": "Okay. Muss ich mich vorher anmelden?", "speaker_id": 0 },
+      { "text": "Nein, das ist nicht notwendig. Sie können einfach kurz vor 14 Uhr hier sein und die Karte kaufen.", "speaker_id": 1 },
+      { "text": "Alles klar. Was kostet die Karte?", "speaker_id": 0 },
+      { "text": "Die Karte kostet zwölf Euro pro Person.", "speaker_id": 1 },
+      { "text": "Gut. Dann komme ich später wieder. Vielen Dank!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Wir freuen uns auf Sie!", "speaker_id": 1 }
+    ]
+  },
+    "Szenario 170": {
+    "summary": "Jemand fragt nach dem Weg zur Post.",
+    "conversation": [
+      { "text": "Entschuldigung, könnten Sie mir bitte sagen, wo die Post ist?", "speaker_id": 0 },
+      { "text": "Die Post? Ja, die ist nicht weit.", "speaker_id": 1 },
+      { "text": "Das ist gut. Ich muss dringend einen Brief abschicken.", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße geradeaus bis zur Ampel.", "speaker_id": 1 },
+      { "text": "Bis zur Ampel.", "speaker_id": 0 },
+      { "text": "An der Ampel biegen Sie links ab.", "speaker_id": 1 },
+      { "text": "Links abbiegen.", "speaker_id": 0 },
+      { "text": "Dann gehen Sie etwa zweihundert Meter weiter. Die Post ist dann auf der rechten Seite.", "speaker_id": 1 },
+      { "text": "Okay, also geradeaus bis Ampel, links abbiegen, zweihundert Meter, rechte Seite.", "speaker_id": 0 },
+      { "text": "Ganz genau. Sie erkennen sie an dem gelben Schild.", "speaker_id": 1 },
+      { "text": "Perfekt. Vielen Dank für die genaue Beschreibung!", "speaker_id": 0 },
+      { "text": "Keine Ursache.", "speaker_id": 1 },
+      { "text": "Ist die Post lange geöffnet?", "speaker_id": 0 },
+      { "text": "Ich glaube, bis siebzehn Uhr.", "speaker_id": 1 },
+      { "text": "Danke!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 171": {
+    "summary": "Jemand ruft im Restaurant an und fragt nach freien Tischen für den Abend.",
+    "conversation": [
+      { "text": "Restaurant 'Zum goldenen Löffel', mein Name ist Fischer.", "speaker_id": 1 },
+      { "text": "Guten Tag, hier spricht Huber. Ich wollte fragen, ob Sie heute Abend noch einen Tisch frei haben?", "speaker_id": 0 },
+      { "text": "Für wie viele Personen denn, Herr Huber?", "speaker_id": 1 },
+      { "text": "Für vier Personen.", "speaker_id": 0 },
+      { "text": "Und um wie viel Uhr möchten Sie kommen?", "speaker_id": 1 },
+      { "text": "So gegen neunzehn Uhr dreißig, wenn das möglich ist.", "speaker_id": 0 },
+      { "text": "Neunzehn Uhr dreißig... einen Moment, ich schaue nach.", "speaker_id": 1 },
+      { "text": "Danke.", "speaker_id": 0 },
+      { "text": "Ja, das sieht gut aus. Um neunzehn Uhr dreißig habe ich noch einen schönen Tisch für vier Personen frei.", "speaker_id": 1 },
+      { "text": "Wunderbar! Den würde ich gerne reservieren.", "speaker_id": 0 },
+      { "text": "Sehr gerne. Auf den Namen Huber, ja?", "speaker_id": 1 },
+      { "text": "Genau, Huber.", "speaker_id": 0 },
+      { "text": "Alles klar, der Tisch ist für Sie reserviert. Heute Abend, neunzehn Uhr dreißig.", "speaker_id": 1 },
+      { "text": "Vielen Dank! Wir freuen uns.", "speaker_id": 0 },
+      { "text": "Wir uns auch. Bis später!", "speaker_id": 1 },
+      { "text": "Auf Wiederhören.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 172": {
+    "summary": "Zwei Personen unterhalten sich an der Haltestelle über die Ankunftszeit der S-Bahn.",
+    "conversation": [
+      { "text": "Entschuldigen Sie, warten Sie auch auf die S-Bahn zum Flughafen?", "speaker_id": 0 },
+      { "text": "Ja, genau. Die S8, richtig?", "speaker_id": 1 },
+      { "text": "Ja, die S8. Wissen Sie, wann sie kommen soll?", "speaker_id": 0 },
+      { "text": "Laut Plan müsste sie in fünf Minuten hier sein.", "speaker_id": 1 },
+      { "text": "In fünf Minuten? Oh, das ist gut.", "speaker_id": 0 },
+      { "text": "Hoffentlich ist sie pünktlich. Ich muss meinen Flug erwischen.", "speaker_id": 1 },
+      { "text": "Ich auch. Wie lange dauert die Fahrt zum Flughafen ungefähr?", "speaker_id": 0 },
+      { "text": "Ich glaube, so etwa fünfundzwanzig Minuten von hier.", "speaker_id": 1 },
+      { "text": "Fünfundzwanzig Minuten. Okay, das sollte reichen.", "speaker_id": 0 },
+      { "text": "Ja, wenn die Bahn pünktlich ist.", "speaker_id": 1 },
+      { "text": "Schauen Sie, da vorne kommt sie glaube ich schon.", "speaker_id": 0 },
+      { "text": "Tatsächlich! Perfektes Timing.", "speaker_id": 1 },
+      { "text": "Na dann, gute Reise!", "speaker_id": 0 },
+      { "text": "Ihnen auch!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 173": {
+    "summary": "Jemand fragt im Kino nach der Startzeit des nächsten Kinderfilms.",
+    "conversation": [
+      { "text": "Guten Tag.", "speaker_id": 0 },
+      { "text": "Guten Tag. Wie kann ich Ihnen helfen?", "speaker_id": 1 },
+      { "text": "Ich wollte fragen, wann der nächste Kinderfilm heute beginnt?", "speaker_id": 0 },
+      { "text": "Wir haben zwei Kinderfilme im Programm. Welchen meinen Sie?", "speaker_id": 1 },
+      { "text": "Den neuen Animationsfilm über die Tiere.", "speaker_id": 0 },
+      { "text": "Ah, 'Das große Abenteuer im Wald'. Der läuft als nächstes um 15 Uhr.", "speaker_id": 1 },
+      { "text": "Um drei Uhr. Das passt gut.", "speaker_id": 0 },
+      { "text": "Wie lange dauert der Film?", "speaker_id": 1 },
+      { "text": "Er dauert achtzig Minuten, ohne Pause.", "speaker_id": 0 },
+      { "text": "Achtzig Minuten. Okay.", "speaker_id": 1 },
+      { "text": "Sind noch gute Plätze frei?", "speaker_id": 0 },
+      { "text": "Ja, für die Vorstellung um 15 Uhr sind noch viele Plätze frei.", "speaker_id": 1 },
+      { "text": "Super. Dann nehme ich eine Karte für ein Kind und einen Erwachsenen.", "speaker_id": 0 },
+      { "text": "Gerne. Das macht dann vierzehn Euro.", "speaker_id": 1 },
+      { "text": "Hier bitte. Danke!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 174": {
+    "summary": "Eine Person fragt nach dem Weg zum Park.",
+    "conversation": [
+      { "text": "Entschuldigung, ich bin nicht von hier. Können Sie mir sagen, wie ich zum Stadtpark komme?", "speaker_id": 0 },
+      { "text": "Zum Stadtpark? Ja, der ist sehr schön.", "speaker_id": 1 },
+      { "text": "Ist er weit weg?", "speaker_id": 0 },
+      { "text": "Nein, gar nicht. Gehen Sie einfach diese Straße weiter.", "speaker_id": 1 },
+      { "text": "Immer geradeaus?", "speaker_id": 0 },
+      { "text": "Ja, immer geradeaus. Nach etwa fünfhundert Metern sehen Sie ihn auf der rechten Seite.", "speaker_id": 1 },
+      { "text": "Nach fünfhundert Metern auf der rechten Seite. Okay.", "speaker_id": 0 },
+      { "text": "Der Eingang ist nicht zu übersehen, da stehen große alte Bäume.", "speaker_id": 1 },
+      { "text": "Große alte Bäume am Eingang.", "speaker_id": 0 },
+      { "text": "Ist der Park groß?", "speaker_id": 1 },
+      { "text": "Ja, er ist ziemlich groß. Man kann dort gut spazieren gehen.", "speaker_id": 0 },
+      { "text": "Das klingt gut. Vielen Dank für die Beschreibung!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Viel Spaß im Park!", "speaker_id": 0 },
+      { "text": "Danke!", "speaker_id": 1 }
+    ]
+  },
+   "Szenario 175": {
+    "summary": "Jemand fragt einen Kollegen nach der Zeit eines wichtigen Anrufs.",
+    "conversation": [
+      { "text": "Hallo Peter. Du, weißt du noch, wann der Anruf mit dem Kunden aus Berlin geplant ist?", "speaker_id": 0 },
+      { "text": "Hallo Maria. Der Anruf... Ich glaube, der war für heute Nachmittag angesetzt.", "speaker_id": 1 },
+      { "text": "Ja, aber um wie viel Uhr genau? Ich finde die Notiz nicht mehr.", "speaker_id": 0 },
+      { "text": "Warte, ich habe es in meinem Kalender. Ja, hier: 16 Uhr.", "speaker_id": 1 },
+      { "text": "Um vier Uhr. Okay, danke. Das ist ja schon bald.", "speaker_id": 0 },
+      { "text": "Stimmt. Müssen wir noch etwas vorbereiten?", "speaker_id": 1 },
+      { "text": "Ich wollte die Präsentation noch einmal kurz durchgehen.", "speaker_id": 0 },
+      { "text": "Gute Idee. Wollen wir das zusammen machen? Vielleicht in einer halben Stunde?", "speaker_id": 1 },
+      { "text": "Ja, super. Treffen wir uns dann in meinem Büro?", "speaker_id": 0 },
+      { "text": "Okay, bin in dreißig Minuten bei dir.", "speaker_id": 1 },
+      { "text": "Perfekt. Danke fürs Nachschauen wegen der Uhrzeit!", "speaker_id": 0 },
+      { "text": "Kein Ding. Bis gleich.", "speaker_id": 1 },
+      { "text": "Bis gleich!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 176": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Supermarkt.",
+    "conversation": [
+      { "text": "Verzeihung, könnten Sie mir helfen? Ich suche einen Supermarkt.", "speaker_id": 0 },
+      { "text": "Einen Supermarkt? Ja, da gibt es einen nicht weit von hier.", "speaker_id": 1 },
+      { "text": "Das ist gut. Ich brauche dringend ein paar Sachen.", "speaker_id": 0 },
+      { "text": "Gehen Sie die Straße hier runter bis zur nächsten Kreuzung.", "speaker_id": 1 },
+      { "text": "Bis zur Kreuzung. Ja.", "speaker_id": 0 },
+      { "text": "An der Kreuzung biegen Sie rechts ab.", "speaker_id": 1 },
+      { "text": "Rechts abbiegen.", "speaker_id": 0 },
+      { "text": "Nach etwa hundert Metern sehen Sie den Supermarkt auf der linken Seite. Er hat ein rotes Schild.", "speaker_id": 1 },
+      { "text": "Kreuzung rechts, hundert Meter, linke Seite, rotes Schild. Verstanden.", "speaker_id": 0 },
+      { "text": "Ist das ein großer Supermarkt?", "speaker_id": 1 },
+      { "text": "Ja, der ist ziemlich groß. Sie finden dort eigentlich alles.", "speaker_id": 0 },
+      { "text": "Perfekt. Wie lange hat er geöffnet?", "speaker_id": 1 },
+      { "text": "Ich glaube, bis zwanzig Uhr.", "speaker_id": 0 },
+      { "text": "Super. Vielen Dank für Ihre Hilfe!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 177": {
+    "summary": "Jemand fragt nach der Uhrzeit und dem Wochentag.",
+    "conversation": [
+      { "text": "Entschuldigung, haben Sie vielleicht die Uhrzeit für mich?", "speaker_id": 0 },
+      { "text": "Ja, klar. Es ist jetzt kurz nach halb elf.", "speaker_id": 1 },
+      { "text": "Halb elf. Danke.", "speaker_id": 0 },
+      { "text": "Können Sie mir auch sagen, welcher Tag heute ist? Ich bin etwas durcheinander.", "speaker_id": 1 },
+      { "text": "Heute ist Donnerstag.", "speaker_id": 0 },
+      { "text": "Donnerstag schon? Die Woche vergeht ja schnell.", "speaker_id": 1 },
+      { "text": "Ja, das finde ich auch.", "speaker_id": 0 },
+      { "text": "Ich dachte, es wäre erst Mittwoch.", "speaker_id": 1 },
+      { "text": "Nein, definitiv Donnerstag.", "speaker_id": 0 },
+      { "text": "Haben Sie vielleicht auch das Datum?", "speaker_id": 1 },
+      { "text": "Ja, heute ist der zwölfte Mai.", "speaker_id": 0 },
+      { "text": "Der zwölfte Mai. Okay, vielen Dank! Sie haben mir sehr geholfen.", "speaker_id": 1 },
+      { "text": "Gern geschehen. Passiert mir auch manchmal.", "speaker_id": 0 },
+      { "text": "Schönen Tag noch!", "speaker_id": 1 },
+      { "text": "Danke, Ihnen auch!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 178": {
+    "summary": "Zwei Personen vereinbaren einen Termin für ein Treffen im Café.",
+    "conversation": [
+      { "text": "Hallo Alex, hier ist Ben.", "speaker_id": 0 },
+      { "text": "Hallo Ben! Lange nicht gehört. Wie geht's?", "speaker_id": 1 },
+      { "text": "Gut, danke. Du, ich wollte fragen, ob du nächste Woche mal Zeit für einen Kaffee hast?", "speaker_id": 0 },
+      { "text": "Nächste Woche... Ja, das müsste gehen. Wann passt es dir denn?", "speaker_id": 1 },
+      { "text": "Wie wäre es am Dienstag Nachmittag? Sagen wir um drei?", "speaker_id": 0 },
+      { "text": "Dienstag um drei... Ja, das passt bei mir gut.", "speaker_id": 1 },
+      { "text": "Super. Wo wollen wir uns treffen? Vielleicht im Café 'Sonnenschein'?", "speaker_id": 0 },
+      { "text": "Ja, das ist eine gute Idee. Das ist für uns beide gut zu erreichen.", "speaker_id": 1 },
+      { "text": "Genau. Also Dienstag, 15 Uhr, im Café 'Sonnenschein'.", "speaker_id": 0 },
+      { "text": "Abgemacht. Ich trage es mir gleich ein.", "speaker_id": 1 },
+      { "text": "Perfekt. Ich freue mich darauf!", "speaker_id": 0 },
+      { "text": "Ich mich auch! Dann bis Dienstag.", "speaker_id": 1 },
+      { "text": "Ja, bis Dienstag. Mach's gut!", "speaker_id": 0 },
+      { "text": "Du auch, tschüss!", "speaker_id": 1 },
+      { "text": "Tschüss!", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 179": {
+    "summary": "Eine Person fragt nach dem Weg zur Touristeninformation.",
+    "conversation": [
+      { "text": "Entschuldigen Sie bitte.", "speaker_id": 0 },
+      { "text": "Ja?", "speaker_id": 1 },
+      { "text": "Ich suche die Touristeninformation. Können Sie mir helfen?", "speaker_id": 0 },
+      { "text": "Die Touristeninformation? Ja, die ist direkt am Rathaus.", "speaker_id": 1 },
+      { "text": "Am Rathaus. Okay. Und wie komme ich zum Rathaus?", "speaker_id": 0 },
+      { "text": "Sehen Sie die Kirche dort drüben?", "speaker_id": 1 },
+      { "text": "Ja, die große Kirche.", "speaker_id": 0 },
+      { "text": "Gehen Sie in Richtung Kirche. Direkt dahinter ist der Rathausplatz.", "speaker_id": 1 },
+      { "text": "Hinter der Kirche ist der Rathausplatz.", "speaker_id": 0 },
+      { "text": "Genau. Und auf dem Platz sehen Sie ein Gebäude mit einer großen Flagge davor. Das ist das Rathaus.", "speaker_id": 1 },
+      { "text": "Gebäude mit Flagge. Und die Information ist im Rathaus?", "speaker_id": 0 },
+      { "text": "Ja, der Eingang zur Touristeninformation ist an der Seite.", "speaker_id": 1 },
+      { "text": "Super, vielen Dank! Das ist sehr hilfreich.", "speaker_id": 0 },
+      { "text": "Gern geschehen. Dort bekommen Sie sicher alle Informationen, die Sie brauchen.", "speaker_id": 1 },
+      { "text": "Ja, das hoffe ich. Danke nochmal!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 180": {
+    "summary": "Jemand fragt nach der Dauer einer Reparatur.",
+    "conversation": [
+      { "text": "Guten Tag. Ich bringe mein Fahrrad zur Reparatur.", "speaker_id": 0 },
+      { "text": "Guten Tag. Okay, was ist denn kaputt?", "speaker_id": 1 },
+      { "text": "Das Licht funktioniert nicht mehr und die Bremse ist schwach.", "speaker_id": 0 },
+      { "text": "Okay, das schauen wir uns an.", "speaker_id": 1 },
+      { "text": "Wie lange dauert die Reparatur ungefähr?", "speaker_id": 0 },
+      { "text": "Das hängt davon ab, was genau gemacht werden muss. Aber normalerweise brauchen wir ein bis zwei Tage.", "speaker_id": 1 },
+      { "text": "Ein bis zwei Tage.", "speaker_id": 0 },
+      { "text": "Kann ich es vielleicht schon morgen Abend abholen?", "speaker_id": 1 },
+      { "text": "Das kann ich jetzt noch nicht versprechen. Wir rufen Sie an, sobald es fertig ist.", "speaker_id": 0 },
+      { "text": "Okay, das ist gut. Nehmen Sie meine Telefonnummer auf?", "speaker_id": 1 },
+      { "text": "Ja, bitte geben Sie mir Ihre Nummer.", "speaker_id": 0 },
+      { "text": "Meine Nummer ist...", "speaker_id": 1 },
+      { "text": "Habe ich notiert. Wir melden uns.", "speaker_id": 0 },
+      { "text": "Vielen Dank. Auf Wiedersehen.", "speaker_id": 1 },
+      { "text": "Auf Wiedersehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 181": {
+    "summary": "Zwei Personen sprechen über die Startzeit eines Sportereignisses im Fernsehen.",
+    "conversation": [
+      { "text": "Hallo Sabine! Hast du Lust, heute Abend das Fußballspiel zu schauen?", "speaker_id": 0 },
+      { "text": "Hallo Frank! Ja, gerne! Wann fängt es denn an?", "speaker_id": 1 },
+      { "text": "Ich glaube, Anstoß ist um 20:45 Uhr.", "speaker_id": 0 },
+      { "text": "So spät erst? Okay.", "speaker_id": 1 },
+      { "text": "Ja, aber vorher gibt es bestimmt noch Berichte und Analysen.", "speaker_id": 0 },
+      { "text": "Stimmt. Wollen wir uns schon um acht treffen?", "speaker_id": 1 },
+      { "text": "Ja, gute Idee. Dann können wir uns gemütlich hinsetzen.", "speaker_id": 0 },
+      { "text": "Sollen wir bei dir schauen oder bei mir?", "speaker_id": 1 },
+      { "text": "Lass uns bei mir schauen. Ich habe einen größeren Fernseher.", "speaker_id": 0 },
+      { "text": "Perfekt! Soll ich etwas mitbringen? Getränke oder Knabbersachen?", "speaker_id": 1 },
+      { "text": "Nein, danke. Ich habe alles da.", "speaker_id": 0 },
+      { "text": "Super nett von dir. Dann bin ich um acht bei dir.", "speaker_id": 1 },
+      { "text": "Abgemacht. Ich freue mich!", "speaker_id": 0 },
+      { "text": "Ich mich auch! Bis später!", "speaker_id": 1 },
+      { "text": "Bis dann!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 182": {
+    "summary": "Eine Person fragt nach dem Weg zum Krankenhaus.",
+    "conversation": [
+      { "text": "Entschuldigen Sie bitte, ich muss dringend zum Krankenhaus.", "speaker_id": 0 },
+      { "text": "Oh, zum Krankenhaus? Ist alles in Ordnung?", "speaker_id": 1 },
+      { "text": "Ja, ich besuche jemanden. Wie komme ich am schnellsten dorthin?", "speaker_id": 0 },
+      { "text": "Das Krankenhaus ist etwas außerhalb. Am besten nehmen Sie den Bus.", "speaker_id": 1 },
+      { "text": "Den Bus? Welche Linie?", "speaker_id": 0 },
+      { "text": "Die Linie 12 fährt direkt dorthin. Die Haltestelle ist gleich um die Ecke.", "speaker_id": 1 },
+      { "text": "Die Linie 12. Und wo ist die Haltestelle?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße bis zum Ende, dann links. Da sehen Sie sie schon.", "speaker_id": 1 },
+      { "text": "Straße bis Ende, dann links. Okay.", "speaker_id": 0 },
+      { "text": "Wie oft fährt der Bus?", "speaker_id": 1 },
+      { "text": "Alle zwanzig Minuten ungefähr.", "speaker_id": 0 },
+      { "text": "Gut, das ist nicht zu lang. Vielen Dank für Ihre Hilfe!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Alles Gute für Ihren Besuch!", "speaker_id": 0 },
+      { "text": "Danke schön!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 183": {
+    "summary": "Jemand erkundigt sich telefonisch nach einem freien Friseurtermin.",
+    "conversation": [
+      { "text": "Friseursalon 'Haargenau', guten Tag.", "speaker_id": 1 },
+      { "text": "Guten Tag, mein Name ist Wolf. Ich hätte gerne einen Termin zum Haareschneiden.", "speaker_id": 0 },
+      { "text": "Gerne, Herr Wolf. Wann würde es Ihnen denn passen?", "speaker_id": 1 },
+      { "text": "Haben Sie vielleicht noch diese Woche etwas frei? Am liebsten nachmittags.", "speaker_id": 0 },
+      { "text": "Diese Woche nachmittags... Mal sehen.", "speaker_id": 1 },
+      { "text": "Ja?", "speaker_id": 0 },
+      { "text": "Am Freitag um 16 Uhr hätte ich noch einen Termin frei.", "speaker_id": 1 },
+      { "text": "Freitag um vier Uhr? Das passt perfekt!", "speaker_id": 0 },
+      { "text": "Wunderbar. Dann trage ich Sie ein: Herr Wolf, Freitag, 16 Uhr, Schneiden.", "speaker_id": 1 },
+      { "text": "Genau. Wie lange dauert das ungefähr?", "speaker_id": 0 },
+      { "text": "Rechnen Sie mit etwa einer halben Stunde.", "speaker_id": 1 },
+      { "text": "Okay. Super, vielen Dank!", "speaker_id": 0 },
+      { "text": "Gern geschehen, Herr Wolf. Wir freuen uns auf Sie am Freitag.", "speaker_id": 1 },
+      { "text": "Ich mich auch. Auf Wiederhören.", "speaker_id": 0 },
+      { "text": "Auf Wiederhören.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 184": {
+    "summary": "Zwei Freunde planen einen Ausflug und besprechen die Abfahrtszeit.",
+    "conversation": [
+      { "text": "Hi Martin! Was hältst du davon, wenn wir am Samstag einen Ausflug zum See machen?", "speaker_id": 0 },
+      { "text": "Hi Clara! Super Idee! Das Wetter soll ja schön werden.", "speaker_id": 1 },
+      { "text": "Ja, genau deshalb. Wann wollen wir losfahren?", "speaker_id": 0 },
+      { "text": "Ich würde vorschlagen, nicht zu spät. Vielleicht so um neun Uhr?", "speaker_id": 1 },
+      { "text": "Um neun Uhr morgens? Das ist gut, dann haben wir den ganzen Tag.", "speaker_id": 0 },
+      { "text": "Genau. Wollen wir uns bei dir treffen oder bei mir?", "speaker_id": 1 },
+      { "text": "Treffen wir uns bei mir. Ich wohne näher an der Autobahn.", "speaker_id": 0 },
+      { "text": "Okay. Dann bin ich um kurz vor neun bei dir.", "speaker_id": 1 },
+      { "text": "Perfekt. Pack Badesachen ein!", "speaker_id": 0 },
+      { "text": "Mache ich! Brauchen wir noch etwas? Essen, Getränke?", "speaker_id": 1 },
+      { "text": "Ich kümmere mich um Getränke, du bringst was zum Essen mit?", "speaker_id": 0 },
+      { "text": "Abgemacht. Super, ich freue mich!", "speaker_id": 1 },
+      { "text": "Ich mich auch! Dann bis Samstagmorgen um neun.", "speaker_id": 0 },
+      { "text": "Bis Samstag!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 185": {
+    "summary": "Eine Person fragt nach dem Weg zum Fundbüro.",
+    "conversation": [
+      { "text": "Entschuldigen Sie, ich habe etwas verloren. Wo finde ich hier das Fundbüro?", "speaker_id": 0 },
+      { "text": "Das Fundbüro? Oh je, das ist nicht gut.", "speaker_id": 1 },
+      { "text": "Ja, meine Tasche ist weg.", "speaker_id": 0 },
+      { "text": "Das Fundbüro ist im Rathaus. Wissen Sie, wo das Rathaus ist?", "speaker_id": 1 },
+      { "text": "Nein, ich bin nicht von hier.", "speaker_id": 0 },
+      { "text": "Okay, kein Problem. Gehen Sie diese Straße entlang bis zum großen Platz.", "speaker_id": 1 },
+      { "text": "Bis zum großen Platz.", "speaker_id": 0 },
+      { "text": "Auf dem Platz sehen Sie ein großes, altes Gebäude mit einer Uhr oben drauf. Das ist das Rathaus.", "speaker_id": 1 },
+      { "text": "Gebäude mit Uhr. Okay.", "speaker_id": 0 },
+      { "text": "Das Fundbüro ist im Erdgeschoss, der Eingang ist auf der Rückseite.", "speaker_id": 1 },
+      { "text": "Eingang auf der Rückseite. Verstanden.", "speaker_id": 0 },
+      { "text": "Hoffentlich haben Sie Glück und Ihre Tasche wurde abgegeben.", "speaker_id": 1 },
+      { "text": "Das hoffe ich auch sehr. Vielen Dank für Ihre Hilfe!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Ich drücke die Daumen!", "speaker_id": 1 },
+      { "text": "Danke!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 186": {
+    "summary": "Jemand fragt nach der Öffnungszeit eines Museums am Sonntag.",
+    "conversation": [
+      { "text": "Guten Tag. Ich habe eine Frage zu den Öffnungszeiten.", "speaker_id": 0 },
+      { "text": "Guten Tag. Gerne.", "speaker_id": 1 },
+      { "text": "Hat das Museum auch am Sonntag geöffnet?", "speaker_id": 0 },
+      { "text": "Ja, sonntags haben wir geöffnet.", "speaker_id": 1 },
+      { "text": "Das ist schön. Und von wann bis wann?", "speaker_id": 0 },
+      { "text": "Sonntags öffnen wir um zehn Uhr und schließen um siebzehn Uhr.", "speaker_id": 1 },
+      { "text": "Von zehn bis siebzehn Uhr. Okay.", "speaker_id": 0 },
+      { "text": "Gibt es besondere Ausstellungen zurzeit?", "speaker_id": 1 },
+      { "text": "Ja, wir haben gerade eine Sonderausstellung zur Geschichte der Stadt.", "speaker_id": 0 },
+      { "text": "Das klingt interessant.", "speaker_id": 1 },
+      { "text": "Ist der Eintrittspreis für die Sonderausstellung extra?", "speaker_id": 0 },
+      { "text": "Nein, der Eintritt gilt für das gesamte Museum inklusive der Sonderausstellung.", "speaker_id": 1 },
+      { "text": "Wunderbar. Vielen Dank für die Information.", "speaker_id": 0 },
+      { "text": "Gern geschehen. Vielleicht sehen wir uns ja am Sonntag.", "speaker_id": 1 },
+      { "text": "Ja, vielleicht. Schönen Tag!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 187": {
+    "summary": "Zwei Kollegen besprechen, wann sie einen Bericht fertig haben müssen.",
+    "conversation": [
+      { "text": "Hi Anna. Wegen des Monatsberichts...", "speaker_id": 0 },
+      { "text": "Hi Tim. Ja?", "speaker_id": 1 },
+      { "text": "Weißt du, bis wann wir den spätestens abgeben müssen?", "speaker_id": 0 },
+      { "text": "Ich habe gestern eine E-Mail vom Chef bekommen. Er will ihn bis Freitagnachmittag haben.", "speaker_id": 1 },
+      { "text": "Diesen Freitag schon? Oh, das ist ja bald.", "speaker_id": 0 },
+      { "text": "Ja, wir müssen uns beeilen. Hast du deinen Teil schon fertig?", "speaker_id": 1 },
+      { "text": "Noch nicht ganz. Ich brauche noch etwa einen Tag.", "speaker_id": 0 },
+      { "text": "Okay, ich bin auch noch nicht fertig. Lass uns morgen Vormittag zusammensetzen und die Teile zusammenführen.", "speaker_id": 1 },
+      { "text": "Gute Idee. Wann passt es dir? Gleich um neun?", "speaker_id": 0 },
+      { "text": "Ja, neun Uhr ist gut. In meinem Büro?", "speaker_id": 1 },
+      { "text": "Perfekt. Dann schaffen wir das bis Freitag.", "speaker_id": 0 },
+      { "text": "Das denke ich auch. Super, dann bis morgen früh.", "speaker_id": 1 },
+      { "text": "Bis morgen!", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 188": {
+    "summary": "Eine Person fragt nach dem Weg zur nächsten Toilette.",
+    "conversation": [
+      { "text": "Entschuldigen Sie bitte, könnten Sie mir sagen, wo hier die nächste Toilette ist?", "speaker_id": 0 },
+      { "text": "Die nächste Toilette? Ja, natürlich.", "speaker_id": 1 },
+      { "text": "Danke.", "speaker_id": 0 },
+      { "text": "Gehen Sie diesen Gang hier entlang.", "speaker_id": 1 },
+      { "text": "Diesen Gang?", "speaker_id": 0 },
+      { "text": "Ja, bis zum Ende. Dort sehen Sie eine Tür mit dem entsprechenden Schild.", "speaker_id": 1 },
+      { "text": "Bis zum Ende des Ganges. Okay.", "speaker_id": 0 },
+      { "text": "Sind die Toiletten sauber?", "speaker_id": 1 },
+      { "text": "Ja, sie werden regelmäßig gereinigt.", "speaker_id": 0 },
+      { "text": "Das ist gut zu hören.", "speaker_id": 1 },
+      { "text": "Ist die Benutzung kostenlos?", "speaker_id": 0 },
+      { "text": "Ja, die Benutzung ist kostenlos.", "speaker_id": 1 },
+      { "text": "Perfekt. Vielen Dank für Ihre Hilfe!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 },
+      { "text": "Dann gehe ich mal.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 189": {
+    "summary": "Jemand fragt nach der Zeit des Sonnenuntergangs.",
+    "conversation": [
+      { "text": "Entschuldigung, wissen Sie vielleicht, wann heute die Sonne untergeht?", "speaker_id": 0 },
+      { "text": "Der Sonnenuntergang? Puh, da muss ich kurz nachdenken.", "speaker_id": 1 },
+      { "text": "Oder haben Sie vielleicht eine Wetter-App?", "speaker_id": 0 },
+      { "text": "Ja, stimmt. Ich schaue mal auf mein Handy.", "speaker_id": 1 },
+      { "text": "Danke, das ist nett.", "speaker_id": 0 },
+      { "text": "Hier steht es: Sonnenuntergang heute um 20:15 Uhr.", "speaker_id": 1 },
+      { "text": "Um Viertel nach acht. Okay.", "speaker_id": 0 },
+      { "text": "Wollen Sie Fotos machen?", "speaker_id": 1 },
+      { "text": "Ja, genau. Ich suche einen guten Platz dafür.", "speaker_id": 0 },
+      { "text": "Vielleicht vom Hügel dort drüben? Von da hat man eine gute Sicht.", "speaker_id": 1 },
+      { "text": "Gute Idee. Ist es weit bis dorthin?", "speaker_id": 0 },
+      { "text": "Nein, nur ein kurzer Spaziergang.", "speaker_id": 1 },
+      { "text": "Super. Vielen Dank für die Zeit und den Tipp!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Viel Erfolg beim Fotografieren!", "speaker_id": 1 },
+      { "text": "Danke!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 190": {
+    "summary": "Zwei Personen vereinbaren einen Termin, um gemeinsam Sport zu treiben.",
+    "conversation": [
+      { "text": "Hi Laura. Hast du Lust, diese Woche mal wieder zusammen laufen zu gehen?", "speaker_id": 0 },
+      { "text": "Hi Stefan! Ja, sehr gerne! Wann hättest du denn Zeit?", "speaker_id": 1 },
+      { "text": "Wie wäre es am Mittwochabend? So gegen achtzehn Uhr?", "speaker_id": 0 },
+      { "text": "Mittwoch achtzehn Uhr... Ja, das passt bei mir gut.", "speaker_id": 1 },
+      { "text": "Super. Wo wollen wir uns treffen? Am Parkeingang wie immer?", "speaker_id": 0 },
+      { "text": "Ja, das ist am besten.", "speaker_id": 1 },
+      { "text": "Okay, also Mittwoch, 18 Uhr, am Parkeingang.", "speaker_id": 0 },
+      { "text": "Welche Runde wollen wir laufen? Die kurze oder die lange?", "speaker_id": 1 },
+      { "text": "Lass uns die lange Runde versuchen. Das Wetter soll gut werden.", "speaker_id": 0 },
+      { "text": "Okay, einverstanden. Ich freue mich schon!", "speaker_id": 1 },
+      { "text": "Ich mich auch! Dann bis Mittwoch.", "speaker_id": 0 },
+      { "text": "Bis Mittwoch, Stefan!", "speaker_id": 1 },
+      { "text": "Tschüss, Laura!", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 191": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Briefkasten.",
+    "conversation": [
+      { "text": "Entschuldigung, können Sie mir sagen, wo hier der nächste Briefkasten ist?", "speaker_id": 0 },
+      { "text": "Ein Briefkasten? Ja, da vorne an der Ecke ist einer.", "speaker_id": 1 },
+      { "text": "An der Ecke dort?", "speaker_id": 0 },
+      { "text": "Ja, direkt neben der roten Telefonzelle. Sehen Sie ihn?", "speaker_id": 1 },
+      { "text": "Ah ja, jetzt sehe ich ihn. Der gelbe Kasten.", "speaker_id": 0 },
+      { "text": "Genau der.", "speaker_id": 1 },
+      { "text": "Wann wird der denn geleert?", "speaker_id": 0 },
+      { "text": "Das steht meistens drauf. Ich glaube, einmal am Tag, am späten Nachmittag.", "speaker_id": 1 },
+      { "text": "Okay, das reicht mir. Ich will nur diese Postkarte einwerfen.", "speaker_id": 0 },
+      { "text": "Brauchen Sie noch eine Briefmarke?", "speaker_id": 1 },
+      { "text": "Nein, danke. Die habe ich schon drauf.", "speaker_id": 0 },
+      { "text": "Na dann, ab zur Post!", "speaker_id": 1 },
+      { "text": "Genau. Vielen Dank für Ihre Hilfe!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 192": {
+    "summary": "Jemand fragt nach der Dauer einer Zugfahrt.",
+    "conversation": [
+      { "text": "Entschuldigen Sie, fahren Sie auch nach Hamburg?", "speaker_id": 0 },
+      { "text": "Ja, das tue ich.", "speaker_id": 1 },
+      { "text": "Wissen Sie zufällig, wie lange die Fahrt von hier bis Hamburg dauert?", "speaker_id": 0 },
+      { "text": "Mit diesem Zug? Das sind ungefähr zwei Stunden und zehn Minuten.", "speaker_id": 1 },
+      { "text": "Zwei Stunden zehn. Okay, das ist ja überschaubar.", "speaker_id": 0 },
+      { "text": "Ja, das geht relativ schnell. Der Zug hält auch nur zweimal.", "speaker_id": 1 },
+      { "text": "Ah, das ist gut. Gibt es im Zug ein Bordrestaurant?", "speaker_id": 0 },
+      { "text": "Ja, in diesem ICE gibt es ein Bordbistro.", "speaker_id": 1 },
+      { "text": "Wunderbar, dann kann ich mir später einen Kaffee holen.", "speaker_id": 0 },
+      { "text": "Machen Sie das. Die Fahrt vergeht dann schneller.", "speaker_id": 1 },
+      { "text": "Stimmt. Ist dieser Platz hier noch frei?", "speaker_id": 0 },
+      { "text": "Ja, der ist noch frei. Bitte setzen Sie sich.", "speaker_id": 1 },
+      { "text": "Danke schön. Und danke für die Auskunft zur Fahrzeit.", "speaker_id": 0 },
+      { "text": "Keine Ursache. Gute Fahrt!", "speaker_id": 1 },
+      { "text": "Danke, Ihnen auch!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 193": {
+    "summary": "Zwei Personen besprechen die Zeit für den Beginn einer Geburtstagsfeier.",
+    "conversation": [
+      { "text": "Hi Paul! Danke für die Einladung zu deiner Geburtstagsfeier am Samstag!", "speaker_id": 0 },
+      { "text": "Hi Katja! Gerne, ich freue mich, wenn du kommst!", "speaker_id": 1 },
+      { "text": "Auf der Einladung steht, es beginnt am Abend. Wann genau sollen wir denn da sein?", "speaker_id": 0 },
+      { "text": "Ich dachte, so ab 19 Uhr wäre gut.", "speaker_id": 1 },
+      { "text": "Ab sieben Uhr. Okay, das merke ich mir.", "speaker_id": 0 },
+      { "text": "Es gibt Essen und Trinken. Du brauchst nichts mitzubringen.", "speaker_id": 1 },
+      { "text": "Das ist lieb, danke. Gibt es einen bestimmten Dresscode?", "speaker_id": 0 },
+      { "text": "Nein, komm einfach so, wie du dich wohlfühlst. Ganz entspannt.", "speaker_id": 1 },
+      { "text": "Super. Wo feierst du genau? Bei dir zu Hause?", "speaker_id": 0 },
+      { "text": "Ja, bei mir zu Hause. Die Adresse steht ja auf der Einladung.", "speaker_id": 1 },
+      { "text": "Okay, alles klar. Dann sehen wir uns am Samstagabend ab 19 Uhr.", "speaker_id": 0 },
+      { "text": "Genau. Ich freue mich schon!", "speaker_id": 1 },
+      { "text": "Ich mich auch! Bis dann!", "speaker_id": 0 },
+      { "text": "Bis Samstag!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 194": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Taxistand.",
+    "conversation": [
+      { "text": "Entschuldigung, wo finde ich hier einen Taxistand?", "speaker_id": 0 },
+      { "text": "Einen Taxistand? Der nächste ist direkt vor dem Hauptbahnhof.", "speaker_id": 1 },
+      { "text": "Vor dem Hauptbahnhof. Ist der weit von hier?", "speaker_id": 0 },
+      { "text": "Nein, das sind nur ein paar Minuten zu Fuß.", "speaker_id": 1 },
+      { "text": "Wie komme ich dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie einfach diese Straße geradeaus.", "speaker_id": 1 },
+      { "text": "Immer geradeaus?", "speaker_id": 0 },
+      { "text": "Ja, bis Sie das große Bahnhofsgebäude sehen. Direkt davor stehen die Taxis.", "speaker_id": 1 },
+      { "text": "Geradeaus bis zum Bahnhofsgebäude. Okay.", "speaker_id": 0 },
+      { "text": "Stehen dort normalerweise viele Taxis?", "speaker_id": 1 },
+      { "text": "Ja, eigentlich immer. Sie sollten schnell eins bekommen.", "speaker_id": 0 },
+      { "text": "Das ist gut. Ich muss zum Flughafen.", "speaker_id": 1 },
+      { "text": "Ah, verstehe. Dann ist ein Taxi praktisch.", "speaker_id": 0 },
+      { "text": "Vielen Dank für die Wegbeschreibung!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Gute Fahrt!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 195": {
+    "summary": "Jemand fragt nach der Uhrzeit einer Theatervorstellung.",
+    "conversation": [
+      { "text": "Guten Abend. Ich habe Karten für die Vorstellung heute Abend.", "speaker_id": 0 },
+      { "text": "Guten Abend. Für welches Stück?", "speaker_id": 1 },
+      { "text": "Für 'Hamlet'.", "speaker_id": 0 },
+      { "text": "Ah, 'Hamlet'. Eine gute Wahl.", "speaker_id": 1 },
+      { "text": "Können Sie mir bitte sagen, wann die Vorstellung genau beginnt?", "speaker_id": 0 },
+      { "text": "Die Vorstellung beginnt pünktlich um 19:30 Uhr.", "speaker_id": 1 },
+      { "text": "Um halb acht. Gut, dann haben wir ja noch etwas Zeit.", "speaker_id": 0 },
+      { "text": "Ja. Der Einlass beginnt um 19 Uhr.", "speaker_id": 1 },
+      { "text": "Wie lange dauert die Vorstellung ungefähr?", "speaker_id": 0 },
+      { "text": "Mit Pause dauert sie etwa drei Stunden.", "speaker_id": 1 },
+      { "text": "Drei Stunden. Okay.", "speaker_id": 0 },
+      { "text": "Gibt es eine Garderobe?", "speaker_id": 1 },
+      { "text": "Ja, die Garderobe finden Sie gleich links nach dem Eingang.", "speaker_id": 0 },
+      { "text": "Wunderbar. Vielen Dank für die Informationen!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Wir wünschen Ihnen einen schönen Theaterabend!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 196": {
+    "summary": "Zwei Nachbarn klären, wann der Handwerker kommen soll.",
+    "conversation": [
+      { "text": "Hallo Frau Schmidt. Der Handwerker hat angerufen wegen der Reparatur.", "speaker_id": 0 },
+      { "text": "Hallo Herr Neumann. Ach ja? Was hat er gesagt?", "speaker_id": 1 },
+      { "text": "Er könnte morgen Vormittag kommen.", "speaker_id": 0 },
+      { "text": "Morgen Vormittag? Wann genau?", "speaker_id": 1 },
+      { "text": "Er meinte, so zwischen neun und zehn Uhr.", "speaker_id": 0 },
+      { "text": "Zwischen neun und zehn... Das ist schwierig, da bin ich eigentlich bei der Arbeit.", "speaker_id": 1 },
+      { "text": "Oh. Hat er auch eine andere Zeit vorgeschlagen?", "speaker_id": 0 },
+      { "text": "Nein, er meinte nur, Vormittag wäre gut.", "speaker_id": 1 },
+      { "text": "Könnten Sie vielleicht da sein? Die Reparatur betrifft ja auch Ihre Wohnung.", "speaker_id": 0 },
+      { "text": "Ja, ich könnte versuchen, später zur Arbeit zu gehen. Bis wann braucht er denn ungefähr?", "speaker_id": 1 },
+      { "text": "Er schätzt, etwa eine Stunde.", "speaker_id": 0 },
+      { "text": "Okay, dann sage ich ihm Bescheid, dass zwischen neun und zehn passt und ich da bin.", "speaker_id": 1 },
+      { "text": "Super, vielen Dank, Frau Schmidt!", "speaker_id": 0 },
+      { "text": "Kein Problem, Herr Neumann.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 197": {
+    "summary": "Eine Person fragt nach dem Weg zum Sportplatz.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche den Sportplatz. Können Sie mir helfen?", "speaker_id": 0 },
+      { "text": "Den Sportplatz? Meinen Sie den Fußballplatz?", "speaker_id": 1 },
+      { "text": "Ja, genau. Mein Sohn hat dort heute ein Spiel.", "speaker_id": 0 },
+      { "text": "Ah, okay. Der ist am anderen Ende der Stadt.", "speaker_id": 1 },
+      { "text": "Oh, wirklich? Wie komme ich am besten dorthin?", "speaker_id": 0 },
+      { "text": "Fahren Sie mit dem Auto?", "speaker_id": 1 },
+      { "text": "Ja.", "speaker_id": 0 },
+      { "text": "Dann fahren Sie diese Hauptstraße immer weiter, raus aus der Stadt.", "speaker_id": 1 },
+      { "text": "Immer weiter?", "speaker_id": 0 },
+      { "text": "Ja. Nach etwa drei Kilometern sehen Sie auf der linken Seite eine Abzweigung zum Sportzentrum. Da müssen Sie rein.", "speaker_id": 1 },
+      { "text": "Drei Kilometer, linke Abzweigung Sportzentrum. Okay.", "speaker_id": 0 },
+      { "text": "Dann ist es nicht mehr weit. Der Platz ist gut ausgeschildert.", "speaker_id": 1 },
+      { "text": "Super. Vielen Dank für die genaue Beschreibung!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Viel Erfolg beim Spiel!", "speaker_id": 1 },
+      { "text": "Danke!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 198": {
+    "summary": "Jemand fragt nach der Uhrzeit des nächsten Yoga-Kurses.",
+    "conversation": [
+      { "text": "Hallo. Ich interessiere mich für den Yoga-Kurs.", "speaker_id": 0 },
+      { "text": "Hallo. Schön, dass Sie sich interessieren.", "speaker_id": 1 },
+      { "text": "Können Sie mir sagen, wann der nächste Kurs stattfindet?", "speaker_id": 0 },
+      { "text": "Wir haben mehrere Kurse. Suchen Sie einen bestimmten?", "speaker_id": 1 },
+      { "text": "Am liebsten wäre mir einer am Abend.", "speaker_id": 0 },
+      { "text": "Okay. Wir haben einen Abendkurs immer dienstags um 19 Uhr.", "speaker_id": 1 },
+      { "text": "Dienstags um sieben. Das klingt gut.", "speaker_id": 0 },
+      { "text": "Wie lange dauert der Kurs?", "speaker_id": 1 },
+      { "text": "Der Kurs dauert neunzig Minuten.", "speaker_id": 0 },
+      { "text": "Neunzig Minuten. Okay.", "speaker_id": 1 },
+      { "text": "Muss ich mich vorher anmelden?", "speaker_id": 0 },
+      { "text": "Ja, eine Anmeldung ist erforderlich, da die Plätze begrenzt sind.", "speaker_id": 1 },
+      { "text": "Kann ich mich jetzt gleich anmelden?", "speaker_id": 0 },
+      { "text": "Ja, natürlich. Ich brauche nur Ihren Namen und Ihre Telefonnummer.", "speaker_id": 1 },
+      { "text": "Okay...", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 199": {
+    "summary": "Zwei Personen verabreden sich zu einem Spaziergang und klären Zeit und Treffpunkt.",
+    "conversation": [
+      { "text": "Hallo Eva, hier ist Markus.", "speaker_id": 0 },
+      { "text": "Hallo Markus! Schön, von dir zu hören.", "speaker_id": 1 },
+      { "text": "Du, das Wetter ist so schön. Hast du Lust auf einen Spaziergang heute Nachmittag?", "speaker_id": 0 },
+      { "text": "Ja, super Idee! Wann willst du los?", "speaker_id": 1 },
+      { "text": "Wie wäre es um drei Uhr?", "speaker_id": 0 },
+      { "text": "Drei Uhr passt perfekt. Wo sollen wir uns treffen?", "speaker_id": 1 },
+      { "text": "Vielleicht am Eingang vom Schlosspark?", "speaker_id": 0 },
+      { "text": "Ja, das ist gut. Von dort können wir eine schöne Runde gehen.", "speaker_id": 1 },
+      { "text": "Genau. Also um drei am Schlosspark-Eingang.", "speaker_id": 0 },
+      { "text": "Abgemacht. Soll ich meinen Hund mitbringen?", "speaker_id": 1 },
+      { "text": "Ja, unbedingt! Dann hat er auch Bewegung.", "speaker_id": 0 },
+      { "text": "Super. Dann bis später!", "speaker_id": 1 },
+      { "text": "Bis später, Eva!", "speaker_id": 0 },
+      { "text": "Tschüss, Markus!", "speaker_id": 1 }
+    ]
+  },
+    "Szenario 200": {
+    "summary": "Eine Person fragt nach dem Weg zum Flughafen.",
+    "conversation": [
+      { "text": "Entschuldigung, ich muss zum Flughafen. Wie komme ich am besten dorthin?", "speaker_id": 0 },
+      { "text": "Zum Flughafen? Sind Sie mit dem Auto unterwegs oder mit öffentlichen Verkehrsmitteln?", "speaker_id": 1 },
+      { "text": "Ich habe kein Auto. Also mit Bus oder Bahn.", "speaker_id": 0 },
+      { "text": "Okay. Am schnellsten geht es mit der S-Bahn.", "speaker_id": 1 },
+      { "text": "Mit der S-Bahn. Welche Linie ist das?", "speaker_id": 0 },
+      { "text": "Die Linie S8 fährt direkt zum Flughafen.", "speaker_id": 1 },
+      { "text": "Und wo finde ich die S-Bahn-Station?", "speaker_id": 0 },
+      { "text": "Die nächste Station ist etwa zehn Minuten zu Fuß von hier. Gehen Sie diese Straße runter...", "speaker_id": 1 },
+      { "text": "Ja...", "speaker_id": 0 },
+      { "text": "...dann die zweite Straße links. Dort sehen Sie das S-Bahn-Zeichen.", "speaker_id": 1 },
+      { "text": "Zweite Straße links. Okay.", "speaker_id": 0 },
+      { "text": "Wie oft fährt die S8?", "speaker_id": 1 },
+      { "text": "Alle zwanzig Minuten.", "speaker_id": 0 },
+      { "text": "Super. Vielen Dank! Das hilft mir sehr.", "speaker_id": 1 },
+      { "text": "Gern geschehen. Guten Flug!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 201": {
+    "summary": "Jemand fragt nach der Dauer einer Pause in einer Konferenz.",
+    "conversation": [
+      { "text": "Entschuldigung, wissen Sie, wann die Kaffeepause zu Ende ist?", "speaker_id": 0 },
+      { "text": "Die Kaffeepause? Ich glaube, sie dauert dreißig Minuten.", "speaker_id": 1 },
+      { "text": "Dreißig Minuten insgesamt?", "speaker_id": 0 },
+      { "text": "Ja. Sie hat vor etwa zehn Minuten begonnen.", "speaker_id": 1 },
+      { "text": "Ah, okay. Dann haben wir noch zwanzig Minuten Zeit.", "speaker_id": 0 },
+      { "text": "Genau. Genug Zeit für einen zweiten Kaffee.", "speaker_id": 1 },
+      { "text": "Das stimmt. Wann beginnt der nächste Vortrag?", "speaker_id": 0 },
+      { "text": "Der nächste Vortrag fängt um elf Uhr an.", "speaker_id": 1 },
+      { "text": "Um elf. In welchem Raum?", "speaker_id": 0 },
+      { "text": "Wieder hier im großen Saal.", "speaker_id": 1 },
+      { "text": "Gut, danke. Ich wollte nur sichergehen, dass ich nichts verpasse.", "speaker_id": 0 },
+      { "text": "Kein Problem. Die Pause ist wichtig.", "speaker_id": 1 },
+      { "text": "Das finde ich auch. Danke für die Info!", "speaker_id": 0 },
+      { "text": "Gerne.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 202": {
+    "summary": "Zwei Personen sprechen über die Zeit für den Beginn eines Abendessen-Termins.",
+    "conversation": [
+      { "text": "Hallo Chris! Wegen unseres Abendessens am Freitag...", "speaker_id": 0 },
+      { "text": "Hallo Sandra! Ja?", "speaker_id": 1 },
+      { "text": "Wir hatten gesagt, wir treffen uns im Restaurant. Welche Zeit passt dir am besten?", "speaker_id": 0 },
+      { "text": "Ich bin flexibel. Was schlägst du vor?", "speaker_id": 1 },
+      { "text": "Wie wäre es um 20 Uhr?", "speaker_id": 0 },
+      { "text": "Zwanzig Uhr ist perfekt für mich.", "speaker_id": 1 },
+      { "text": "Super. Das Restaurant 'La Dolce Vita', richtig?", "speaker_id": 0 },
+      { "text": "Ja, genau. Hast du schon reserviert?", "speaker_id": 1 },
+      { "text": "Nein, noch nicht. Soll ich das machen?", "speaker_id": 0 },
+      { "text": "Ja, bitte. Sicher ist sicher.", "speaker_id": 1 },
+      { "text": "Okay, ich rufe gleich dort an und reserviere für zwei Personen um 20 Uhr.", "speaker_id": 0 },
+      { "text": "Super, danke dir!", "speaker_id": 1 },
+      { "text": "Kein Problem. Dann bis Freitag um acht!", "speaker_id": 0 },
+      { "text": "Bis Freitag! Ich freue mich!", "speaker_id": 1 },
+      { "text": "Ich mich auch!", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 203": {
+    "summary": "Eine Person fragt nach dem Weg zur Universität.",
+    "conversation": [
+      { "text": "Entschuldigen Sie, ich suche die Universität. Können Sie mir helfen?", "speaker_id": 0 },
+      { "text": "Die Universität? Welchen Teil suchen Sie denn? Den Campus?", "speaker_id": 1 },
+      { "text": "Ja, den Hauptcampus. Ich habe dort eine Veranstaltung.", "speaker_id": 0 },
+      { "text": "Okay. Am einfachsten nehmen Sie die Straßenbahn.", "speaker_id": 1 },
+      { "text": "Die Straßenbahn? Welche Linie?", "speaker_id": 0 },
+      { "text": "Die Linie 3 fährt direkt zum Campus.", "speaker_id": 1 },
+      { "text": "Linie 3. Und wo ist die nächste Haltestelle?", "speaker_id": 0 },
+      { "text": "Gleich hier vorne an der Kreuzung sehen Sie die Haltestelle.", "speaker_id": 1 },
+      { "text": "An der Kreuzung. Okay.", "speaker_id": 0 },
+      { "text": "Wie lange dauert die Fahrt ungefähr?", "speaker_id": 1 },
+      { "text": "Etwa fünfzehn Minuten.", "speaker_id": 0 },
+      { "text": "Das ist ja nicht lang. Perfekt.", "speaker_id": 1 },
+      { "text": "Die Haltestelle heißt 'Universität'. Sie können sie nicht verpassen.", "speaker_id": 0 },
+      { "text": "Wunderbar. Vielen Dank für Ihre Hilfe!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Viel Erfolg bei Ihrer Veranstaltung!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 204": {
+    "summary": "Jemand fragt nach der Uhrzeit für das Ende der Mittagspause im Büro.",
+    "conversation": [
+      { "text": "Hallo Herr Meier. Eine kurze Frage.", "speaker_id": 0 },
+      { "text": "Hallo Frau Berger. Ja, bitte?", "speaker_id": 1 },
+      { "text": "Wissen Sie, wann die offizielle Mittagspause hier im Büro endet?", "speaker_id": 0 },
+      { "text": "Die Mittagspause geht normalerweise von zwölf Uhr bis dreizehn Uhr.", "speaker_id": 1 },
+      { "text": "Also eine Stunde. Dann sollte ich wohl langsam zurück an den Platz.", "speaker_id": 0 },
+      { "text": "Wie spät ist es denn jetzt?", "speaker_id": 1 },
+      { "text": "Es ist jetzt zehn vor eins.", "speaker_id": 0 },
+      { "text": "Ah ja, dann haben Sie noch zehn Minuten.", "speaker_id": 1 },
+      { "text": "Gut. Ich wollte nur sichergehen.", "speaker_id": 0 },
+      { "text": "Alles klar. Hatten Sie eine gute Pause?", "speaker_id": 1 },
+      { "text": "Ja, danke. Ich war kurz draußen an der frischen Luft.", "speaker_id": 0 },
+      { "text": "Das ist gut. Dann bis später.", "speaker_id": 1 },
+      { "text": "Bis später, Herr Meier. Danke!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 205": {
+    "summary": "Zwei Personen vereinbaren einen Termin für die Besichtigung einer Wohnung.",
+    "conversation": [
+      { "text": "Guten Tag, hier spricht Müller. Ich rufe wegen der Wohnung an.", "speaker_id": 0 },
+      { "text": "Guten Tag, Herr Müller. Ja, die Wohnung in der Hauptstraße?", "speaker_id": 1 },
+      { "text": "Genau die. Ich würde sie gerne besichtigen. Wäre das möglich?", "speaker_id": 0 },
+      { "text": "Ja, natürlich. Wann hätten Sie denn Zeit?", "speaker_id": 1 },
+      { "text": "Wie wäre es morgen Nachmittag? Sagen wir um 16 Uhr?", "speaker_id": 0 },
+      { "text": "Morgen um 16 Uhr... Ja, das passt bei mir gut.", "speaker_id": 1 },
+      { "text": "Wunderbar. Die Adresse ist Hauptstraße 15, richtig?", "speaker_id": 0 },
+      { "text": "Ja, genau. Dritter Stock, bei 'Schmidt' klingeln.", "speaker_id": 1 },
+      { "text": "Okay, Hauptstraße 15, dritter Stock, Schmidt.", "speaker_id": 0 },
+      { "text": "Wie lange dauert die Besichtigung ungefähr?", "speaker_id": 1 },
+      { "text": "Rechnen Sie mit etwa zwanzig bis dreißig Minuten.", "speaker_id": 0 },
+      { "text": "Alles klar. Dann freue ich mich auf morgen.", "speaker_id": 1 },
+      { "text": "Ich mich auch. Bis morgen um 16 Uhr.", "speaker_id": 0 },
+      { "text": "Bis morgen. Auf Wiederhören.", "speaker_id": 1 },
+      { "text": "Auf Wiederhören.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 206": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Kinderspielplatz.",
+    "conversation": [
+      { "text": "Entschuldigen Sie, wir suchen einen Spielplatz für unsere Kinder.", "speaker_id": 0 },
+      { "text": "Einen Spielplatz? Ja, da ist einer ganz in der Nähe.", "speaker_id": 1 },
+      { "text": "Oh, das ist toll! Ist er weit?", "speaker_id": 0 },
+      { "text": "Nein, nur fünf Minuten zu Fuß.", "speaker_id": 1 },
+      { "text": "Können Sie uns den Weg beschreiben?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße hier entlang.", "speaker_id": 1 },
+      { "text": "Ja.", "speaker_id": 0 },
+      { "text": "Dann biegen Sie in die zweite Straße rechts ein.", "speaker_id": 1 },
+      { "text": "Die zweite rechts.", "speaker_id": 0 },
+      { "text": "Nach etwa hundert Metern sehen Sie den Spielplatz auf der linken Seite, hinter den Bäumen.", "speaker_id": 1 },
+      { "text": "Zweite rechts, hundert Meter, linke Seite. Super!", "speaker_id": 0 },
+      { "text": "Ist der Spielplatz schön?", "speaker_id": 1 },
+      { "text": "Ja, der ist ganz neu gemacht und hat viele tolle Geräte.", "speaker_id": 0 },
+      { "text": "Perfekt! Vielen Dank für Ihre Hilfe!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Viel Spaß beim Spielen!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 207": {
+    "summary": "Jemand fragt nach der Zeit für den Check-in im Hotel.",
+    "conversation": [
+      { "text": "Guten Tag. Wir haben eine Reservierung auf den Namen Becker.", "speaker_id": 0 },
+      { "text": "Guten Tag, Familie Becker. Herzlich willkommen.", "speaker_id": 1 },
+      { "text": "Danke. Ab wann können wir denn einchecken und unser Zimmer bekommen?", "speaker_id": 0 },
+      { "text": "Der offizielle Check-in ist ab 15 Uhr.", "speaker_id": 1 },
+      { "text": "Ab drei Uhr. Okay.", "speaker_id": 0 },
+      { "text": "Ist unser Zimmer vielleicht schon früher fertig?", "speaker_id": 1 },
+      { "text": "Ich kann gerne nachschauen. Einen Moment bitte.", "speaker_id": 0 },
+      { "text": "Danke.", "speaker_id": 1 },
+      { "text": "Sie haben Glück. Ihr Zimmer ist bereits fertig. Sie können sofort einchecken.", "speaker_id": 0 },
+      { "text": "Oh, das ist ja wunderbar! Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gerne. Ich brauche dann nur kurz Ihre Ausweise.", "speaker_id": 0 },
+      { "text": "Natürlich, hier bitte.", "speaker_id": 1 },
+      { "text": "Perfekt. Hier ist Ihr Zimmerschlüssel. Zimmer 305.", "speaker_id": 0 },
+      { "text": "Vielen Dank! Bis wann müssen wir morgen auschecken?", "speaker_id": 1 },
+      { "text": "Check-out ist bis 11 Uhr.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 208": {
+    "summary": "Zwei Kollegen vereinbaren eine Zeit für ein kurzes Meeting am nächsten Tag.",
+    "conversation": [
+      { "text": "Hallo Sophie. Hättest du morgen kurz Zeit für ein Meeting?", "speaker_id": 0 },
+      { "text": "Hallo David. Ja, wahrscheinlich schon. Worum geht es denn?", "speaker_id": 1 },
+      { "text": "Nur um das neue Projekt kurz abzustimmen. Dauert nicht lange.", "speaker_id": 0 },
+      { "text": "Okay. Wann passt es dir denn am besten?", "speaker_id": 1 },
+      { "text": "Wie wäre es direkt morgens? Vielleicht um halb neun?", "speaker_id": 0 },
+      { "text": "Halb neun ist gut. In deinem Büro?", "speaker_id": 1 },
+      { "text": "Ja, lass uns das in meinem Büro machen.", "speaker_id": 0 },
+      { "text": "Wie lange brauchen wir ungefähr? Dreißig Minuten?", "speaker_id": 1 },
+      { "text": "Ja, ich denke, dreißig Minuten sollten reichen.", "speaker_id": 0 },
+      { "text": "Alles klar. Dann trage ich mir das ein: Morgen, halb neun, bei dir.", "speaker_id": 1 },
+      { "text": "Perfekt. Danke dir!", "speaker_id": 0 },
+      { "text": "Kein Problem. Bis morgen!", "speaker_id": 1 },
+      { "text": "Bis morgen, Sophie!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 209": {
+    "summary": "Eine Person fragt nach dem Weg zur nächsten Bank.",
+    "conversation": [
+      { "text": "Entschuldigung, können Sie mir helfen? Ich suche eine Bank.", "speaker_id": 0 },
+      { "text": "Eine Bank? Ja, es gibt mehrere hier in der Nähe. Welche Bank suchen Sie?", "speaker_id": 1 },
+      { "text": "Eigentlich egal, ich brauche nur einen Geldautomaten.", "speaker_id": 0 },
+      { "text": "Ah, okay. Dann gehen Sie am besten zur Sparkasse. Die ist nicht weit.", "speaker_id": 1 },
+      { "text": "Die Sparkasse. Wie komme ich dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße zurück bis zur großen Kreuzung.", "speaker_id": 1 },
+      { "text": "Zurück bis zur Kreuzung.", "speaker_id": 0 },
+      { "text": "Dort biegen Sie links ab. Nach etwa fünfzig Metern ist die Sparkasse auf der rechten Seite.", "speaker_id": 1 },
+      { "text": "Kreuzung links, fünfzig Meter, rechte Seite. Okay.", "speaker_id": 0 },
+      { "text": "Der Geldautomat ist draußen, also immer zugänglich.", "speaker_id": 1 },
+      { "text": "Perfekt, genau das brauche ich.", "speaker_id": 0 },
+      { "text": "Vielen Dank für die Wegbeschreibung!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 210": {
+    "summary": "Jemand fragt nach der Anfangszeit eines Flohmarkts.",
+    "conversation": [
+      { "text": "Entschuldigung, wissen Sie vielleicht, wann der Flohmarkt hier morgen beginnt?", "speaker_id": 0 },
+      { "text": "Der Flohmarkt auf dem Platz? Ja, der fängt immer ziemlich früh an.", "speaker_id": 1 },
+      { "text": "Wie früh ungefähr?", "speaker_id": 0 },
+      { "text": "Ich glaube, die ersten Stände bauen schon um sieben Uhr auf.", "speaker_id": 1 },
+      { "text": "Schon um sieben? Wow.", "speaker_id": 0 },
+      { "text": "Ja, wenn man gute Sachen finden will, sollte man früh da sein.", "speaker_id": 1 },
+      { "text": "Guter Tipp. Bis wann geht der Flohmarkt denn?", "speaker_id": 0 },
+      { "text": "Normalerweise so bis vierzehn oder fünfzehn Uhr.", "speaker_id": 1 },
+      { "text": "Okay, von sieben bis etwa drei Uhr nachmittags.", "speaker_id": 0 },
+      { "text": "Genau. Es lohnt sich meistens.", "speaker_id": 1 },
+      { "text": "Ich liebe Flohmärkte. Ich werde morgen früh kommen.", "speaker_id": 0 },
+      { "text": "Dann viel Erfolg beim Stöbern!", "speaker_id": 1 },
+      { "text": "Danke! Und danke für die Auskunft!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 211": {
+    "summary": "Zwei Personen vereinbaren einen Termin beim Zahnarzt für ihre Kinder.",
+    "conversation": [
+      { "text": "Hallo Frau Schneider. Haben Sie schon einen Termin für die Kinder beim Zahnarzt gemacht?", "speaker_id": 0 },
+      { "text": "Hallo Frau Richter. Nein, noch nicht. Ich wollte heute anrufen.", "speaker_id": 1 },
+      { "text": "Sollen wir versuchen, einen gemeinsamen Termin zu bekommen? Dann können wir zusammen fahren.", "speaker_id": 0 },
+      { "text": "Ja, das ist eine gute Idee! Wann würde es bei Ihnen passen?", "speaker_id": 1 },
+      { "text": "Nächste Woche Mittwoch Nachmittag wäre gut.", "speaker_id": 0 },
+      { "text": "Mittwoch Nachmittag... Ja, das passt bei mir auch. So gegen drei Uhr?", "speaker_id": 1 },
+      { "text": "Ja, drei Uhr ist perfekt.", "speaker_id": 0 },
+      { "text": "Okay, dann rufe ich jetzt in der Praxis an und frage nach zwei Terminen für Mittwoch um drei.", "speaker_id": 1 },
+      { "text": "Super, danke! Sagen Sie mir Bescheid, ob es geklappt hat?", "speaker_id": 0 },
+      { "text": "Mache ich sofort.", "speaker_id": 1 },
+      { "text": "Perfekt. Das wäre sehr praktisch.", "speaker_id": 0 },
+      { "text": "Finde ich auch.", "speaker_id": 1 },
+      { "text": "Danke fürs Kümmern!", "speaker_id": 0 },
+      { "text": "Gerne!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 212": {
+    "summary": "Eine Person fragt nach dem Weg zum Rathaus.",
+    "conversation": [
+      { "text": "Verzeihung, könnten Sie mir bitte sagen, wie ich zum Rathaus komme?", "speaker_id": 0 },
+      { "text": "Zum Rathaus? Ja, das ist ganz einfach.", "speaker_id": 1 },
+      { "text": "Das ist gut.", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße hier immer geradeaus.", "speaker_id": 1 },
+      { "text": "Immer geradeaus?", "speaker_id": 0 },
+      { "text": "Ja, bis Sie zu einem großen Platz kommen. Dem Marktplatz.", "speaker_id": 1 },
+      { "text": "Bis zum Marktplatz.", "speaker_id": 0 },
+      { "text": "Das Rathaus ist das große, alte Gebäude direkt auf dem Platz. Mit dem Turm.", "speaker_id": 1 },
+      { "text": "Das Gebäude mit dem Turm auf dem Marktplatz. Okay.", "speaker_id": 0 },
+      { "text": "Wie lange brauche ich zu Fuß?", "speaker_id": 1 },
+      { "text": "Höchstens zehn Minuten.", "speaker_id": 0 },
+      { "text": "Super. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Ist die Touristeninformation auch dort?", "speaker_id": 0 },
+      { "text": "Ja, die ist im selben Gebäude.", "speaker_id": 1 },
+      { "text": "Perfekt! Danke nochmal!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 213": {
+    "summary": "Jemand fragt nach der Zeit für den Beginn eines Workshops.",
+    "conversation": [
+      { "text": "Guten Morgen. Ich bin hier für den Fotografie-Workshop.", "speaker_id": 0 },
+      { "text": "Guten Morgen. Herzlich willkommen.", "speaker_id": 1 },
+      { "text": "Können Sie mir sagen, wann der Workshop genau beginnt?", "speaker_id": 0 },
+      { "text": "Ja, wir fangen pünktlich um zehn Uhr an.", "speaker_id": 1 },
+      { "text": "Um zehn. Gut, dann habe ich ja noch einen Moment Zeit.", "speaker_id": 0 },
+      { "text": "Genau. Sie können sich gerne schon einen Kaffee nehmen.", "speaker_id": 1 },
+      { "text": "Oh, danke. Wo ist der Workshop-Raum?", "speaker_id": 0 },
+      { "text": "Gleich hier links, Raum Nummer fünf.", "speaker_id": 1 },
+      { "text": "Raum fünf. Okay.", "speaker_id": 0 },
+      { "text": "Wie lange dauert der Workshop heute?", "speaker_id": 1 },
+      { "text": "Er geht bis 16 Uhr, mit einer Mittagspause.", "speaker_id": 0 },
+      { "text": "Alles klar. Ich freue mich schon darauf.", "speaker_id": 1 },
+      { "text": "Das freut uns. Viel Spaß!", "speaker_id": 0 },
+      { "text": "Danke!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 214": {
+    "summary": "Zwei Freunde planen einen gemeinsamen Kochabend und legen die Zeit fest.",
+    "conversation": [
+      { "text": "Hi Lena! Wollen wir am Freitag zusammen kochen?", "speaker_id": 0 },
+      { "text": "Hi Max! Ja, super gerne! Was wollen wir machen?", "speaker_id": 1 },
+      { "text": "Ich dachte an Pizza. Selbstgemacht.", "speaker_id": 0 },
+      { "text": "Oh ja! Lecker! Wann sollen wir anfangen?", "speaker_id": 1 },
+      { "text": "Wie wäre es, wenn du so um 18 Uhr zu mir kommst? Dann können wir alles vorbereiten.", "speaker_id": 0 },
+      { "text": "Um sechs Uhr bei dir. Das passt gut.", "speaker_id": 1 },
+      { "text": "Super. Sollen wir vorher zusammen einkaufen gehen?", "speaker_id": 0 },
+      { "text": "Nein, das schaffe ich nicht. Kannst du die Zutaten besorgen?", "speaker_id": 1 },
+      { "text": "Ja, kein Problem. Ich kaufe alles ein.", "speaker_id": 0 },
+      { "text": "Perfekt! Dann bringe ich eine Flasche Wein mit.", "speaker_id": 1 },
+      { "text": "Sehr gute Idee!", "speaker_id": 0 },
+      { "text": "Okay, dann Freitag, 18 Uhr, bei dir.", "speaker_id": 1 },
+      { "text": "Genau. Ich freue mich!", "speaker_id": 0 },
+      { "text": "Ich mich auch! Bis Freitag!", "speaker_id": 1 },
+      { "text": "Bis dann!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 215": {
+    "summary": "Eine Person fragt nach dem Weg zum Finanzamt.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche das Finanzamt.", "speaker_id": 0 },
+      { "text": "Das Finanzamt? Puh, das ist ein bisschen weiter weg.", "speaker_id": 1 },
+      { "text": "Oh. Kann ich dorthin laufen?", "speaker_id": 0 },
+      { "text": "Laufen ist möglich, aber es dauert sicher zwanzig Minuten.", "speaker_id": 1 },
+      { "text": "Okay. Wie ist der Weg?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße entlang bis zur großen Brücke.", "speaker_id": 1 },
+      { "text": "Bis zur Brücke.", "speaker_id": 0 },
+      { "text": "Überqueren Sie die Brücke. Danach halten Sie sich rechts.", "speaker_id": 1 },
+      { "text": "Nach der Brücke rechts.", "speaker_id": 0 },
+      { "text": "Folgen Sie der Straße für etwa fünfhundert Meter. Dann sehen Sie das große graue Gebäude auf der linken Seite.", "speaker_id": 1 },
+      { "text": "Graues Gebäude, linke Seite. Okay.", "speaker_id": 0 },
+      { "text": "Gibt es auch einen Bus?", "speaker_id": 1 },
+      { "text": "Ja, der Bus Nummer 7 fährt in die Richtung.", "speaker_id": 0 },
+      { "text": "Vielleicht nehme ich doch den Bus. Danke!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 216": {
+    "summary": "Jemand fragt nach der Öffnungszeit der Bibliothek am Samstag.",
+    "conversation": [
+      { "text": "Guten Tag. Ich hätte eine Frage zu Ihren Öffnungszeiten.", "speaker_id": 0 },
+      { "text": "Guten Tag. Ja, bitte?", "speaker_id": 1 },
+      { "text": "Wie lange hat die Bibliothek am Samstag geöffnet?", "speaker_id": 0 },
+      { "text": "Samstags haben wir von zehn Uhr bis dreizehn Uhr geöffnet.", "speaker_id": 1 },
+      { "text": "Nur bis eins? Oh, das ist ja kurz.", "speaker_id": 0 },
+      { "text": "Ja, leider nur am Vormittag.", "speaker_id": 1 },
+      { "text": "Okay, gut zu wissen. Dann muss ich mich beeilen, wenn ich noch Bücher zurückbringen will.", "speaker_id": 0 },
+      { "text": "Ja, das sollten Sie.", "speaker_id": 1 },
+      { "text": "Kann ich Bücher auch online verlängern?", "speaker_id": 0 },
+      { "text": "Ja, das ist möglich über unsere Webseite.", "speaker_id": 1 },
+      { "text": "Ah, das ist praktisch. Vielleicht mache ich das.", "speaker_id": 0 },
+      { "text": "Schauen Sie einfach mal auf die Seite.", "speaker_id": 1 },
+      { "text": "Werde ich tun. Vielen Dank für die Auskunft!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 217": {
+    "summary": "Zwei Kollegen besprechen die Deadline für ein Projekt.",
+    "conversation": [
+      { "text": "Hallo Jens. Wegen des Schneider-Projekts...", "speaker_id": 0 },
+      { "text": "Hallo Karin. Ja, was gibt's?", "speaker_id": 1 },
+      { "text": "Weißt du noch genau, wann die Deadline ist? Ich bin mir nicht mehr sicher.", "speaker_id": 0 },
+      { "text": "Die Deadline ist Ende nächster Woche. Freitag, glaube ich.", "speaker_id": 1 },
+      { "text": "Nächsten Freitag? Bist du sicher?", "speaker_id": 0 },
+      { "text": "Lass mich kurz in der E-Mail nachschauen... Ja, hier steht es: Freitag, 24., bis 17 Uhr.", "speaker_id": 1 },
+      { "text": "Okay, Freitag, der 24. Dann haben wir ja noch etwas Zeit.", "speaker_id": 0 },
+      { "text": "Ja, aber wir sollten trotzdem nicht trödeln.", "speaker_id": 1 },
+      { "text": "Nein, natürlich nicht. Wie weit bist du?", "speaker_id": 0 },
+      { "text": "Ich bin fast fertig mit meinem Teil. Und du?", "speaker_id": 1 },
+      { "text": "Ich brauche noch etwa zwei Tage.", "speaker_id": 0 },
+      { "text": "Okay, das passt ja dann gut. Lass uns Anfang nächster Woche nochmal sprechen.", "speaker_id": 1 },
+      { "text": "Ja, machen wir. Danke fürs Nachschauen!", "speaker_id": 0 },
+      { "text": "Kein Problem.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 218": {
+    "summary": "Eine Person fragt nach dem Weg zur nächsten Tankstelle.",
+    "conversation": [
+      { "text": "Entschuldigung, mein Auto braucht dringend Benzin. Wo ist die nächste Tankstelle?", "speaker_id": 0 },
+      { "text": "Die nächste Tankstelle... Da müssen Sie ein Stück fahren.", "speaker_id": 1 },
+      { "text": "Oh je. In welche Richtung?", "speaker_id": 0 },
+      { "text": "Fahren Sie diese Straße weiter, immer geradeaus.", "speaker_id": 1 },
+      { "text": "Ja...", "speaker_id": 0 },
+      { "text": "Nach etwa zwei Kilometern kommt eine große Kreuzung mit einer Ampel.", "speaker_id": 1 },
+      { "text": "Kreuzung mit Ampel.", "speaker_id": 0 },
+      { "text": "Dort biegen Sie rechts ab. Dann sehen Sie die Tankstelle schon nach hundert Metern.", "speaker_id": 1 },
+      { "text": "Zwei Kilometer geradeaus, Kreuzung rechts. Okay.", "speaker_id": 0 },
+      { "text": "Ist die Tankstelle rund um die Uhr geöffnet?", "speaker_id": 1 },
+      { "text": "Ja, ich glaube, die hat 24 Stunden offen.", "speaker_id": 0 },
+      { "text": "Das ist gut. Hoffentlich reicht mein Benzin noch.", "speaker_id": 1 },
+      { "text": "Ich drücke die Daumen. Fahren Sie vorsichtig.", "speaker_id": 0 },
+      { "text": "Danke! Und vielen Dank für die Hilfe!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 219": {
+    "summary": "Jemand fragt nach der Uhrzeit für den Beginn eines Elternabends.",
+    "conversation": [
+      { "text": "Guten Abend. Ich bin wegen des Elternabends hier.", "speaker_id": 0 },
+      { "text": "Guten Abend. Schön, dass Sie da sind.", "speaker_id": 1 },
+      { "text": "Ich bin etwas früh dran. Wann beginnt der Abend denn genau?", "speaker_id": 0 },
+      { "text": "Offizieller Beginn ist um 19 Uhr.", "speaker_id": 1 },
+      { "text": "Um sieben. Okay.", "speaker_id": 0 },
+      { "text": "Wo findet der Elternabend statt? In der Aula?", "speaker_id": 1 },
+      { "text": "Nein, heute im Klassenraum der Klasse 4b. Gleich den Gang runter, letzte Tür links.", "speaker_id": 0 },
+      { "text": "Klassenraum 4b, letzte Tür links. Danke.", "speaker_id": 1 },
+      { "text": "Wie lange dauert der Abend ungefähr?", "speaker_id": 0 },
+      { "text": "Wir planen etwa eineinhalb bis zwei Stunden ein.", "speaker_id": 1 },
+      { "text": "Okay, das ist gut zu wissen.", "speaker_id": 0 },
+      { "text": "Sie können gerne schon Platz nehmen.", "speaker_id": 1 },
+      { "text": "Danke, das mache ich. Vielen Dank für die Infos.", "speaker_id": 0 },
+      { "text": "Gern geschehen. Bis gleich.", "speaker_id": 1 },
+      { "text": "Bis gleich.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 220": {
+    "summary": "Zwei Freunde planen einen Besuch im Museum und klären Zeit und Treffpunkt.",
+    "conversation": [
+      { "text": "Hi Sofia! Lust auf einen Museumsbesuch am Sonntag?", "speaker_id": 0 },
+      { "text": "Hi Ben! Oh ja, gerne! Welches Museum dachtest du?", "speaker_id": 1 },
+      { "text": "Das technische Museum vielleicht? Da war ich noch nie.", "speaker_id": 0 },
+      { "text": "Gute Idee! Ich auch nicht. Wann wollen wir hingehen?", "speaker_id": 1 },
+      { "text": "Wie wäre es am Nachmittag? Sagen wir um 14 Uhr?", "speaker_id": 0 },
+      { "text": "Vierzehn Uhr passt super.", "speaker_id": 1 },
+      { "text": "Wollen wir uns direkt vor dem Museum treffen?", "speaker_id": 0 },
+      { "text": "Ja, machen wir das so. Dann findet man sich leichter.", "speaker_id": 1 },
+      { "text": "Okay, also Sonntag, 14 Uhr, vor dem technischen Museum.", "speaker_id": 0 },
+      { "text": "Abgemacht. Ich schaue mal nach, wie ich am besten hinkomme.", "speaker_id": 1 },
+      { "text": "Ich nehme die U-Bahn, Linie U5.", "speaker_id": 0 },
+      { "text": "Ah, danke für den Tipp! Super, ich freue mich!", "speaker_id": 1 },
+      { "text": "Ich mich auch! Bis Sonntag!", "speaker_id": 0 },
+      { "text": "Bis Sonntag, Ben!", "speaker_id": 1 },
+      { "text": "Tschüss, Sofia!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 221": {
+    "summary": "Eine Person fragt nach dem Weg zur Schwimmhalle.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche die Schwimmhalle.", "speaker_id": 0 },
+      { "text": "Die Schwimmhalle? Ja, die ist hier ganz in der Nähe.", "speaker_id": 1 },
+      { "text": "Oh, wirklich? Das ist gut.", "speaker_id": 0 },
+      { "text": "Gehen Sie einfach diese Straße weiter bis zum Park.", "speaker_id": 1 },
+      { "text": "Bis zum Park.", "speaker_id": 0 },
+      { "text": "Durchqueren Sie den Park auf dem Hauptweg.", "speaker_id": 1 },
+      { "text": "Den Park durchqueren.", "speaker_id": 0 },
+      { "text": "Auf der anderen Seite des Parks sehen Sie ein großes modernes Gebäude mit viel Glas. Das ist die Schwimmhalle.", "speaker_id": 1 },
+      { "text": "Anderen Seite des Parks, modernes Glasgebäude. Okay.", "speaker_id": 0 },
+      { "text": "Ist es weit durch den Park?", "speaker_id": 1 },
+      { "text": "Nein, vielleicht fünf Minuten zu Fuß.", "speaker_id": 0 },
+      { "text": "Super. Wissen Sie, wann sie öffnet?", "speaker_id": 1 },
+      { "text": "Ich glaube, um neun Uhr morgens.", "speaker_id": 0 },
+      { "text": "Perfekt. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Viel Spaß beim Schwimmen!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 222": {
+    "summary": "Jemand fragt nach der Zeit für die letzte Führung im Schloss.",
+    "conversation": [
+      { "text": "Guten Tag. Finden heute noch Führungen durch das Schloss statt?", "speaker_id": 0 },
+      { "text": "Guten Tag. Ja, wir haben heute noch Führungen.", "speaker_id": 1 },
+      { "text": "Das ist schön. Wann beginnt denn die letzte Führung für heute?", "speaker_id": 0 },
+      { "text": "Die letzte Führung startet um 16 Uhr.", "speaker_id": 1 },
+      { "text": "Um vier Uhr. Okay.", "speaker_id": 0 },
+      { "text": "Wie lange dauert die Führung?", "speaker_id": 1 },
+      { "text": "Die Führung dauert etwa sechzig Minuten.", "speaker_id": 0 },
+      { "text": "Eine Stunde. Und wo ist der Treffpunkt?", "speaker_id": 1 },
+      { "text": "Der Treffpunkt ist im Schlosshof, direkt am Brunnen.", "speaker_id": 0 },
+      { "text": "Im Schlosshof am Brunnen. Gut.", "speaker_id": 1 },
+      { "text": "Muss ich die Karte vorher kaufen?", "speaker_id": 0 },
+      { "text": "Ja, bitte kaufen Sie die Karte hier an der Kasse, bevor die Führung beginnt.", "speaker_id": 1 },
+      { "text": "Okay, das mache ich gleich. Vielen Dank!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Viel Vergnügen bei der Führung!", "speaker_id": 1 },
+      { "text": "Danke schön!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 223": {
+    "summary": "Zwei Kollegen vereinbaren eine Zeit für die Übergabe von Unterlagen.",
+    "conversation": [
+      { "text": "Hallo Martin. Ich habe die Unterlagen für dich fertig.", "speaker_id": 0 },
+      { "text": "Hallo Susanne! Super, danke!", "speaker_id": 1 },
+      { "text": "Wann passt es dir, dass ich sie dir vorbeibringe?", "speaker_id": 0 },
+      { "text": "Ich bin den ganzen Nachmittag im Büro. Komm einfach vorbei, wenn du Zeit hast.", "speaker_id": 1 },
+      { "text": "Wie wäre es in einer Stunde? So gegen drei?", "speaker_id": 0 },
+      { "text": "Ja, drei Uhr ist perfekt.", "speaker_id": 1 },
+      { "text": "Okay, dann komme ich um drei in dein Büro.", "speaker_id": 0 },
+      { "text": "Super. Ist es viel zum Anschauen?", "speaker_id": 1 },
+      { "text": "Nein, nicht sehr viel. Wir können es auch kurz zusammen durchgehen, wenn du willst.", "speaker_id": 0 },
+      { "text": "Ja, gerne. Planen wir dafür zehn Minuten ein.", "speaker_id": 1 },
+      { "text": "Okay. Dann bis um drei.", "speaker_id": 0 },
+      { "text": "Bis dann!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 224": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Blumenladen.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche einen Blumenladen.", "speaker_id": 0 },
+      { "text": "Einen Blumenladen? Ja, da ist einer um die Ecke.", "speaker_id": 1 },
+      { "text": "Oh, das ist gut. Ich brauche einen Blumenstrauß.", "speaker_id": 0 },
+      { "text": "Gehen Sie einfach diese Straße hier entlang.", "speaker_id": 1 },
+      { "text": "Ja?", "speaker_id": 0 },
+      { "text": "An der nächsten Ecke biegen Sie links ab.", "speaker_id": 1 },
+      { "text": "Nächste Ecke links.", "speaker_id": 0 },
+      { "text": "Dann sehen Sie den Laden schon auf der rechten Seite. Er hat viele Blumen vor der Tür stehen.", "speaker_id": 1 },
+      { "text": "Ecke links, rechte Seite, viele Blumen. Alles klar.", "speaker_id": 0 },
+      { "text": "Ist der Laden gut?", "speaker_id": 1 },
+      { "text": "Ja, die haben immer sehr frische und schöne Blumen.", "speaker_id": 0 },
+      { "text": "Perfekt. Vielen Dank für den Tipp!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 225": {
+    "summary": "Jemand fragt nach der Abfahrtszeit des letzten Busses.",
+    "conversation": [
+      { "text": "Entschuldigung, wissen Sie vielleicht, wann der letzte Bus heute Abend fährt?", "speaker_id": 0 },
+      { "text": "Der letzte Bus? Welche Linie meinen Sie?", "speaker_id": 1 },
+      { "text": "Die Linie 9 in Richtung Bahnhof.", "speaker_id": 0 },
+      { "text": "Die Linie 9... Ich schaue mal auf den Fahrplan hier.", "speaker_id": 1 },
+      { "text": "Danke.", "speaker_id": 0 },
+      { "text": "Der letzte Bus der Linie 9 fährt um 23:30 Uhr.", "speaker_id": 1 },
+      { "text": "Um halb zwölf? Okay, das ist ja noch etwas hin.", "speaker_id": 0 },
+      { "text": "Ja. Fährt er die ganze Strecke bis zum Bahnhof?", "speaker_id": 1 },
+      { "text": "Ja, der fährt bis zur Endhaltestelle am Bahnhof.", "speaker_id": 0 },
+      { "text": "Gut zu wissen.", "speaker_id": 1 },
+      { "text": "Verpassen Sie ihn nicht!", "speaker_id": 0 },
+      { "text": "Nein, ich passe auf die Zeit auf. Vielen Dank für die Auskunft!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Schönen Abend noch.", "speaker_id": 0 },
+      { "text": "Danke, Ihnen auch!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 226": {
+    "summary": "Zwei Personen vereinbaren einen Termin für ein Telefonat.",
+    "conversation": [
+      { "text": "Hallo Herr Fischer, hier ist Frau Bergmann.", "speaker_id": 0 },
+      { "text": "Guten Tag, Frau Bergmann. Was kann ich für Sie tun?", "speaker_id": 1 },
+      { "text": "Ich wollte fragen, wann wir wegen des Vertrags telefonieren können? Ich habe noch ein paar Fragen.", "speaker_id": 0 },
+      { "text": "Gerne. Wann passt es Ihnen denn?", "speaker_id": 1 },
+      { "text": "Hätten Sie vielleicht morgen Vormittag Zeit?", "speaker_id": 0 },
+      { "text": "Morgen Vormittag... Ja, das geht. Wie wäre es um zehn Uhr?", "speaker_id": 1 },
+      { "text": "Zehn Uhr ist perfekt.", "speaker_id": 0 },
+      { "text": "Soll ich Sie anrufen oder rufen Sie mich an?", "speaker_id": 1 },
+      { "text": "Rufen Sie mich bitte an. Sie haben meine Nummer?", "speaker_id": 0 },
+      { "text": "Ja, die habe ich. Dann rufe ich Sie morgen um zehn Uhr an.", "speaker_id": 1 },
+      { "text": "Wunderbar. Wie lange brauchen wir ungefähr?", "speaker_id": 0 },
+      { "text": "Ich denke, zwanzig Minuten sollten reichen.", "speaker_id": 1 },
+      { "text": "Okay. Vielen Dank, Herr Fischer.", "speaker_id": 0 },
+      { "text": "Gern geschehen, Frau Bergmann. Bis morgen.", "speaker_id": 1 },
+      { "text": "Bis morgen. Auf Wiederhören.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 227": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Parkhaus.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche ein Parkhaus.", "speaker_id": 0 },
+      { "text": "Ein Parkhaus? Ja, das nächste ist nicht weit.", "speaker_id": 1 },
+      { "text": "Das ist gut. Mein Auto steht hier im Halteverbot.", "speaker_id": 0 },
+      { "text": "Oh, dann schnell weg. Fahren Sie die Straße hier weiter.", "speaker_id": 1 },
+      { "text": "Ja?", "speaker_id": 0 },
+      { "text": "An der nächsten Kreuzung biegen Sie links ab.", "speaker_id": 1 },
+      { "text": "Nächste Kreuzung links.", "speaker_id": 0 },
+      { "text": "Dann sehen Sie nach etwa fünfzig Metern auf der rechten Seite die Einfahrt zum Parkhaus 'Zentrum'.", "speaker_id": 1 },
+      { "text": "Kreuzung links, fünfzig Meter, rechte Seite, Parkhaus 'Zentrum'. Okay.", "speaker_id": 0 },
+      { "text": "Ist das Parkhaus teuer?", "speaker_id": 1 },
+      { "text": "Es ist nicht ganz billig, aber zentral gelegen.", "speaker_id": 0 },
+      { "text": "Verstehe. Hauptsache, das Auto ist sicher geparkt.", "speaker_id": 1 },
+      { "text": "Genau. Vielen Dank für die schnelle Hilfe!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Beeilen Sie sich!", "speaker_id": 1 },
+      { "text": "Mache ich!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 228": {
+    "summary": "Jemand fragt nach der Uhrzeit für den Beginn eines Gottesdienstes.",
+    "conversation": [
+      { "text": "Guten Tag. Entschuldigen Sie die Störung.", "speaker_id": 0 },
+      { "text": "Guten Tag. Keine Störung.", "speaker_id": 1 },
+      { "text": "Ich wollte fragen, wann morgen der Gottesdienst beginnt?", "speaker_id": 0 },
+      { "text": "Der Sonntagsgottesdienst beginnt immer um zehn Uhr.", "speaker_id": 1 },
+      { "text": "Um zehn Uhr. Okay.", "speaker_id": 0 },
+      { "text": "Findet er hier in dieser Kirche statt?", "speaker_id": 1 },
+      { "text": "Ja, genau hier.", "speaker_id": 0 },
+      { "text": "Wie lange dauert der Gottesdienst ungefähr?", "speaker_id": 1 },
+      { "text": "Etwa eine Stunde.", "speaker_id": 0 },
+      { "text": "Eine Stunde. Gut.", "speaker_id": 1 },
+      { "text": "Ist jeder willkommen?", "speaker_id": 0 },
+      { "text": "Ja, natürlich. Jeder ist herzlich willkommen.", "speaker_id": 1 },
+      { "text": "Schön. Dann komme ich morgen vielleicht vorbei.", "speaker_id": 0 },
+      { "text": "Wir würden uns freuen. Schönen Tag noch.", "speaker_id": 1 },
+      { "text": "Danke, Ihnen auch!", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 229": {
+    "summary": "Zwei Freunde planen einen Besuch im Fitnessstudio und legen die Zeit fest.",
+    "conversation": [
+      { "text": "Hi Chris! Lust, morgen zusammen ins Fitnessstudio zu gehen?", "speaker_id": 0 },
+      { "text": "Hi Alex! Ja, gute Idee! Wann willst du gehen?", "speaker_id": 1 },
+      { "text": "Ich dachte an den späten Nachmittag. So gegen 17 Uhr?", "speaker_id": 0 },
+      { "text": "Siebzehn Uhr passt gut bei mir. Dann ist es meistens nicht so voll.", "speaker_id": 1 },
+      { "text": "Ja, das hoffe ich auch. Treffen wir uns direkt dort?", "speaker_id": 0 },
+      { "text": "Ja, machen wir so. Am Eingang um 17 Uhr.", "speaker_id": 1 },
+      { "text": "Perfekt.", "speaker_id": 0 },
+      { "text": "Was willst du trainieren? Ausdauer oder Kraft?", "speaker_id": 1 },
+      { "text": "Ich dachte, wir machen erst etwas Ausdauer und dann ein paar Kraftübungen.", "speaker_id": 0 },
+      { "text": "Okay, klingt gut. Planen wir so anderthalb Stunden ein?", "speaker_id": 1 },
+      { "text": "Ja, das sollte reichen.", "speaker_id": 0 },
+      { "text": "Super, dann bis morgen um fünf!", "speaker_id": 1 },
+      { "text": "Bis morgen!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 230": {
+    "summary": "Eine Person fragt nach dem Weg zur nächsten Buchhandlung.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche eine Buchhandlung.", "speaker_id": 0 },
+      { "text": "Eine Buchhandlung? Ja, da gibt es eine sehr gute in der Nähe.", "speaker_id": 1 },
+      { "text": "Oh, super. Wo finde ich die?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße entlang bis zur zweiten Kreuzung.", "speaker_id": 1 },
+      { "text": "Zweite Kreuzung.", "speaker_id": 0 },
+      { "text": "Dort biegen Sie rechts ab.", "speaker_id": 1 },
+      { "text": "Rechts abbiegen.", "speaker_id": 0 },
+      { "text": "Die Buchhandlung ist dann nach etwa hundert Metern auf der linken Seite. Sie heißt 'Lesewelt'.", "speaker_id": 1 },
+      { "text": "Zweite Kreuzung rechts, hundert Meter, linke Seite, 'Lesewelt'. Habe ich verstanden.", "speaker_id": 0 },
+      { "text": "Haben die eine große Auswahl?", "speaker_id": 1 },
+      { "text": "Ja, die haben wirklich viele Bücher. Auch englische.", "speaker_id": 0 },
+      { "text": "Perfekt. Vielen Dank für Ihre Hilfe!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Viel Spaß beim Stöbern!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 231": {
+    "summary": "Jemand fragt nach der Dauer einer geplanten Besprechung.",
+    "conversation": [
+      { "text": "Hallo Frau Klein. Wegen der Besprechung heute Nachmittag...", "speaker_id": 0 },
+      { "text": "Hallo Herr Baum. Ja?", "speaker_id": 1 },
+      { "text": "Wissen Sie, wie lange die ungefähr dauern wird? Ich habe danach noch einen anderen Termin.", "speaker_id": 0 },
+      { "text": "Im Kalender steht eine Stunde, von 14 bis 15 Uhr.", "speaker_id": 1 },
+      { "text": "Eine Stunde. Okay.", "speaker_id": 0 },
+      { "text": "Meinen Sie, wir schaffen das in der Zeit?", "speaker_id": 1 },
+      { "text": "Ich denke schon. Wir müssen uns auf die wichtigsten Punkte konzentrieren.", "speaker_id": 0 },
+      { "text": "Gut. Ich habe meine Unterlagen vorbereitet.", "speaker_id": 1 },
+      { "text": "Ich auch. Dann sollte es klappen.", "speaker_id": 0 },
+      { "text": "Treffen wir uns in Konferenzraum 2?", "speaker_id": 1 },
+      { "text": "Ja, Raum 2 um 14 Uhr.", "speaker_id": 0 },
+      { "text": "Alles klar. Danke für die Info.", "speaker_id": 1 },
+      { "text": "Kein Problem. Bis später.", "speaker_id": 0 },
+      { "text": "Bis später.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 232": {
+    "summary": "Zwei Personen vereinbaren einen Termin für ein gemeinsames Frühstück.",
+    "conversation": [
+      { "text": "Hi Anna! Lange nicht gesehen. Wie geht's dir?", "speaker_id": 0 },
+      { "text": "Hi Tom! Mir geht's gut, danke. Und dir?", "speaker_id": 1 },
+      { "text": "Auch gut. Du, hast du vielleicht nächste Woche mal Zeit für ein Frühstück?", "speaker_id": 0 },
+      { "text": "Frühstück? Ja, gerne! Wann denn?", "speaker_id": 1 },
+      { "text": "Wie wäre es am Mittwochmorgen? So um halb zehn?", "speaker_id": 0 },
+      { "text": "Mittwoch halb zehn... Ja, das passt super.", "speaker_id": 1 },
+      { "text": "Super. Wo wollen wir hingehen? Ins Café 'Morgenmuffel'?", "speaker_id": 0 },
+      { "text": "Ja! Da wollte ich schon immer mal hin. Die sollen tolles Frühstück haben.", "speaker_id": 1 },
+      { "text": "Habe ich auch gehört. Also Mittwoch, 9:30 Uhr, Café 'Morgenmuffel'.", "speaker_id": 0 },
+      { "text": "Abgemacht. Ich trage es mir ein.", "speaker_id": 1 },
+      { "text": "Perfekt. Ich freue mich drauf!", "speaker_id": 0 },
+      { "text": "Ich mich auch! Dann bis Mittwoch!", "speaker_id": 1 },
+      { "text": "Bis Mittwoch, Anna!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 233": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Copyshop.",
+    "conversation": [
+      { "text": "Entschuldigung, ich muss dringend etwas kopieren. Wo ist der nächste Copyshop?", "speaker_id": 0 },
+      { "text": "Ein Copyshop? Da gibt es einen in der Nähe der Universität.", "speaker_id": 1 },
+      { "text": "Bei der Universität. Okay. Wie komme ich dorthin?", "speaker_id": 0 },
+      { "text": "Nehmen Sie am besten die Straßenbahn Linie 3.", "speaker_id": 1 },
+      { "text": "Linie 3. Bis zur Haltestelle 'Universität'?", "speaker_id": 0 },
+      { "text": "Genau. Wenn Sie dort aussteigen, gehen Sie ein kleines Stück zurück.", "speaker_id": 1 },
+      { "text": "Ein Stück zurück.", "speaker_id": 0 },
+      { "text": "Dann sehen Sie auf der rechten Seite einen kleinen Laden mit einem großen Schild 'Copy & Print'.", "speaker_id": 1 },
+      { "text": "Okay, Haltestelle Universität, zurückgehen, rechte Seite, 'Copy & Print'.", "speaker_id": 0 },
+      { "text": "Sind die schnell?", "speaker_id": 1 },
+      { "text": "Ja, normalerweise geht das dort recht zügig.", "speaker_id": 0 },
+      { "text": "Gut, das ist wichtig. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 234": {
+    "summary": "Jemand fragt nach der Endzeit eines Wochenmarktes.",
+    "conversation": [
+      { "text": "Entschuldigen Sie, wissen Sie, bis wann der Wochenmarkt heute geöffnet ist?", "speaker_id": 0 },
+      { "text": "Der Wochenmarkt? Der geht normalerweise bis Mittag.", "speaker_id": 1 },
+      { "text": "Bis Mittag? Wie spät ist es denn jetzt?", "speaker_id": 0 },
+      { "text": "Es ist jetzt kurz vor zwölf.", "speaker_id": 1 },
+      { "text": "Oh, dann muss ich mich aber beeilen!", "speaker_id": 0 },
+      { "text": "Ja, die meisten Stände fangen bald an abzubauen.", "speaker_id": 1 },
+      { "text": "Ich wollte noch frisches Gemüse kaufen.", "speaker_id": 0 },
+      { "text": "Dann sollten Sie jetzt schnell hingehen. Der Markt ist gleich dort vorne.", "speaker_id": 1 },
+      { "text": "Okay, ich laufe los.", "speaker_id": 0 },
+      { "text": "Viel Erfolg!", "speaker_id": 1 },
+      { "text": "Danke! Und danke für die Auskunft!", "speaker_id": 0 },
+      { "text": "Kein Problem.", "speaker_id": 1 }
+    ]
+  },
+    "Szenario 235": {
+    "summary": "Zwei Personen vereinbaren einen Termin für eine Lerngruppe.",
+    "conversation": [
+      { "text": "Hallo Lisa. Wegen der Prüfung nächste Woche...", "speaker_id": 0 },
+      { "text": "Hallo Ben. Ja, die ist echt schwer.", "speaker_id": 1 },
+      { "text": "Ich dachte, vielleicht könnten wir eine Lerngruppe machen? Mit Julia vielleicht?", "speaker_id": 0 },
+      { "text": "Gute Idee! Zusammen lernen ist besser. Wann hättet ihr Zeit?", "speaker_id": 1 },
+      { "text": "Wie wäre es am Montagnachmittag?", "speaker_id": 0 },
+      { "text": "Montagnachmittag passt bei mir. So ab 15 Uhr?", "speaker_id": 1 },
+      { "text": "Ja, 15 Uhr ist gut. Ich frage Julia, ob sie auch kann.", "speaker_id": 0 },
+      { "text": "Okay. Wo wollen wir uns treffen? In der Bibliothek?", "speaker_id": 1 },
+      { "text": "Ja, in der Bibliothek ist es ruhig. Im Gruppenarbeitsraum?", "speaker_id": 0 },
+      { "text": "Perfekt. Dann Montag, 15 Uhr, Bibliothek, Gruppenraum.", "speaker_id": 1 },
+      { "text": "Ich gebe dir Bescheid, was Julia sagt.", "speaker_id": 0 },
+      { "text": "Super. Danke fürs Organisieren!", "speaker_id": 1 },
+      { "text": "Gerne. Bis Montag dann hoffentlich.", "speaker_id": 0 },
+      { "text": "Ja, bis Montag!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 236": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten öffentlichen WC.",
+    "conversation": [
+      { "text": "Verzeihung, könnten Sie mir bitte sagen, wo ich hier eine öffentliche Toilette finde?", "speaker_id": 0 },
+      { "text": "Eine öffentliche Toilette... Ja, da drüben im Kaufhaus gibt es welche.", "speaker_id": 1 },
+      { "text": "Im Kaufhaus?", "speaker_id": 0 },
+      { "text": "Ja, gehen Sie einfach rein. Im zweiten Stock sind die Kundentoiletten.", "speaker_id": 1 },
+      { "text": "Im zweiten Stock. Okay.", "speaker_id": 0 },
+      { "text": "Ist die Benutzung kostenlos?", "speaker_id": 1 },
+      { "text": "Normalerweise ja, oder es kostet vielleicht fünfzig Cent.", "speaker_id": 0 },
+      { "text": "Alles klar. Gibt es auch eine draußen?", "speaker_id": 1 },
+      { "text": "Ich glaube, am Bahnhof gibt es auch welche, aber das ist weiter weg.", "speaker_id": 0 },
+      { "text": "Dann gehe ich lieber ins Kaufhaus.", "speaker_id": 1 },
+      { "text": "Das ist wahrscheinlich am einfachsten.", "speaker_id": 0 },
+      { "text": "Vielen Dank für Ihre Hilfe!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 237": {
+    "summary": "Jemand fragt nach der Dauer einer Mittagspause bei einer Veranstaltung.",
+    "conversation": [
+      { "text": "Entschuldigung, kurze Frage zur Mittagspause.", "speaker_id": 0 },
+      { "text": "Ja, bitte?", "speaker_id": 1 },
+      { "text": "Wann beginnt die Mittagspause und wie lange dauert sie?", "speaker_id": 0 },
+      { "text": "Die Mittagspause beginnt um 12:30 Uhr und dauert eine Stunde.", "speaker_id": 1 },
+      { "text": "Von halb eins bis halb zwei also.", "speaker_id": 0 },
+      { "text": "Genau.", "speaker_id": 1 },
+      { "text": "Gibt es hier in der Nähe Möglichkeiten zum Essen?", "speaker_id": 0 },
+      { "text": "Ja, es gibt eine Kantine im Gebäude und draußen sind auch ein paar kleine Restaurants.", "speaker_id": 1 },
+      { "text": "Okay, gut zu wissen.", "speaker_id": 0 },
+      { "text": "Wann geht das Programm danach weiter?", "speaker_id": 1 },
+      { "text": "Um 13:30 Uhr geht es weiter mit dem nächsten Programmpunkt.", "speaker_id": 0 },
+      { "text": "Alles klar. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Guten Appetit dann!", "speaker_id": 0 },
+      { "text": "Danke!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 238": {
+    "summary": "Zwei Personen vereinbaren einen Termin für eine Probefahrt beim Autohändler.",
+    "conversation": [
+      { "text": "Guten Tag, Autohaus Müller, mein Name ist Schneider.", "speaker_id": 1 },
+      { "text": "Guten Tag, hier spricht Bauer. Ich interessiere mich für den blauen Kleinwagen und würde gerne eine Probefahrt machen.", "speaker_id": 0 },
+      { "text": "Sehr gerne, Herr Bauer. Wann würde es Ihnen denn zeitlich passen?", "speaker_id": 1 },
+      { "text": "Hätten Sie vielleicht morgen Nachmittag Zeit?", "speaker_id": 0 },
+      { "text": "Morgen Nachmittag... Ja, das sollte gehen. Wie wäre es um 15 Uhr?", "speaker_id": 1 },
+      { "text": "Fünfzehn Uhr ist perfekt.", "speaker_id": 0 },
+      { "text": "Gut. Dann reserviere ich den Wagen für Sie für eine Probefahrt morgen um 15 Uhr.", "speaker_id": 1 },
+      { "text": "Wie lange dauert die Probefahrt normalerweise?", "speaker_id": 0 },
+      { "text": "Sie können etwa eine Stunde fahren.", "speaker_id": 1 },
+      { "text": "Eine Stunde. Okay.", "speaker_id": 0 },
+      { "text": "Bringen Sie bitte Ihren Führerschein mit.", "speaker_id": 1 },
+      { "text": "Ja, natürlich.", "speaker_id": 0 },
+      { "text": "Wunderbar. Dann freuen wir uns auf Sie morgen.", "speaker_id": 1 },
+      { "text": "Ich mich auch. Vielen Dank! Auf Wiederhören.", "speaker_id": 0 },
+      { "text": "Gern geschehen. Auf Wiederhören, Herr Bauer.", "speaker_id": 1 }
+    ]
+  },
+    "Szenario 239": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Fahrradverleih.",
+    "conversation": [
+      { "text": "Entschuldigung, wir würden gerne Fahrräder leihen. Wissen Sie, wo das möglich ist?", "speaker_id": 0 },
+      { "text": "Fahrräder leihen? Ja, es gibt einen Fahrradverleih am Bahnhof.", "speaker_id": 1 },
+      { "text": "Am Bahnhof. Ist der weit weg?", "speaker_id": 0 },
+      { "text": "Nein, etwa zehn Minuten zu Fuß.", "speaker_id": 1 },
+      { "text": "Wie kommen wir dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße immer geradeaus.", "speaker_id": 1 },
+      { "text": "Ja.", "speaker_id": 0 },
+      { "text": "Dann sehen Sie schon das große Bahnhofsgebäude. Der Verleih ist direkt daneben.", "speaker_id": 1 },
+      { "text": "Geradeaus bis zum Bahnhof, Verleih daneben. Okay.", "speaker_id": 0 },
+      { "text": "Haben die auch Kinderfahrräder?", "speaker_id": 1 },
+      { "text": "Ja, ich glaube schon. Sie haben eine recht große Auswahl.", "speaker_id": 0 },
+      { "text": "Super. Was kostet das ungefähr?", "speaker_id": 1 },
+      { "text": "Das weiß ich leider nicht genau. Aber es ist nicht sehr teuer.", "speaker_id": 0 },
+      { "text": "Alles klar. Vielen Dank für die Hilfe!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Viel Spaß beim Radfahren!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 240": {
+    "summary": "Jemand fragt nach der Uhrzeit für den Filmbeginn im Open-Air-Kino.",
+    "conversation": [
+      { "text": "Guten Abend. Wann beginnt denn der Film heute Abend?", "speaker_id": 0 },
+      { "text": "Guten Abend. Der Film startet, sobald es dunkel genug ist.", "speaker_id": 1 },
+      { "text": "Ah, okay. Und wann ist das ungefähr?", "speaker_id": 0 },
+      { "text": "Normalerweise so gegen 21:30 Uhr im Moment.", "speaker_id": 1 },
+      { "text": "Halb zehn. Gut.", "speaker_id": 0 },
+      { "text": "Sollte man vorher schon da sein, um gute Plätze zu bekommen?", "speaker_id": 1 },
+      { "text": "Ja, das ist empfehlenswert. Der Einlass beginnt um 20:30 Uhr.", "speaker_id": 0 },
+      { "text": "Halb neun Einlass, halb zehn Filmbeginn. Okay.", "speaker_id": 1 },
+      { "text": "Gibt es auch Decken zum Ausleihen?", "speaker_id": 0 },
+      { "text": "Ja, wir haben Decken gegen eine kleine Gebühr.", "speaker_id": 1 },
+      { "text": "Das ist gut, es wird ja doch kühl am Abend.", "speaker_id": 0 },
+      { "text": "Stimmt. Bringen Sie vielleicht auch etwas Warmes zum Anziehen mit.", "speaker_id": 1 },
+      { "text": "Guter Tipp, danke!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Viel Spaß!", "speaker_id": 1 },
+      { "text": "Danke!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 241": {
+    "summary": "Zwei Kollegen vereinbaren eine Zeit für einen kurzen Austausch über ein Problem.",
+    "conversation": [
+      { "text": "Hallo Anja. Hast du eine Minute?", "speaker_id": 0 },
+      { "text": "Hallo Markus. Ja, kurz. Was gibt's?", "speaker_id": 1 },
+      { "text": "Ich habe ein Problem mit der Software und dachte, du kennst dich da vielleicht aus.", "speaker_id": 0 },
+      { "text": "Okay. Worum geht es genau?", "speaker_id": 1 },
+      { "text": "Es ist etwas kompliziert zu erklären. Hättest du später vielleicht zehn Minuten Zeit?", "speaker_id": 0 },
+      { "text": "Ja, wann denn?", "speaker_id": 1 },
+      { "text": "Wie wäre es kurz vor der Mittagspause? So um halb zwölf?", "speaker_id": 0 },
+      { "text": "Halb zwölf passt gut. Komm einfach zu meinem Platz.", "speaker_id": 1 },
+      { "text": "Super, danke dir!", "speaker_id": 0 },
+      { "text": "Kein Problem. Vielleicht finden wir ja eine Lösung.", "speaker_id": 1 },
+      { "text": "Das hoffe ich. Dann bis halb zwölf.", "speaker_id": 0 },
+      { "text": "Bis dann.", "speaker_id": 1 }
+    ]
+  },
+    "Szenario 242": {
+    "summary": "Eine Person fragt nach dem Weg zum Standesamt.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche das Standesamt.", "speaker_id": 0 },
+      { "text": "Das Standesamt? Ja, das ist im Rathaus.", "speaker_id": 1 },
+      { "text": "Im Rathaus? Okay. Und wie komme ich zum Rathaus?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße entlang bis zum großen Marktplatz.", "speaker_id": 1 },
+      { "text": "Bis zum Marktplatz.", "speaker_id": 0 },
+      { "text": "Das Rathaus ist das große Gebäude mit dem Turm auf dem Platz.", "speaker_id": 1 },
+      { "text": "Das Gebäude mit dem Turm. Verstanden.", "speaker_id": 0 },
+      { "text": "In welchem Stockwerk ist das Standesamt?", "speaker_id": 1 },
+      { "text": "Ich glaube, im ersten Stock. Aber es gibt sicher Schilder.", "speaker_id": 0 },
+      { "text": "Okay. Gibt es dort einen Aufzug?", "speaker_id": 1 },
+      { "text": "Ja, im Rathaus gibt es einen Aufzug.", "speaker_id": 0 },
+      { "text": "Gut. Vielen Dank für Ihre Hilfe!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 243": {
+    "summary": "Jemand fragt nach der Zeit für den Beginn eines Sprachkurses.",
+    "conversation": [
+      { "text": "Guten Abend. Ich bin neu hier für den Deutschkurs.", "speaker_id": 0 },
+      { "text": "Guten Abend. Herzlich willkommen!", "speaker_id": 1 },
+      { "text": "Können Sie mir sagen, wann der Kurs genau beginnt?", "speaker_id": 0 },
+      { "text": "Der Kurs fängt um 18:30 Uhr an.", "speaker_id": 1 },
+      { "text": "Um halb sieben. Okay.", "speaker_id": 0 },
+      { "text": "In welchem Raum findet der Kurs statt?", "speaker_id": 1 },
+      { "text": "Im Raum 12, gleich hier den Gang runter auf der rechten Seite.", "speaker_id": 0 },
+      { "text": "Raum 12, rechts. Danke.", "speaker_id": 1 },
+      { "text": "Wie lange dauert der Kurs heute?", "speaker_id": 0 },
+      { "text": "Er geht bis 20 Uhr.", "speaker_id": 1 },
+      { "text": "Bis acht. Gut.", "speaker_id": 0 },
+      { "text": "Muss ich etwas mitbringen?", "speaker_id": 1 },
+      { "text": "Nur einen Stift und Papier. Das Buch bekommen Sie im Kurs.", "speaker_id": 0 },
+      { "text": "Alles klar. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Viel Erfolg beim Lernen!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 244": {
+    "summary": "Zwei Freunde planen einen Besuch im Zoo und legen Zeit und Treffpunkt fest.",
+    "conversation": [
+      { "text": "Hi Julia! Was machst du am Wochenende?", "speaker_id": 0 },
+      { "text": "Hi Finn! Ich habe noch nichts vor. Warum?", "speaker_id": 1 },
+      { "text": "Hast du Lust, in den Zoo zu gehen? Am Samstag vielleicht?", "speaker_id": 0 },
+      { "text": "Oh ja, Zoo ist toll! Gerne! Wann willst du los?", "speaker_id": 1 },
+      { "text": "Ich dachte, wir treffen uns so um 10 Uhr vormittags?", "speaker_id": 0 },
+      { "text": "Zehn Uhr ist gut. Treffen wir uns direkt am Eingang?", "speaker_id": 1 },
+      { "text": "Ja, das ist am einfachsten.", "speaker_id": 0 },
+      { "text": "Okay, Samstag, 10 Uhr, am Zoo-Eingang.", "speaker_id": 1 },
+      { "text": "Perfekt. Ich freue mich schon auf die Affen!", "speaker_id": 0 },
+      { "text": "Ich mich auf die Elefanten! Sollen wir was zu essen mitnehmen?", "speaker_id": 1 },
+      { "text": "Ja, vielleicht ein paar Brote? Dann müssen wir dort nichts Teures kaufen.", "speaker_id": 0 },
+      { "text": "Gute Idee. Mache ich.", "speaker_id": 1 },
+      { "text": "Super. Bis Samstag!", "speaker_id": 0 },
+      { "text": "Bis Samstag!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 245": {
+    "summary": "Eine Person fragt nach dem Weg zur nächsten Reinigung.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche eine Reinigung für meinen Anzug.", "speaker_id": 0 },
+      { "text": "Eine Reinigung? Ja, da gibt es eine gute hier in der Straße.", "speaker_id": 1 },
+      { "text": "Oh, wirklich? Wo genau?", "speaker_id": 0 },
+      { "text": "Gehen Sie einfach diese Straße weiter.", "speaker_id": 1 },
+      { "text": "Ja.", "speaker_id": 0 },
+      { "text": "Nach etwa zweihundert Metern sehen Sie sie auf der linken Seite. Neben dem Bäcker.", "speaker_id": 1 },
+      { "text": "Zweihundert Meter, linke Seite, neben dem Bäcker. Okay.", "speaker_id": 0 },
+      { "text": "Wie lange brauchen die normalerweise?", "speaker_id": 1 },
+      { "text": "Normalerweise zwei bis drei Tage.", "speaker_id": 0 },
+      { "text": "Das passt. Bis wann haben die heute geöffnet?", "speaker_id": 1 },
+      { "text": "Ich glaube, bis achtzehn Uhr.", "speaker_id": 0 },
+      { "text": "Gut, dann schaffe ich das noch. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 246": {
+    "summary": "Jemand fragt nach der Zeit für den Beginn einer Auktion.",
+    "conversation": [
+      { "text": "Guten Tag. Findet heute hier eine Auktion statt?", "speaker_id": 0 },
+      { "text": "Guten Tag. Ja, die Kunstauktion.", "speaker_id": 1 },
+      { "text": "Genau die. Wann beginnt sie denn?", "speaker_id": 0 },
+      { "text": "Die Auktion beginnt um 14 Uhr.", "speaker_id": 1 },
+      { "text": "Um zwei Uhr. Okay.", "speaker_id": 0 },
+      { "text": "Kann man vorher die Objekte besichtigen?", "speaker_id": 1 },
+      { "text": "Ja, die Vorbesichtigung ist noch bis 13:30 Uhr möglich.", "speaker_id": 0 },
+      { "text": "Ah, gut. Dann schaue ich mich jetzt noch schnell um.", "speaker_id": 1 },
+      { "text": "Wo ist die Vorbesichtigung?", "speaker_id": 0 },
+      { "text": "Gleich hier im vorderen Saal.", "speaker_id": 1 },
+      { "text": "Und die Auktion selbst?", "speaker_id": 0 },
+      { "text": "Die findet im großen Saal hinten statt.", "speaker_id": 1 },
+      { "text": "Alles klar. Vielen Dank!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Viel Erfolg bei der Auktion!", "speaker_id": 1 },
+      { "text": "Danke!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 247": {
+    "summary": "Zwei Nachbarn vereinbaren eine Zeit für die Gartenarbeit.",
+    "conversation": [
+      { "text": "Hallo Herr Kunze. Die Hecke müsste mal wieder geschnitten werden.", "speaker_id": 0 },
+      { "text": "Hallo Frau Berg. Ja, Sie haben recht. Sie ist ganz schön gewachsen.", "speaker_id": 1 },
+      { "text": "Wollen wir das zusammen am Samstag machen?", "speaker_id": 0 },
+      { "text": "Ja, gerne. Wann passt es Ihnen denn?", "speaker_id": 1 },
+      { "text": "Wie wäre es am Vormittag? So gegen zehn?", "speaker_id": 0 },
+      { "text": "Zehn Uhr ist gut. Dann ist es noch nicht so heiß.", "speaker_id": 1 },
+      { "text": "Genau. Haben Sie eine Heckenschere?", "speaker_id": 0 },
+      { "text": "Ja, ich habe eine elektrische. Die können wir benutzen.", "speaker_id": 1 },
+      { "text": "Super. Dann brauchen wir nur noch Säcke für den Abfall.", "speaker_id": 0 },
+      { "text": "Die habe ich auch. Okay, dann Samstag um zehn bei mir im Garten?", "speaker_id": 1 },
+      { "text": "Ja, machen wir so.", "speaker_id": 0 },
+      { "text": "Perfekt. Bis Samstag!", "speaker_id": 1 },
+      { "text": "Bis Samstag!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 248": {
+    "summary": "Eine Person fragt nach dem Weg zum Arbeitsamt.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche das Arbeitsamt.", "speaker_id": 0 },
+      { "text": "Das Arbeitsamt? Ja, das ist in der Nähe vom Bahnhof.", "speaker_id": 1 },
+      { "text": "Beim Bahnhof. Okay. Wie komme ich am besten dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße entlang bis zum Ende.", "speaker_id": 1 },
+      { "text": "Ja.", "speaker_id": 0 },
+      { "text": "Dort sehen Sie den Bahnhof. Gehen Sie rechts am Bahnhof vorbei.", "speaker_id": 1 },
+      { "text": "Rechts am Bahnhof vorbei.", "speaker_id": 0 },
+      { "text": "Dann kommt nach etwa hundert Metern ein großes, modernes Bürogebäude. Das ist das Arbeitsamt.", "speaker_id": 1 },
+      { "text": "Hundert Meter nach dem Bahnhof, modernes Gebäude. Verstanden.", "speaker_id": 0 },
+      { "text": "Wann haben die geöffnet?", "speaker_id": 1 },
+      { "text": "Das weiß ich leider nicht genau. Aber vormittags sicher.", "speaker_id": 0 },
+      { "text": "Okay. Ich versuche es einfach. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Viel Erfolg!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 249": {
+    "summary": "Jemand fragt nach der Startzeit einer Yogastunde im Park.",
+    "conversation": [
+      { "text": "Hallo! Findet hier gleich die Yogastunde statt?", "speaker_id": 0 },
+      { "text": "Hallo! Ja, genau hier.", "speaker_id": 1 },
+      { "text": "Super. Wann geht es denn los?", "speaker_id": 0 },
+      { "text": "Wir fangen um 18 Uhr an.", "speaker_id": 1 },
+      { "text": "Um sechs. Gut, dann bin ich ja pünktlich.", "speaker_id": 0 },
+      { "text": "Ja. Such dir einfach einen schönen Platz auf der Wiese.", "speaker_id": 1 },
+      { "text": "Muss ich etwas bezahlen?", "speaker_id": 0 },
+      { "text": "Nein, die Stunde ist kostenlos. Spenden sind aber willkommen.", "speaker_id": 1 },
+      { "text": "Okay. Wie lange dauert die Stunde?", "speaker_id": 0 },
+      { "text": "Etwa sechzig Minuten.", "speaker_id": 1 },
+      { "text": "Perfekt. Brauche ich eine eigene Matte?", "speaker_id": 0 },
+      { "text": "Ja, bitte bring deine eigene Matte mit.", "speaker_id": 1 },
+      { "text": "Habe ich dabei. Super, ich freue mich!", "speaker_id": 0 },
+      { "text": "Ich mich auch. Dann bis gleich.", "speaker_id": 1 },
+      { "text": "Bis gleich.", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 250": {
+    "summary": "Zwei Kollegen vereinbaren eine Zeit für ein kurzes Update-Meeting.",
+    "conversation": [
+      { "text": "Hallo Clara. Hast du später kurz Zeit für ein Update?", "speaker_id": 0 },
+      { "text": "Hallo Tom. Ja, wann denn?", "speaker_id": 1 },
+      { "text": "Wie wäre es am Nachmittag? Vielleicht um 15:30 Uhr?", "speaker_id": 0 },
+      { "text": "Halb vier... Ja, das passt gut. Wie lange brauchen wir?", "speaker_id": 1 },
+      { "text": "Ich denke, fünfzehn Minuten reichen. Nur ein kurzer Austausch.", "speaker_id": 0 },
+      { "text": "Okay. In deinem Büro?", "speaker_id": 1 },
+      { "text": "Ja, komm einfach rüber.", "speaker_id": 0 },
+      { "text": "Alles klar. Dann bis halb vier.", "speaker_id": 1 },
+      { "text": "Super, danke.", "speaker_id": 0 },
+      { "text": "Kein Problem.", "speaker_id": 1 },
+      { "text": "Bis später!", "speaker_id": 0 },
+      { "text": "Bis dann!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 251": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Bioladen.",
+    "conversation": [
+      { "text": "Entschuldigung, wissen Sie, wo hier ein Bioladen ist?", "speaker_id": 0 },
+      { "text": "Ein Bioladen? Ja, da gibt es einen in der Parallelstraße.", "speaker_id": 1 },
+      { "text": "In der Parallelstraße? Wie komme ich dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie die nächste Straße rechts rein.", "speaker_id": 1 },
+      { "text": "Nächste rechts.", "speaker_id": 0 },
+      { "text": "Dann gleich wieder die erste Straße links.", "speaker_id": 1 },
+      { "text": "Erste links.", "speaker_id": 0 },
+      { "text": "Nach etwa fünfzig Metern sehen Sie den Bioladen auf der rechten Seite. Er hat ein grünes Schild.", "speaker_id": 1 },
+      { "text": "Nächste rechts, erste links, fünfzig Meter, rechte Seite, grünes Schild. Okay.", "speaker_id": 0 },
+      { "text": "Haben die auch frisches Brot?", "speaker_id": 1 },
+      { "text": "Ja, die haben sehr leckeres Bio-Brot.", "speaker_id": 0 },
+      { "text": "Super. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 252": {
+    "summary": "Jemand fragt nach der Dauer einer Schifffahrt auf dem Fluss.",
+    "conversation": [
+      { "text": "Guten Tag. Ich interessiere mich für die Schifffahrt.", "speaker_id": 0 },
+      { "text": "Guten Tag. Ja, gerne. Welche Fahrt meinen Sie?", "speaker_id": 1 },
+      { "text": "Die einstündige Rundfahrt auf dem Fluss.", "speaker_id": 0 },
+      { "text": "Ah ja. Die ist sehr beliebt.", "speaker_id": 1 },
+      { "text": "Wann ist die nächste Abfahrt?", "speaker_id": 0 },
+      { "text": "Die nächste Abfahrt ist um 14:30 Uhr.", "speaker_id": 1 },
+      { "text": "Halb drei. Okay.", "speaker_id": 0 },
+      { "text": "Und sie dauert genau eine Stunde?", "speaker_id": 1 },
+      { "text": "Ja, ziemlich genau sechzig Minuten.", "speaker_id": 0 },
+      { "text": "Wo legt das Schiff ab?", "speaker_id": 1 },
+      { "text": "Direkt hier an dieser Anlegestelle, Steg Nummer 2.", "speaker_id": 0 },
+      { "text": "Steg 2. Gut.", "speaker_id": 1 },
+      { "text": "Kann ich die Karte direkt an Bord kaufen?", "speaker_id": 0 },
+      { "text": "Ja, das ist möglich.", "speaker_id": 1 },
+      { "text": "Wunderbar. Danke für die Information!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 253": {
+    "summary": "Zwei Personen vereinbaren einen Termin für eine Telefonkonferenz.",
+    "conversation": [
+      { "text": "Hallo Herr Schmidt. Wir müssten kurz wegen des Projekts telefonieren.", "speaker_id": 0 },
+      { "text": "Guten Tag, Frau Weber. Ja, gerne. Wann passt es Ihnen?", "speaker_id": 1 },
+      { "text": "Wäre es morgen Vormittag möglich?", "speaker_id": 0 },
+      { "text": "Morgen Vormittag... Ja, wie wäre es um elf Uhr?", "speaker_id": 1 },
+      { "text": "Elf Uhr ist gut. Passt das auch für Herrn Meier?", "speaker_id": 0 },
+      { "text": "Ich frage ihn kurz... Ja, Herr Meier kann auch um elf.", "speaker_id": 1 },
+      { "text": "Super. Dann machen wir eine kurze Telefonkonferenz um elf.", "speaker_id": 0 },
+      { "text": "Okay. Wer wählt sich ein?", "speaker_id": 1 },
+      { "text": "Ich schicke Ihnen beiden gleich eine Einladung mit den Einwahldaten.", "speaker_id": 0 },
+      { "text": "Perfekt. Wie lange planen wir ein?", "speaker_id": 1 },
+      { "text": "Ich denke, dreißig Minuten sollten reichen.", "speaker_id": 0 },
+      { "text": "Okay. Bis morgen dann.", "speaker_id": 1 },
+      { "text": "Bis morgen!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 254": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Optiker.",
+    "conversation": [
+      { "text": "Entschuldigung, meine Brille ist kaputt. Wo finde ich hier einen Optiker?", "speaker_id": 0 },
+      { "text": "Oh, das ist ärgerlich. Ja, es gibt einen Optiker in der Einkaufsstraße.", "speaker_id": 1 },
+      { "text": "In der Einkaufsstraße. Wie komme ich dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße geradeaus bis zur großen Kreuzung.", "speaker_id": 1 },
+      { "text": "Bis zur Kreuzung.", "speaker_id": 0 },
+      { "text": "Dort beginnt die Einkaufsstraße. Gehen Sie einfach weiter geradeaus.", "speaker_id": 1 },
+      { "text": "Weiter geradeaus.", "speaker_id": 0 },
+      { "text": "Der Optiker ist dann nach etwa zweihundert Metern auf der rechten Seite. Ein großes Geschäft.", "speaker_id": 1 },
+      { "text": "Kreuzung geradeaus, zweihundert Meter, rechte Seite. Okay.", "speaker_id": 0 },
+      { "text": "Können die Brillen schnell reparieren?", "speaker_id": 1 },
+      { "text": "Manchmal ja, wenn es nur eine Kleinigkeit ist.", "speaker_id": 0 },
+      { "text": "Ich hoffe es. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Viel Glück!", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 255": {
+    "summary": "Jemand fragt nach der Uhrzeit für das Ende einer Veranstaltung.",
+    "conversation": [
+      { "text": "Entschuldigung, wissen Sie, bis wann die Veranstaltung heute Abend geht?", "speaker_id": 0 },
+      { "text": "Meinen Sie das Konzert hier auf dem Platz?", "speaker_id": 1 },
+      { "text": "Ja, genau.", "speaker_id": 0 },
+      { "text": "Laut Programm soll es bis 22 Uhr gehen.", "speaker_id": 1 },
+      { "text": "Bis zehn Uhr. Okay.", "speaker_id": 0 },
+      { "text": "Gibt es danach noch öffentliche Verkehrsmittel?", "speaker_id": 1 },
+      { "text": "Ja, die Busse und Bahnen fahren noch bis Mitternacht.", "speaker_id": 0 },
+      { "text": "Das ist gut zu wissen.", "speaker_id": 1 },
+      { "text": "Ich muss nämlich noch nach Hause kommen.", "speaker_id": 0 },
+      { "text": "Verständlich. Aber bis zehn Uhr ist ja noch eine Weile.", "speaker_id": 1 },
+      { "text": "Stimmt. Die Musik ist wirklich gut.", "speaker_id": 0 },
+      { "text": "Ja, finde ich auch. Viel Spaß noch!", "speaker_id": 1 },
+      { "text": "Danke, Ihnen auch!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 256": {
+    "summary": "Zwei Nachbarn vereinbaren eine Zeit, um sich Werkzeug auszuleihen.",
+    "conversation": [
+      { "text": "Hallo Herr Roth. Ich sehe, Sie arbeiten im Garten.", "speaker_id": 0 },
+      { "text": "Hallo Frau Voss. Ja, ein bisschen was zu tun gibt es immer.", "speaker_id": 1 },
+      { "text": "Ich wollte fragen, ob ich mir vielleicht kurz Ihren Spaten ausleihen könnte?", "speaker_id": 0 },
+      { "text": "Ja, natürlich. Kein Problem. Wann brauchen Sie ihn denn?", "speaker_id": 1 },
+      { "text": "Wäre es jetzt gleich möglich? Ich wollte nur ein kleines Loch graben.", "speaker_id": 0 },
+      { "text": "Ja, klar. Ich hole ihn eben aus dem Schuppen.", "speaker_id": 1 },
+      { "text": "Super, danke! Das ist sehr nett.", "speaker_id": 0 },
+      { "text": "Keine Ursache. Nachbarschaftshilfe.", "speaker_id": 1 },
+      { "text": "Wie lange brauchen Sie ihn ungefähr?", "speaker_id": 0 },
+      { "text": "Höchstens eine halbe Stunde.", "speaker_id": 1 },
+      { "text": "Okay. Bringen Sie ihn dann einfach wieder zurück.", "speaker_id": 0 },
+      { "text": "Mache ich sofort. Vielen Dank nochmal!", "speaker_id": 1 },
+      { "text": "Gerne.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 257": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Krankenhaus-Notaufnahme.",
+    "conversation": [
+      { "text": "Entschuldigung, ganz dringend! Wo ist die nächste Notaufnahme?", "speaker_id": 0 },
+      { "text": "Die Notaufnahme? Ist etwas passiert?", "speaker_id": 1 },
+      { "text": "Ja, mein Freund hat sich verletzt. Schnell, bitte!", "speaker_id": 0 },
+      { "text": "Okay, okay. Das nächste Krankenhaus ist St. Josef.", "speaker_id": 1 },
+      { "text": "Wie komme ich dahin?", "speaker_id": 0 },
+      { "text": "Fahren Sie diese Straße immer geradeaus.", "speaker_id": 1 },
+      { "text": "Ja!", "speaker_id": 0 },
+      { "text": "Nach etwa einem Kilometer kommt eine große Kreuzung. Dort fahren Sie links.", "speaker_id": 1 },
+      { "text": "Kreuzung links!", "speaker_id": 0 },
+      { "text": "Dann sehen Sie schon die Schilder zum Krankenhaus und zur Notaufnahme. Folgen Sie den roten Schildern!", "speaker_id": 1 },
+      { "text": "Geradeaus, Kreuzung links, rote Schilder folgen! Okay!", "speaker_id": 0 },
+      { "text": "Fahren Sie vorsichtig!", "speaker_id": 1 },
+      { "text": "Danke! Vielen Dank!", "speaker_id": 0 },
+      { "text": "Alles Gute!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 258": {
+    "summary": "Jemand fragt nach der Zeit für den Beginn einer Lesung in der Buchhandlung.",
+    "conversation": [
+      { "text": "Guten Abend. Findet heute Abend hier die Lesung statt?", "speaker_id": 0 },
+      { "text": "Guten Abend. Ja, die Lesung mit Frau Schreiber.", "speaker_id": 1 },
+      { "text": "Genau. Wann beginnt sie denn?", "speaker_id": 0 },
+      { "text": "Beginn ist um 19:30 Uhr.", "speaker_id": 1 },
+      { "text": "Um halb acht. Gut.", "speaker_id": 0 },
+      { "text": "Wo findet die Lesung statt? Hier im Verkaufsraum?", "speaker_id": 1 },
+      { "text": "Nein, wir haben einen extra Veranstaltungsraum im hinteren Teil. Gehen Sie einfach durch.", "speaker_id": 0 },
+      { "text": "Hinten durch. Okay.", "speaker_id": 1 },
+      { "text": "Ist der Eintritt frei?", "speaker_id": 0 },
+      { "text": "Ja, die Lesung ist kostenlos.", "speaker_id": 1 },
+      { "text": "Das ist ja toll. Wie lange dauert sie ungefähr?", "speaker_id": 0 },
+      { "text": "Etwa eine Stunde, inklusive einer kleinen Fragerunde am Ende.", "speaker_id": 1 },
+      { "text": "Wunderbar. Vielen Dank!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Viel Spaß bei der Lesung!", "speaker_id": 1 },
+      { "text": "Danke!", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 259": {
+    "summary": "Zwei Freunde planen einen Besuch auf dem Weihnachtsmarkt und legen Zeit fest.",
+    "conversation": [
+      { "text": "Hi Laura! Hast du Lust, nächste Woche mal auf den Weihnachtsmarkt zu gehen?", "speaker_id": 0 },
+      { "text": "Hi Paul! Oh ja, unbedingt! Wann denn?", "speaker_id": 1 },
+      { "text": "Wie wäre es am Dienstagabend? Da ist es vielleicht nicht ganz so voll.", "speaker_id": 0 },
+      { "text": "Gute Idee. Wann wollen wir uns treffen? So um 18 Uhr?", "speaker_id": 1 },
+      { "text": "Achtzehn Uhr ist gut. Treffen wir uns direkt am Eingang vom Markt?", "speaker_id": 0 },
+      { "text": "Ja, am großen Tor. Das kennt jeder.", "speaker_id": 1 },
+      { "text": "Okay, Dienstag, 18 Uhr, am großen Tor.", "speaker_id": 0 },
+      { "text": "Ich freue mich schon auf den Glühwein!", "speaker_id": 1 },
+      { "text": "Ich mich auch! Und gebrannte Mandeln!", "speaker_id": 0 },
+      { "text": "Lecker! Zieh dich warm an!", "speaker_id": 1 },
+      { "text": "Mache ich! Bis Dienstag dann!", "speaker_id": 0 },
+      { "text": "Bis Dienstag!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 260": {
+    "summary": "Eine Person fragt nach dem Weg zum nächstgelegenen Hotel.",
+    "conversation": [
+      { "text": "Entschuldigung, ich bin gerade angekommen und suche ein Hotel.", "speaker_id": 0 },
+      { "text": "Ein Hotel? Ja, es gibt mehrere hier in der Gegend.", "speaker_id": 1 },
+      { "text": "Welches ist das nächste?", "speaker_id": 0 },
+      { "text": "Das nächste ist das 'Hotel Central', direkt gegenüber vom Bahnhof.", "speaker_id": 1 },
+      { "text": "Gegenüber vom Bahnhof. Okay.", "speaker_id": 0 },
+      { "text": "Ist der Bahnhof weit?", "speaker_id": 1 },
+      { "text": "Nein, gehen Sie einfach diese Straße runter, etwa fünf Minuten.", "speaker_id": 0 },
+      { "text": "Straße runter, fünf Minuten. Und dann sehe ich das Hotel?", "speaker_id": 1 },
+      { "text": "Ja, Sie sehen erst den Bahnhof und direkt gegenüber das große Hotelgebäude.", "speaker_id": 0 },
+      { "text": "Ist das Hotel gut?", "speaker_id": 1 },
+      { "text": "Ich habe gehört, es soll ganz gut sein. Und sehr zentral.", "speaker_id": 0 },
+      { "text": "Das klingt perfekt. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Guten Aufenthalt!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 261": {
+    "summary": "Jemand fragt nach der Dauer einer geplanten Zugverspätung.",
+    "conversation": [
+      { "text": "Entschuldigung, der Zug nach Köln sollte doch jetzt fahren.", "speaker_id": 0 },
+      { "text": "Ja, leider hat er Verspätung.", "speaker_id": 1 },
+      { "text": "Oh nein. Wissen Sie, wie lange?", "speaker_id": 0 },
+      { "text": "Laut Anzeige sind es im Moment etwa zwanzig Minuten.", "speaker_id": 1 },
+      { "text": "Zwanzig Minuten? Puh.", "speaker_id": 0 },
+      { "text": "Ändert sich das noch oder bleibt es dabei?", "speaker_id": 1 },
+      { "text": "Das kann man nie so genau sagen. Wir müssen auf die Durchsagen achten.", "speaker_id": 0 },
+      { "text": "Okay. Ist das oft so bei diesem Zug?", "speaker_id": 1 },
+      { "text": "Leider ja. Diese Verbindung ist oft unpünktlich.", "speaker_id": 0 },
+      { "text": "Ärgerlich. Ich habe einen Anschlusszug.", "speaker_id": 1 },
+      { "text": "Oh, das ist schlecht. Fragen Sie am besten gleich den Schaffner wegen des Anschlusses.", "speaker_id": 0 },
+      { "text": "Gute Idee. Danke für die Info.", "speaker_id": 1 },
+      { "text": "Keine Ursache. Hoffen wir das Beste.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 262": {
+    "summary": "Zwei Personen vereinbaren einen Termin für eine Fahrradtour.",
+    "conversation": [
+      { "text": "Hallo Frank! Lust auf eine Fahrradtour am Wochenende?", "speaker_id": 0 },
+      { "text": "Hallo Sabine! Ja, super Idee! Wann und wohin?", "speaker_id": 1 },
+      { "text": "Ich dachte an Samstag. Wir könnten zum See fahren.", "speaker_id": 0 },
+      { "text": "Ja, zum See ist schön. Wann wollen wir starten?", "speaker_id": 1 },
+      { "text": "Nicht zu spät, damit wir den Tag nutzen. Wie wäre es um neun Uhr?", "speaker_id": 0 },
+      { "text": "Neun Uhr morgens ist gut. Treffen wir uns bei der Brücke?", "speaker_id": 1 },
+      { "text": "Ja, an der alten Holzbrücke. Das ist ein guter Startpunkt.", "speaker_id": 0 },
+      { "text": "Okay, Samstag, neun Uhr, alte Holzbrücke.", "speaker_id": 1 },
+      { "text": "Perfekt. Wie lange dauert die Tour ungefähr?", "speaker_id": 0 },
+      { "text": "Hin und zurück, mit Pause am See, sicher vier bis fünf Stunden.", "speaker_id": 1 },
+      { "text": "Okay. Ich packe was zu trinken und einen Snack ein.", "speaker_id": 0 },
+      { "text": "Super. Ich freue mich!", "speaker_id": 1 },
+      { "text": "Ich mich auch! Bis Samstag!", "speaker_id": 0 },
+      { "text": "Bis Samstag!", "speaker_id": 1 }
+    ]
+  },
+    "Szenario 263": {
+    "summary": "Eine Person fragt nach dem Weg zur nächsten Bäckerei.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche eine Bäckerei für frische Brötchen.", "speaker_id": 0 },
+      { "text": "Eine Bäckerei? Ja, da ist eine sehr gute gleich um die Ecke.", "speaker_id": 1 },
+      { "text": "Oh super! Wo genau?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße entlang bis zur nächsten Ecke.", "speaker_id": 1 },
+      { "text": "Nächste Ecke.", "speaker_id": 0 },
+      { "text": "Dort biegen Sie rechts ab. Dann sehen Sie die Bäckerei sofort auf der linken Seite.", "speaker_id": 1 },
+      { "text": "Ecke rechts, linke Seite. Okay.", "speaker_id": 0 },
+      { "text": "Hat die jetzt schon geöffnet?", "speaker_id": 1 },
+      { "text": "Ja, die öffnet immer sehr früh, ich glaube schon um sechs Uhr.", "speaker_id": 0 },
+      { "text": "Perfekt für mein Frühstück.", "speaker_id": 1 },
+      { "text": "Die haben auch leckeren Kuchen.", "speaker_id": 0 },
+      { "text": "Gefährlich! Danke für den Tipp!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Guten Appetit!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 264": {
+    "summary": "Jemand fragt nach der Zeit für den Check-out im Hotel.",
+    "conversation": [
+      { "text": "Guten Morgen. Ich reise heute ab.", "speaker_id": 0 },
+      { "text": "Guten Morgen. Schade, dass Sie schon gehen.", "speaker_id": 1 },
+      { "text": "Ja, leider. Bis wann muss ich das Zimmer verlassen haben?", "speaker_id": 0 },
+      { "text": "Der Check-out ist bis 11 Uhr vormittags.", "speaker_id": 1 },
+      { "text": "Bis elf Uhr. Okay.", "speaker_id": 0 },
+      { "text": "Kann ich mein Gepäck vielleicht noch etwas länger hier lassen?", "speaker_id": 1 },
+      { "text": "Ja, natürlich. Wir haben einen Gepäckraum. Sie können es gerne bis zu Ihrer Abreise hier lagern.", "speaker_id": 0 },
+      { "text": "Oh, das ist super! Vielen Dank!", "speaker_id": 1 },
+      { "text": "Wo finde ich den Gepäckraum?", "speaker_id": 0 },
+      { "text": "Gleich hier neben der Rezeption. Wir helfen Ihnen gerne dabei.", "speaker_id": 1 },
+      { "text": "Perfekt. Dann checke ich jetzt aus.", "speaker_id": 0 },
+      { "text": "Gerne. Hatten Sie einen angenehmen Aufenthalt?", "speaker_id": 1 },
+      { "text": "Ja, es war sehr schön. Danke.", "speaker_id": 0 },
+      { "text": "Das freut uns zu hören. Gute Heimreise!", "speaker_id": 1 },
+      { "text": "Danke schön!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 265": {
+    "summary": "Zwei Kollegen vereinbaren eine Zeit für die Durchsicht eines Dokuments.",
+    "conversation": [
+      { "text": "Hallo Stefan. Hast du das Dokument bekommen, das ich dir geschickt habe?", "speaker_id": 0 },
+      { "text": "Hallo Monika. Ja, ist angekommen. Danke.", "speaker_id": 1 },
+      { "text": "Könntest du es dir bitte anschauen? Ich brauche dein Feedback.", "speaker_id": 0 },
+      { "text": "Ja, mache ich gerne. Wann brauchst du es spätestens?", "speaker_id": 1 },
+      { "text": "Wäre es möglich bis morgen Mittag?", "speaker_id": 0 },
+      { "text": "Morgen Mittag... Ja, das sollte ich schaffen.", "speaker_id": 1 },
+      { "text": "Super, danke. Es ist nicht sehr lang.", "speaker_id": 0 },
+      { "text": "Okay. Sollen wir danach kurz sprechen?", "speaker_id": 1 },
+      { "text": "Ja, gerne. Vielleicht morgen Nachmittag um 14 Uhr?", "speaker_id": 0 },
+      { "text": "Vierzehn Uhr passt. In meinem Büro?", "speaker_id": 1 },
+      { "text": "Ja, perfekt.", "speaker_id": 0 },
+      { "text": "Alles klar. Dann schaue ich es mir bis morgen an.", "speaker_id": 1 },
+      { "text": "Vielen Dank, Stefan!", "speaker_id": 0 },
+      { "text": "Kein Problem, Monika.", "speaker_id": 1 }
+    ]
+  },
+    "Szenario 266": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Schuster.",
+    "conversation": [
+      { "text": "Entschuldigung, mein Schuh ist kaputt. Wissen Sie, wo hier ein Schuster ist?", "speaker_id": 0 },
+      { "text": "Ein Schuster? Ja, da gibt es einen in der Altstadt.", "speaker_id": 1 },
+      { "text": "In der Altstadt. Wie komme ich dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße entlang, immer geradeaus.", "speaker_id": 1 },
+      { "text": "Ja.", "speaker_id": 0 },
+      { "text": "Nach der Kirche biegen Sie rechts in die kleine Gasse ein.", "speaker_id": 1 },
+      { "text": "Nach der Kirche rechts in die Gasse.", "speaker_id": 0 },
+      { "text": "Der Schuster ist dann nach etwa zwanzig Metern auf der linken Seite. Ein ganz kleiner Laden.", "speaker_id": 1 },
+      { "text": "Gasse rechts, zwanzig Meter, linke Seite, kleiner Laden. Okay.", "speaker_id": 0 },
+      { "text": "Ist der gut?", "speaker_id": 1 },
+      { "text": "Ja, der ist ein alter Meister. Der kann fast alles reparieren.", "speaker_id": 0 },
+      { "text": "Das klingt gut. Hoffentlich kann er meinen Schuh retten.", "speaker_id": 1 },
+      { "text": "Bestimmt. Viel Erfolg!", "speaker_id": 0 },
+      { "text": "Danke! Und danke für den Weg!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 267": {
+    "summary": "Jemand fragt nach der Zeit für den Beginn eines Feuerwerks.",
+    "conversation": [
+      { "text": "Entschuldigung, wissen Sie, wann das Feuerwerk heute Abend beginnt?", "speaker_id": 0 },
+      { "text": "Das Feuerwerk? Das ist doch erst morgen, oder?", "speaker_id": 1 },
+      { "text": "Nein, ich habe gelesen, es ist heute Abend zum Stadtfest.", "speaker_id": 0 },
+      { "text": "Ah, okay. Dann habe ich das verwechselt. Wann soll es denn sein?", "speaker_id": 1 },
+      { "text": "Ich bin nicht sicher. Ich dachte, vielleicht wissen Sie es.", "speaker_id": 0 },
+      { "text": "Warten Sie, ich schaue mal im Programm nach... Ja, hier steht es: 22 Uhr.", "speaker_id": 1 },
+      { "text": "Um zehn Uhr abends. Gut.", "speaker_id": 0 },
+      { "text": "Von wo aus sieht man es am besten?", "speaker_id": 1 },
+      { "text": "Angeblich von der Brücke aus.", "speaker_id": 0 },
+      { "text": "Ah, okay. Dann sollte man frühzeitig dort sein.", "speaker_id": 1 },
+      { "text": "Ja, das denke ich auch. Es wird sicher voll.", "speaker_id": 0 },
+      { "text": "Vielen Dank für die Information!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Viel Spaß beim Feuerwerk!", "speaker_id": 0 },
+      { "text": "Danke!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 268": {
+    "summary": "Zwei Personen vereinbaren einen Termin für einen Videoanruf.",
+    "conversation": [
+      { "text": "Hallo Maria, hier ist Klaus.", "speaker_id": 0 },
+      { "text": "Hallo Klaus! Wie geht's?", "speaker_id": 1 },
+      { "text": "Gut, danke. Du, ich wollte fragen, wann du Zeit für einen Videoanruf hättest? Wegen des Urlaubs.", "speaker_id": 0 },
+      { "text": "Gerne. Wie wäre es morgen Abend?", "speaker_id": 1 },
+      { "text": "Morgen Abend passt gut. Welche Zeit?", "speaker_id": 0 },
+      { "text": "Sagen wir um 19 Uhr?", "speaker_id": 1 },
+      { "text": "Neunzehn Uhr ist perfekt.", "speaker_id": 0 },
+      { "text": "Okay. Über welches Programm? Skype?", "speaker_id": 1 },
+      { "text": "Ja, Skype ist gut. Ich schicke dir meinen Benutzernamen.", "speaker_id": 0 },
+      { "text": "Super.", "speaker_id": 1 },
+      { "text": "Wie lange brauchen wir ungefähr?", "speaker_id": 0 },
+      { "text": "Ich denke, eine halbe Stunde bis Stunde, je nachdem wie viel wir zu besprechen haben.", "speaker_id": 1 },
+      { "text": "Okay. Dann bis morgen Abend um sieben auf Skype.", "speaker_id": 0 },
+      { "text": "Abgemacht. Ich freue mich!", "speaker_id": 1 },
+      { "text": "Ich mich auch! Bis dann!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 269": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Drogeriemarkt.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche einen Drogeriemarkt.", "speaker_id": 0 },
+      { "text": "Einen Drogeriemarkt? Ja, da ist einer in der Fußgängerzone.", "speaker_id": 1 },
+      { "text": "In der Fußgängerzone. Wie komme ich dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße immer geradeaus.", "speaker_id": 1 },
+      { "text": "Ja.", "speaker_id": 0 },
+      { "text": "Nach etwa dreihundert Metern beginnt die Fußgängerzone.", "speaker_id": 1 },
+      { "text": "Dreihundert Meter, dann beginnt die Fußgängerzone.", "speaker_id": 0 },
+      { "text": "Der Drogeriemarkt ist dann ziemlich am Anfang auf der linken Seite. Ein großer Laden.", "speaker_id": 1 },
+      { "text": "Anfang der Fußgängerzone, linke Seite. Okay.", "speaker_id": 0 },
+      { "text": "Haben die auch Babynahrung?", "speaker_id": 1 },
+      { "text": "Ja, die haben eine große Abteilung für Babyartikel.", "speaker_id": 0 },
+      { "text": "Perfekt, genau das brauche ich.", "speaker_id": 1 },
+      { "text": "Vielen Dank für Ihre Hilfe!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 270": {
+    "summary": "Jemand fragt nach der Zeit für den Beginn einer Podiumsdiskussion.",
+    "conversation": [
+      { "text": "Guten Abend. Findet hier die Podiumsdiskussion zum Thema Umwelt statt?", "speaker_id": 0 },
+      { "text": "Guten Abend. Ja, genau hier.", "speaker_id": 1 },
+      { "text": "Wunderbar. Wann geht es denn los?", "speaker_id": 0 },
+      { "text": "Beginn ist um 19 Uhr.", "speaker_id": 1 },
+      { "text": "Um sieben. Okay, dann bin ich ja rechtzeitig.", "speaker_id": 0 },
+      { "text": "Ja. Suchen Sie sich gerne schon einen Platz.", "speaker_id": 1 },
+      { "text": "Danke. Wie lange ist die Diskussion geplant?", "speaker_id": 0 },
+      { "text": "Etwa neunzig Minuten, inklusive Fragen aus dem Publikum am Ende.", "speaker_id": 1 },
+      { "text": "Neunzig Minuten. Gut.", "speaker_id": 0 },
+      { "text": "Ist der Eintritt frei?", "speaker_id": 1 },
+      { "text": "Ja, die Veranstaltung ist kostenlos.", "speaker_id": 0 },
+      { "text": "Das ist toll. Ich bin sehr interessiert an dem Thema.", "speaker_id": 1 },
+      { "text": "Das freut uns. Dann eine interessante Diskussion!", "speaker_id": 0 },
+      { "text": "Danke schön!", "speaker_id": 1 }
+    ]
+  },
+    "Szenario 271": {
+    "summary": "Zwei Nachbarn vereinbaren eine Zeit, um die Mülltonnen rauszustellen.",
+    "conversation": [
+      { "text": "Hallo Frau Lang. Morgen ist doch Papiermüll dran, oder?", "speaker_id": 0 },
+      { "text": "Hallo Herr Kurz. Ja, genau. Papier.", "speaker_id": 1 },
+      { "text": "Ich bin morgen früh unterwegs. Könnten Sie vielleicht meine Tonne mit rausstellen?", "speaker_id": 0 },
+      { "text": "Ja, kein Problem. Wann soll ich sie rausstellen? Heute Abend?", "speaker_id": 1 },
+      { "text": "Ja, heute Abend wäre super. Sagen wir so gegen acht?", "speaker_id": 0 },
+      { "text": "Acht Uhr passt. Stellen Sie Ihre Tonne einfach an den Zaun, ich nehme sie dann mit.", "speaker_id": 1 },
+      { "text": "Perfekt! Vielen, vielen Dank! Das ist eine große Hilfe.", "speaker_id": 0 },
+      { "text": "Gern geschehen. Dafür sind Nachbarn ja da.", "speaker_id": 1 },
+      { "text": "Nächste Woche ist dann wieder Restmüll dran, glaube ich.", "speaker_id": 0 },
+      { "text": "Ja, das wechselt ja immer.", "speaker_id": 1 },
+      { "text": "Okay, dann stelle ich die Tonne gleich raus.", "speaker_id": 0 },
+      { "text": "Alles klar.", "speaker_id": 1 },
+      { "text": "Schönen Abend noch!", "speaker_id": 0 },
+      { "text": "Ihnen auch!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 272": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten öffentlichen Bücherschrank.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche einen öffentlichen Bücherschrank.", "speaker_id": 0 },
+      { "text": "Einen Bücherschrank? Ja, da gibt es einen hier im Viertel.", "speaker_id": 1 },
+      { "text": "Oh toll! Wo finde ich den?", "speaker_id": 0 },
+      { "text": "Gehen Sie die Straße hier runter bis zum kleinen Platz mit dem Brunnen.", "speaker_id": 1 },
+      { "text": "Platz mit dem Brunnen.", "speaker_id": 0 },
+      { "text": "Dort steht eine alte rote Telefonzelle. Das ist der Bücherschrank.", "speaker_id": 1 },
+      { "text": "In der roten Telefonzelle? Das ist ja eine coole Idee!", "speaker_id": 0 },
+      { "text": "Ja, finden wir auch. Ist er weit?", "speaker_id": 1 },
+      { "text": "Nein, nur ein paar Minuten zu Fuß.", "speaker_id": 0 },
+      { "text": "Super. Kann man da einfach Bücher reinstellen und rausnehmen?", "speaker_id": 1 },
+      { "text": "Ja, genau das ist das Prinzip.", "speaker_id": 0 },
+      { "text": "Wunderbar. Ich habe nämlich welche zum Abgeben.", "speaker_id": 1 },
+      { "text": "Dann ist das ja perfekt. Viel Spaß!", "speaker_id": 0 },
+      { "text": "Danke! Und danke für den Weg!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 273": {
+    "summary": "Jemand fragt nach der Uhrzeit für den Beginn einer Sportübertragung.",
+    "conversation": [
+      { "text": "Hallo. Zeigen Sie heute das Tennismatch?", "speaker_id": 0 },
+      { "text": "Hallo. Ja, das zeigen wir.", "speaker_id": 1 },
+      { "text": "Super. Wann geht es denn los?", "speaker_id": 0 },
+      { "text": "Die Übertragung beginnt um 15 Uhr.", "speaker_id": 1 },
+      { "text": "Um drei Uhr. Okay.", "speaker_id": 0 },
+      { "text": "Ist dann hier schon viel los?", "speaker_id": 1 },
+      { "text": "Ja, bei wichtigen Spielen wird es oft voll. Kommen Sie lieber etwas früher.", "speaker_id": 0 },
+      { "text": "Guter Tipp. Vielleicht so um halb drei?", "speaker_id": 1 },
+      { "text": "Ja, dann bekommen Sie sicher noch einen guten Platz.", "speaker_id": 0 },
+      { "text": "Perfekt. Haben Sie auch Essen?", "speaker_id": 1 },
+      { "text": "Ja, wir haben eine kleine Karte mit Snacks.", "speaker_id": 0 },
+      { "text": "Wunderbar. Dann sehen wir uns später!", "speaker_id": 1 },
+      { "text": "Bis später! Viel Spaß beim Spiel!", "speaker_id": 0 },
+      { "text": "Danke!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 274": {
+    "summary": "Zwei Personen vereinbaren einen Termin für eine gemeinsame Projektarbeit in der Uni-Bibliothek.",
+    "conversation": [
+      { "text": "Hi Max! Wir müssen unbedingt an unserem Projekt weiterarbeiten.", "speaker_id": 0 },
+      { "text": "Hi Lisa! Ja, du hast recht. Die Abgabe rückt näher.", "speaker_id": 1 },
+      { "text": "Wann hast du Zeit? Wie wäre es morgen?", "speaker_id": 0 },
+      { "text": "Morgen passt gut. Am Nachmittag?", "speaker_id": 1 },
+      { "text": "Ja. Sagen wir ab 14 Uhr?", "speaker_id": 0 },
+      { "text": "Vierzehn Uhr ist gut. Wo wollen wir uns treffen? In der Bibliothek?", "speaker_id": 1 },
+      { "text": "Ja, in der Bibliothek ist es am besten. Da haben wir Ruhe und alle Bücher.", "speaker_id": 0 },
+      { "text": "Okay. Treffen wir uns im Lesesaal oder in einem Gruppenraum?", "speaker_id": 1 },
+      { "text": "Lass uns einen Gruppenraum reservieren. Dann können wir auch leise reden.", "speaker_id": 0 },
+      { "text": "Gute Idee. Machst du das?", "speaker_id": 1 },
+      { "text": "Ja, ich kümmere mich darum. Also morgen, 14 Uhr, Bibliothek.", "speaker_id": 0 },
+      { "text": "Perfekt. Bis morgen!", "speaker_id": 1 },
+      { "text": "Bis morgen!", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 275": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Kiosk.",
+    "conversation": [
+      { "text": "Entschuldigung, ich brauche dringend eine Zeitung. Wo ist der nächste Kiosk?", "speaker_id": 0 },
+      { "text": "Ein Kiosk? Ja, da vorne an der Bushaltestelle ist einer.", "speaker_id": 1 },
+      { "text": "An der Bushaltestelle?", "speaker_id": 0 },
+      { "text": "Ja, gehen Sie einfach die Straße runter. Sie sehen die Haltestelle schon.", "speaker_id": 1 },
+      { "text": "Okay, Straße runter bis zur Haltestelle.", "speaker_id": 0 },
+      { "text": "Der Kiosk ist direkt daneben. Ein kleines Häuschen.", "speaker_id": 1 },
+      { "text": "Super. Hat der auch Getränke?", "speaker_id": 0 },
+      { "text": "Ja, Zeitungen, Getränke, Süßigkeiten – alles Mögliche.", "speaker_id": 1 },
+      { "text": "Perfekt. Wie lange ist der ungefähr geöffnet?", "speaker_id": 0 },
+      { "text": "Ich glaube, ziemlich lange. Sicher bis zum Abend.", "speaker_id": 1 },
+      { "text": "Gut. Vielen Dank für die schnelle Hilfe!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 276": {
+    "summary": "Jemand fragt nach der Uhrzeit für die Siegerehrung bei einem Sportfest.",
+    "conversation": [
+      { "text": "Entschuldigung, wissen Sie, wann die Siegerehrung stattfindet?", "speaker_id": 0 },
+      { "text": "Die Siegerehrung? Meinen Sie die vom Kinderlauf?", "speaker_id": 1 },
+      { "text": "Ja, genau.", "speaker_id": 0 },
+      { "text": "Die ist geplant für 16 Uhr.", "speaker_id": 1 },
+      { "text": "Um vier Uhr. Okay.", "speaker_id": 0 },
+      { "text": "Wo findet die statt? Hier auf dem Hauptplatz?", "speaker_id": 1 },
+      { "text": "Ja, hier auf der kleinen Bühne.", "speaker_id": 0 },
+      { "text": "Gut. Mein Sohn ist mitgelaufen und wartet schon ganz gespannt.", "speaker_id": 1 },
+      { "text": "Das kann ich verstehen. Es dauert ja nicht mehr lange.", "speaker_id": 0 },
+      { "text": "Nein, zum Glück.", "speaker_id": 1 },
+      { "text": "Gibt es Medaillen für alle Kinder?", "speaker_id": 0 },
+      { "text": "Ja, ich glaube, jedes Kind bekommt eine Medaille.", "speaker_id": 1 },
+      { "text": "Das ist schön. Vielen Dank!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 277": {
+    "summary": "Zwei Personen vereinbaren einen Termin für eine Wohnungsübergabe.",
+    "conversation": [
+      { "text": "Guten Tag, Frau Meyer. Hier spricht Ihr Nachmieter, Herr Stein.", "speaker_id": 0 },
+      { "text": "Guten Tag, Herr Stein. Schön, von Ihnen zu hören.", "speaker_id": 1 },
+      { "text": "Ich rufe wegen der Wohnungsübergabe an. Wann würde es Ihnen denn passen?", "speaker_id": 0 },
+      { "text": "Der Mietvertrag beginnt ja am Ersten. Wie wäre es direkt am Vormittag des Ersten?", "speaker_id": 1 },
+      { "text": "Ja, das geht. Welche Uhrzeit? Sagen wir um zehn?", "speaker_id": 0 },
+      { "text": "Zehn Uhr ist gut. Dann treffen wir uns in der Wohnung?", "speaker_id": 1 },
+      { "text": "Ja, genau. Bringen Sie bitte das Übergabeprotokoll mit?", "speaker_id": 0 },
+      { "text": "Ja, das habe ich schon vorbereitet.", "speaker_id": 1 },
+      { "text": "Super. Wie lange sollten wir dafür einplanen?", "speaker_id": 0 },
+      { "text": "Ich denke, eine halbe Stunde bis Stunde, dann haben wir alles in Ruhe angeschaut.", "speaker_id": 1 },
+      { "text": "Okay. Dann bis zum Ersten um zehn Uhr.", "speaker_id": 0 },
+      { "text": "Bis dann, Herr Stein.", "speaker_id": 1 },
+      { "text": "Auf Wiederhören, Frau Meyer.", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 278": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Geldinstitut, um Geld zu wechseln.",
+    "conversation": [
+      { "text": "Entschuldigung, ich möchte Geld wechseln. Wo kann ich das tun?", "speaker_id": 0 },
+      { "text": "Geld wechseln? Am besten gehen Sie zu einer Bank.", "speaker_id": 1 },
+      { "text": "Okay. Wo ist die nächste Bank?", "speaker_id": 0 },
+      { "text": "Die nächste größere Bank ist die Commerzbank, etwa fünf Minuten von hier.", "speaker_id": 1 },
+      { "text": "Wie komme ich dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße entlang bis zur zweiten Kreuzung.", "speaker_id": 1 },
+      { "text": "Zweite Kreuzung.", "speaker_id": 0 },
+      { "text": "Dort biegen Sie links ab. Dann sehen Sie die Bank nach etwa hundert Metern auf der rechten Seite.", "speaker_id": 1 },
+      { "text": "Zweite Kreuzung links, hundert Meter, rechte Seite. Okay.", "speaker_id": 0 },
+      { "text": "Kann ich dort sicher Euro in Dollar wechseln?", "speaker_id": 1 },
+      { "text": "Ja, bei einer großen Bank ist das normalerweise kein Problem.", "speaker_id": 0 },
+      { "text": "Gut. Haben die lange geöffnet?", "speaker_id": 1 },
+      { "text": "Wahrscheinlich bis 16 oder 17 Uhr.", "speaker_id": 0 },
+      { "text": "Perfekt. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 279": {
+    "summary": "Jemand fragt nach der Uhrzeit für den Beginn eines Konzerts in einer Kirche.",
+    "conversation": [
+      { "text": "Guten Abend. Findet heute hier das Orgelkonzert statt?", "speaker_id": 0 },
+      { "text": "Guten Abend. Ja, das Konzert ist heute hier.", "speaker_id": 1 },
+      { "text": "Wunderbar. Wann beginnt es denn?", "speaker_id": 0 },
+      { "text": "Beginn ist um 20 Uhr.", "speaker_id": 1 },
+      { "text": "Um acht. Okay.", "speaker_id": 0 },
+      { "text": "Sollte man vorher da sein?", "speaker_id": 1 },
+      { "text": "Ja, es ist freie Platzwahl. Wenn Sie einen guten Platz möchten, kommen Sie lieber etwas früher.", "speaker_id": 0 },
+      { "text": "Verstehe. Wie lange dauert das Konzert ungefähr?", "speaker_id": 1 },
+      { "text": "Etwa eine Stunde, ohne Pause.", "speaker_id": 0 },
+      { "text": "Gut.", "speaker_id": 1 },
+      { "text": "Kostet es Eintritt?", "speaker_id": 0 },
+      { "text": "Nein, der Eintritt ist frei. Wir bitten aber um eine Spende am Ausgang.", "speaker_id": 1 },
+      { "text": "Sehr schön. Vielen Dank!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Ein schönes Konzert!", "speaker_id": 1 },
+      { "text": "Danke!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 280": {
+    "summary": "Zwei Nachbarn vereinbaren eine Zeit, um gemeinsam den Keller aufzuräumen.",
+    "conversation": [
+      { "text": "Hallo Frau Weiß. Unser Keller ist ja furchtbar unordentlich.", "speaker_id": 0 },
+      { "text": "Hallo Herr Grau. Ja, da haben Sie recht. Man findet ja nichts mehr.", "speaker_id": 1 },
+      { "text": "Wollen wir vielleicht am Samstag mal zusammen aufräumen?", "speaker_id": 0 },
+      { "text": "Oh, gute Idee! Dann ist es schneller geschafft. Wann passt es Ihnen?", "speaker_id": 1 },
+      { "text": "Wie wäre es am Vormittag? Sagen wir ab zehn?", "speaker_id": 0 },
+      { "text": "Zehn Uhr ist gut. Planen wir mal zwei Stunden ein?", "speaker_id": 1 },
+      { "text": "Ja, das sollte reichen, um das Gröbste zu schaffen.", "speaker_id": 0 },
+      { "text": "Okay. Treffen wir uns dann unten im Keller?", "speaker_id": 1 },
+      { "text": "Ja, direkt unten.", "speaker_id": 0 },
+      { "text": "Super. Ich bringe Müllsäcke mit.", "speaker_id": 1 },
+      { "text": "Gut. Ich habe Besen und Schaufel.", "speaker_id": 0 },
+      { "text": "Perfekt. Dann bis Samstag um zehn.", "speaker_id": 1 },
+      { "text": "Bis Samstag!", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 281": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Recyclinghof.",
+    "conversation": [
+      { "text": "Entschuldigung, ich habe alten Elektroschrott. Wo ist der nächste Recyclinghof?", "speaker_id": 0 },
+      { "text": "Der Recyclinghof? Der ist etwas außerhalb.", "speaker_id": 1 },
+      { "text": "Oh. Brauche ich ein Auto?", "speaker_id": 0 },
+      { "text": "Ja, mit dem Auto ist es am besten.", "speaker_id": 1 },
+      { "text": "Okay. Wie fahre ich dorthin?", "speaker_id": 0 },
+      { "text": "Fahren Sie die Hauptstraße stadtauswärts.", "speaker_id": 1 },
+      { "text": "Stadtauswärts.", "speaker_id": 0 },
+      { "text": "Nach der Brücke über den Fluss nehmen Sie die erste Ausfahrt rechts.", "speaker_id": 1 },
+      { "text": "Nach der Brücke, erste Ausfahrt rechts.", "speaker_id": 0 },
+      { "text": "Dann ist der Recyclinghof nach etwa 500 Metern ausgeschildert.", "speaker_id": 1 },
+      { "text": "Okay. Wann haben die geöffnet?", "speaker_id": 0 },
+      { "text": "Das weiß ich nicht genau. Am besten schauen Sie auf der Webseite der Stadt nach.", "speaker_id": 1 },
+      { "text": "Gute Idee. Mache ich. Vielen Dank!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 282": {
+    "summary": "Jemand fragt nach der Uhrzeit für das Ende der Ruhezeiten im Haus.",
+    "conversation": [
+      { "text": "Entschuldigung, ich bin neu hier im Haus.", "speaker_id": 0 },
+      { "text": "Hallo! Herzlich willkommen.", "speaker_id": 1 },
+      { "text": "Können Sie mir sagen, wann hier die Ruhezeiten enden? Ich müsste kurz bohren.", "speaker_id": 0 },
+      { "text": "Die Mittagsruhe geht von 13 bis 15 Uhr.", "speaker_id": 1 },
+      { "text": "Von eins bis drei. Okay.", "speaker_id": 0 },
+      { "text": "Und abends ist ab 22 Uhr Nachtruhe.", "speaker_id": 1 },
+      { "text": "Ab zehn Uhr abends. Gut.", "speaker_id": 0 },
+      { "text": "Also könnte ich jetzt nach drei Uhr kurz bohren?", "speaker_id": 1 },
+      { "text": "Ja, nach 15 Uhr ist das in Ordnung.", "speaker_id": 0 },
+      { "text": "Super. Dauert auch nicht lange.", "speaker_id": 1 },
+      { "text": "Alles klar. Sagen Sie Bescheid, wenn es zu laut ist.", "speaker_id": 0 },
+      { "text": "Sehr nett, danke! Und danke für die Info!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 283": {
+    "summary": "Zwei Personen vereinbaren einen Termin für einen Besuch im Tierheim.",
+    "conversation": [
+      { "text": "Hallo Sarah! Du wolltest doch mal mit ins Tierheim kommen?", "speaker_id": 0 },
+      { "text": "Hallo Tim! Ja, unbedingt! Wann hast du denn Zeit?", "speaker_id": 1 },
+      { "text": "Wie wäre es am Sonntagnachmittag? Da haben sie Besucherzeit.", "speaker_id": 0 },
+      { "text": "Sonntagnachmittag ist gut. Wann genau?", "speaker_id": 1 },
+      { "text": "Die Besucherzeit ist von 14 bis 16 Uhr.", "speaker_id": 0 },
+      { "text": "Okay. Treffen wir uns dann um 14 Uhr dort?", "speaker_id": 1 },
+      { "text": "Ja, machen wir das so. Direkt am Eingang.", "speaker_id": 0 },
+      { "text": "Super. Ich freue mich schon darauf, die Tiere zu sehen.", "speaker_id": 1 },
+      { "text": "Ich mich auch. Vielleicht finden wir ja einen Hund zum Spazierengehen.", "speaker_id": 0 },
+      { "text": "Das wäre toll!", "speaker_id": 1 },
+      { "text": "Okay, dann Sonntag, 14 Uhr, am Tierheim.", "speaker_id": 0 },
+      { "text": "Abgemacht!", "speaker_id": 1 },
+      { "text": "Bis Sonntag!", "speaker_id": 0 },
+      { "text": "Bis Sonntag!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 284": {
+    "summary": "Eine Person fragt nach dem Weg zur nächsten Polizeiwache.",
+    "conversation": [
+      { "text": "Entschuldigung, ich muss zur Polizei. Wo ist die nächste Wache?", "speaker_id": 0 },
+      { "text": "Zur Polizei? Ist etwas passiert?", "speaker_id": 1 },
+      { "text": "Ich möchte nur etwas melden. Nichts Schlimmes.", "speaker_id": 0 },
+      { "text": "Okay. Die nächste Polizeiwache ist in der Schillerstraße.", "speaker_id": 1 },
+      { "text": "Schillerstraße. Wie komme ich dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße entlang bis zur großen Ampelkreuzung.", "speaker_id": 1 },
+      { "text": "Ampelkreuzung.", "speaker_id": 0 },
+      { "text": "Dort biegen Sie rechts ab in die Schillerstraße.", "speaker_id": 1 },
+      { "text": "Rechts in die Schillerstraße.", "speaker_id": 0 },
+      { "text": "Die Wache ist dann nach etwa 300 Metern auf der linken Seite. Ein großes Gebäude mit blauen Schildern.", "speaker_id": 1 },
+      { "text": "300 Meter, linke Seite, blaue Schilder. Verstanden.", "speaker_id": 0 },
+      { "text": "Ist die Wache immer besetzt?", "speaker_id": 1 },
+      { "text": "Ja, die Hauptwache ist rund um die Uhr besetzt.", "speaker_id": 0 },
+      { "text": "Gut. Vielen Dank für Ihre Hilfe!", "speaker_id": 1 },
+      { "text": "Gern geschehen.", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 285": {
+    "summary": "Jemand fragt nach der Zeit für die Abholung bestellter Ware.",
+    "conversation": [
+      { "text": "Guten Tag. Ich habe letzte Woche etwas bestellt und wollte fragen, ob es schon da ist?", "speaker_id": 0 },
+      { "text": "Guten Tag. Auf welchen Namen lautet die Bestellung?", "speaker_id": 1 },
+      { "text": "Auf den Namen Gruber.", "speaker_id": 0 },
+      { "text": "Einen Moment, ich schaue nach... Ja, Gruber. Ihre Ware ist heute Morgen angekommen.", "speaker_id": 1 },
+      { "text": "Oh super! Wann kann ich sie abholen kommen?", "speaker_id": 0 },
+      { "text": "Sie können jederzeit während unserer Öffnungszeiten kommen.", "speaker_id": 1 },
+      { "text": "Und wie lange haben Sie heute geöffnet?", "speaker_id": 0 },
+      { "text": "Wir haben bis 18 Uhr geöffnet.", "speaker_id": 1 },
+      { "text": "Bis sechs Uhr. Gut, dann komme ich am späten Nachmittag vorbei.", "speaker_id": 0 },
+      { "text": "Sehr gerne. Bringen Sie bitte die Bestellbestätigung mit?", "speaker_id": 1 },
+      { "text": "Ja, die habe ich hier.", "speaker_id": 0 },
+      { "text": "Perfekt. Dann bis später.", "speaker_id": 1 },
+      { "text": "Bis später. Vielen Dank!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 286": {
+    "summary": "Zwei Freunde vereinbaren eine Zeit für einen Spieleabend.",
+    "conversation": [
+      { "text": "Hi Ben! Lust auf einen Spieleabend am Freitag?", "speaker_id": 0 },
+      { "text": "Hi Anna! Ja, total! Was wollen wir spielen?", "speaker_id": 1 },
+      { "text": "Ich habe ein neues Brettspiel bekommen. Das könnten wir ausprobieren.", "speaker_id": 0 },
+      { "text": "Super! Wann sollen wir anfangen?", "speaker_id": 1 },
+      { "text": "Wie wäre es so um 19 Uhr?", "speaker_id": 0 },
+      { "text": "Neunzehn Uhr passt gut. Bei dir oder bei mir?", "speaker_id": 1 },
+      { "text": "Lass uns bei mir spielen. Ich habe mehr Platz auf dem Tisch.", "speaker_id": 0 },
+      { "text": "Okay. Freitag, 19 Uhr, bei dir.", "speaker_id": 1 },
+      { "text": "Soll ich was zu knabbern mitbringen?", "speaker_id": 0 },
+      { "text": "Ja, gerne! Und vielleicht Getränke?", "speaker_id": 1 },
+      { "text": "Mach ich. Ich freue mich schon!", "speaker_id": 0 },
+      { "text": "Ich mich auch! Das wird lustig.", "speaker_id": 1 },
+      { "text": "Bis Freitag!", "speaker_id": 0 },
+      { "text": "Bis Freitag!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 287": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Fitnessstudio.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche ein Fitnessstudio hier in der Nähe.", "speaker_id": 0 },
+      { "text": "Ein Fitnessstudio? Ja, da gibt es eins im Einkaufszentrum.", "speaker_id": 1 },
+      { "text": "Im Einkaufszentrum? Wie komme ich dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße entlang, immer geradeaus.", "speaker_id": 1 },
+      { "text": "Ja.", "speaker_id": 0 },
+      { "text": "Nach etwa fünfhundert Metern sehen Sie das große Einkaufszentrum auf der linken Seite.", "speaker_id": 1 },
+      { "text": "Fünfhundert Meter, linke Seite. Okay.", "speaker_id": 0 },
+      { "text": "Das Fitnessstudio ist im obersten Stockwerk.", "speaker_id": 1 },
+      { "text": "Im obersten Stockwerk. Gibt es einen Aufzug?", "speaker_id": 0 },
+      { "text": "Ja, natürlich.", "speaker_id": 1 },
+      { "text": "Kann man dort auch nur einen Tag trainieren?", "speaker_id": 0 },
+      { "text": "Ich glaube, die bieten auch Tageskarten an.", "speaker_id": 1 },
+      { "text": "Super. Vielen Dank!", "speaker_id": 0 },
+      { "text": "Gern geschehen. Viel Spaß beim Training!", "speaker_id": 1 },
+      { "text": "Danke!", "speaker_id": 0 }
+    ]
+  },
+    "Szenario 288": {
+    "summary": "Jemand fragt nach der Uhrzeit für den Beginn einer Auktion.",
+    "conversation": [
+      { "text": "Guten Tag. Findet heute hier eine Auktion statt?", "speaker_id": 0 },
+      { "text": "Guten Tag. Ja, die Möbelauktion.", "speaker_id": 1 },
+      { "text": "Genau die. Wann beginnt sie denn?", "speaker_id": 0 },
+      { "text": "Die Auktion beginnt um 11 Uhr.", "speaker_id": 1 },
+      { "text": "Um elf Uhr vormittags. Okay.", "speaker_id": 0 },
+      { "text": "Ist eine Vorbesichtigung möglich?", "speaker_id": 1 },
+      { "text": "Ja, die Vorbesichtigung läuft bereits seit neun Uhr.", "speaker_id": 0 },
+      { "text": "Ah, gut. Dann schaue ich mich jetzt noch um.", "speaker_id": 1 },
+      { "text": "Wo findet die Besichtigung statt?", "speaker_id": 0 },
+      { "text": "Hier in dieser Halle. Die Auktion ist dann nebenan.", "speaker_id": 1 },
+      { "text": "Alles klar.", "speaker_id": 0 },
+      { "text": "Muss man sich registrieren zum Bieten?", "speaker_id": 1 },
+      { "text": "Ja, bitte registrieren Sie sich vorher am Eingang.", "speaker_id": 0 },
+      { "text": "Okay, mache ich. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Viel Erfolg!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 289": {
+    "summary": "Zwei Nachbarn vereinbaren eine Zeit, um gemeinsam den Gartenzaun zu reparieren.",
+    "conversation": [
+      { "text": "Hallo Herr Fischer. Unser Gartenzaun ist an einer Stelle kaputt.", "speaker_id": 0 },
+      { "text": "Hallo Frau König. Ja, ich habe es auch gesehen.", "speaker_id": 1 },
+      { "text": "Wollen wir das am Wochenende zusammen reparieren?", "speaker_id": 0 },
+      { "text": "Ja, gute Idee. Wann passt es Ihnen?", "speaker_id": 1 },
+      { "text": "Wie wäre es am Samstagnachmittag? So ab 14 Uhr?", "speaker_id": 0 },
+      { "text": "Vierzehn Uhr ist gut. Haben wir das nötige Material?", "speaker_id": 1 },
+      { "text": "Ich habe noch Holzlatten und Schrauben im Keller.", "speaker_id": 0 },
+      { "text": "Super. Ich habe Werkzeug, Bohrer und so.", "speaker_id": 1 },
+      { "text": "Perfekt. Dann treffen wir uns um 14 Uhr am Zaun?", "speaker_id": 0 },
+      { "text": "Ja, machen wir so.", "speaker_id": 1 },
+      { "text": "Wie lange brauchen wir wohl?", "speaker_id": 0 },
+      { "text": "Ich schätze, eine Stunde, höchstens zwei.", "speaker_id": 1 },
+      { "text": "Okay. Bis Samstag!", "speaker_id": 0 },
+      { "text": "Bis Samstag!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 290": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Getränkemarkt.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche einen Getränkemarkt.", "speaker_id": 0 },
+      { "text": "Einen Getränkemarkt? Ja, da ist einer am Stadtrand.", "speaker_id": 1 },
+      { "text": "Am Stadtrand? Ist das weit?", "speaker_id": 0 },
+      { "text": "Mit dem Auto sind es etwa fünf Minuten.", "speaker_id": 1 },
+      { "text": "Okay. Wie fahre ich dorthin?", "speaker_id": 0 },
+      { "text": "Fahren Sie die Hauptstraße stadtauswärts.", "speaker_id": 1 },
+      { "text": "Ja.", "speaker_id": 0 },
+      { "text": "Nach dem Ortsausgangsschild kommt nach etwa 500 Metern auf der rechten Seite ein großes Gewerbegebiet.", "speaker_id": 1 },
+      { "text": "Gewerbegebiet rechts.", "speaker_id": 0 },
+      { "text": "Dort finden Sie den Getränkemarkt. Er ist gut ausgeschildert.", "speaker_id": 1 },
+      { "text": "Okay. Haben die auch Kisten?", "speaker_id": 0 },
+      { "text": "Ja, natürlich. Alle gängigen Getränkekisten.", "speaker_id": 1 },
+      { "text": "Super. Vielen Dank!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 291": {
+    "summary": "Jemand fragt nach der Uhrzeit für den Beginn einer Gemeinderatssitzung.",
+    "conversation": [
+      { "text": "Guten Abend. Findet heute hier die Gemeinderatssitzung statt?", "speaker_id": 0 },
+      { "text": "Guten Abend. Ja, die Sitzung ist heute hier im Rathaus.", "speaker_id": 1 },
+      { "text": "Wann beginnt sie denn?", "speaker_id": 0 },
+      { "text": "Die Sitzung beginnt um 19:30 Uhr.", "speaker_id": 1 },
+      { "text": "Um halb acht. Okay.", "speaker_id": 0 },
+      { "text": "Ist die Sitzung öffentlich?", "speaker_id": 1 },
+      { "text": "Ja, der öffentliche Teil ist für alle Bürger zugänglich.", "speaker_id": 0 },
+      { "text": "Gut. Wo findet sie genau statt?", "speaker_id": 1 },
+      { "text": "Im großen Sitzungssaal im ersten Stock.", "speaker_id": 0 },
+      { "text": "Erster Stock, großer Sitzungssaal. Danke.", "speaker_id": 1 },
+      { "text": "Wie lange dauert die Sitzung normalerweise?", "speaker_id": 0 },
+      { "text": "Das ist unterschiedlich. Meistens aber zwei bis drei Stunden.", "speaker_id": 1 },
+      { "text": "Alles klar. Vielen Dank!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 292": {
+    "summary": "Zwei Freunde planen einen gemeinsamen Lernnachmittag.",
+    "conversation": [
+      { "text": "Hi Paul! Die Prüfung rückt näher. Wollen wir zusammen lernen?", "speaker_id": 0 },
+      { "text": "Hi Clara! Ja, das ist eine gute Idee. Wann hast du Zeit?", "speaker_id": 1 },
+      { "text": "Wie wäre es morgen Nachmittag?", "speaker_id": 0 },
+      { "text": "Morgen Nachmittag passt. Ab wann?", "speaker_id": 1 },
+      { "text": "Sagen wir ab 14 Uhr?", "speaker_id": 0 },
+      { "text": "Vierzehn Uhr ist gut. Wo wollen wir uns treffen? Bei mir?", "speaker_id": 1 },
+      { "text": "Ja, gerne bei dir. Du hast mehr Platz.", "speaker_id": 0 },
+      { "text": "Okay. Dann morgen um 14 Uhr bei mir.", "speaker_id": 1 },
+      { "text": "Was sollen wir lernen? Das erste oder zweite Thema?", "speaker_id": 0 },
+      { "text": "Lass uns mit dem ersten Thema anfangen.", "speaker_id": 1 },
+      { "text": "Einverstanden. Ich bringe meine Notizen mit.", "speaker_id": 0 },
+      { "text": "Super. Ich stelle Kaffee bereit.", "speaker_id": 1 },
+      { "text": "Perfekt! Bis morgen!", "speaker_id": 0 },
+      { "text": "Bis morgen!", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 293": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Sportgeschäft.",
+    "conversation": [
+      { "text": "Entschuldigung, ich suche ein Sportgeschäft.", "speaker_id": 0 },
+      { "text": "Ein Sportgeschäft? Ja, da gibt es ein großes im Einkaufszentrum.", "speaker_id": 1 },
+      { "text": "Im Einkaufszentrum. Wie komme ich dorthin?", "speaker_id": 0 },
+      { "text": "Gehen Sie diese Straße entlang, immer geradeaus.", "speaker_id": 1 },
+      { "text": "Ja.", "speaker_id": 0 },
+      { "text": "Nach etwa 500 Metern sehen Sie das Einkaufszentrum auf der linken Seite.", "speaker_id": 1 },
+      { "text": "500 Meter, linke Seite.", "speaker_id": 0 },
+      { "text": "Das Sportgeschäft ist im Erdgeschoss, ziemlich weit hinten.", "speaker_id": 1 },
+      { "text": "Erdgeschoss, hinten. Okay.", "speaker_id": 0 },
+      { "text": "Haben die auch Wanderschuhe?", "speaker_id": 1 },
+      { "text": "Ja, die haben eine große Abteilung für Outdoor-Kleidung und Schuhe.", "speaker_id": 0 },
+      { "text": "Super, genau das brauche ich.", "speaker_id": 1 },
+      { "text": "Vielen Dank für Ihre Hilfe!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 }
+    ]
+  },
+    "Szenario 294": {
+    "summary": "Jemand fragt nach der Zeit für das Ende der Öffnungszeit eines Amtes.",
+    "conversation": [
+      { "text": "Entschuldigung, ich muss noch zum Bürgeramt.", "speaker_id": 0 },
+      { "text": "Zum Bürgeramt? Ja.", "speaker_id": 1 },
+      { "text": "Wissen Sie, wie lange die heute geöffnet haben?", "speaker_id": 0 },
+      { "text": "Puh, da bin ich nicht sicher. Donnerstags haben die oft länger auf.", "speaker_id": 1 },
+      { "text": "Länger? Bis wann ungefähr?", "speaker_id": 0 },
+      { "text": "Ich glaube, bis 18 Uhr. Aber ohne Garantie.", "speaker_id": 1 },
+      { "text": "Bis sechs vielleicht. Okay.", "speaker_id": 0 },
+      { "text": "Wie spät ist es denn jetzt?", "speaker_id": 1 },
+      { "text": "Es ist jetzt halb fünf.", "speaker_id": 0 },
+      { "text": "Dann sollten Sie sich beeilen. Ist es weit?", "speaker_id": 1 },
+      { "text": "Nein, das Amt ist gleich um die Ecke.", "speaker_id": 0 },
+      { "text": "Na dann los! Viel Erfolg!", "speaker_id": 1 },
+      { "text": "Danke! Und danke für die Info!", "speaker_id": 0 },
+      { "text": "Bitte.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 295": {
+    "summary": "Zwei Personen vereinbaren einen Termin für einen gemeinsamen Besuch bei älteren Verwandten.",
+    "conversation": [
+      { "text": "Hallo Mama. Ich dachte, wir könnten Oma und Opa mal wieder besuchen.", "speaker_id": 0 },
+      { "text": "Hallo mein Kind. Ja, das ist eine schöne Idee. Sie freuen sich sicher.", "speaker_id": 1 },
+      { "text": "Wann hättest du denn Zeit? Wie wäre es am Sonntagnachmittag?", "speaker_id": 0 },
+      { "text": "Sonntag passt gut. Welche Zeit?", "speaker_id": 1 },
+      { "text": "Sollen wir zum Kaffee hinfahren? So gegen drei?", "speaker_id": 0 },
+      { "text": "Ja, drei Uhr ist gut. Dann können wir Kaffee trinken und etwas Kuchen mitbringen.", "speaker_id": 1 },
+      { "text": "Super. Holst du mich ab oder treffen wir uns dort?", "speaker_id": 0 },
+      { "text": "Ich kann dich gerne abholen. Dann fahren wir zusammen.", "speaker_id": 1 },
+      { "text": "Perfekt. Wann bist du dann bei mir?", "speaker_id": 0 },
+      { "text": "Sagen wir um halb drei?", "speaker_id": 1 },
+      { "text": "Okay, halb drei bei mir. Ich freue mich!", "speaker_id": 0 },
+      { "text": "Ich mich auch! Bis Sonntag!", "speaker_id": 1 },
+      { "text": "Bis Sonntag, Mama!", "speaker_id": 0 }
+    ]
+  },
+  "Szenario 296": {
+    "summary": "Eine Person fragt nach dem Weg zum nächsten Bolzplatz.",
+    "conversation": [
+      { "text": "Entschuldigung, wir wollen Fußball spielen. Wo ist hier ein Bolzplatz?", "speaker_id": 0 },
+      { "text": "Ein Bolzplatz? Ja, da gibt es einen hinter der Schule.", "speaker_id": 1 },
+      { "text": "Hinter der Schule? Welche Schule?", "speaker_id": 0 },
+      { "text": "Die Grundschule. Sehen Sie das gelbe Gebäude da vorne?", "speaker_id": 1 },
+      { "text": "Ja, das gelbe Gebäude.", "speaker_id": 0 },
+      { "text": "Gehen Sie links an der Schule vorbei.", "speaker_id": 1 },
+      { "text": "Links vorbei.", "speaker_id": 0 },
+      { "text": "Dahinter ist eine große Wiese mit zwei Toren. Das ist der Bolzplatz.", "speaker_id": 1 },
+      { "text": "Super! Ist der frei zugänglich?", "speaker_id": 0 },
+      { "text": "Ja, der ist öffentlich. Jeder kann dort spielen.", "speaker_id": 1 },
+      { "text": "Perfekt! Dann gehen wir mal kicken.", "speaker_id": 0 },
+      { "text": "Viel Spaß dabei!", "speaker_id": 1 },
+      { "text": "Danke! Und danke für den Weg!", "speaker_id": 0 },
+      { "text": "Gern geschehen.", "speaker_id": 1 }
+    ]
+  },
+  "Szenario 297": {
+    "summary": "Jemand fragt nach der Uhrzeit für den Einlass zu einem Konzert.",
+    "conversation": [
+      { "text": "Guten Abend. Wir sind hier für das Konzert.", "speaker_id": 0 },
+      { "text": "Guten Abend. Sehr schön.", "speaker_id": 1 },
+      { "text": "Das Konzert beginnt ja um 20 Uhr. Wann ist denn Einlass?", "speaker_id": 0 },
+      { "text": "Der Einlass beginnt um 19 Uhr.", "speaker_id": 1 },
+      { "text": "Um sieben. Okay, dann sind wir ja gut in der Zeit.", "speaker_id": 0 },
+      { "text": "Ja. Es ist auch noch nicht so voll.", "speaker_id": 1 },
+      { "text": "Gibt es eine Vorband?", "speaker_id": 0 },
+      { "text": "Nein, heute Abend gibt es keine Vorband.", "speaker_id": 1 },
+      { "text": "Gut zu wissen.", "speaker_id": 0 },
+      { "text": "Wo ist die Garderobe?", "speaker_id": 1 },
+      { "text": "Die Garderobe ist gleich hier links.", "speaker_id": 0 },
+      { "text": "Super. Vielen Dank!", "speaker_id": 1 },
+      { "text": "Gern geschehen. Viel Spaß beim Konzert!", "speaker_id": 0 },
+      { "text": "Danke!", "speaker_id": 1 }
+    ]
   }
 }
