@@ -3,7 +3,7 @@
 3. call fal api see rules/fal-api-integration.mdc to convert text to speech
 4. save/cache each audio from api locally.
 5. when application is started or app is load to browser, check for local copy of audio before try to download again, use local copy and skip api call if it exist
-6. use voice lia (speaker 0), aria(speaker 1) and Daniel(summary narrator)
+6. use voice liam (speaker 0), aria(speaker 1) and Daniel(summary narrator)
 7. Implementation should be next js (app router style/pattern)
 8. ui should be shadcn
 9. use ts and tsx

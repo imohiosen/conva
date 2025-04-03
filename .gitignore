@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+public/audio-cache/Szenario 01_0.mp3
+public/audio-cache/Szenario 01_1.mp3
+public/audio-cache/Szenario 01_2.mp3
+public/audio-cache/Szenario 01_3.mp3
+public/audio-cache/Szenario 01_4.mp3
+public/audio-cache/Szenario 01_5.mp3
+public/audio-cache/Szenario 01_summary.mp3
