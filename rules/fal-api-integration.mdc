@@ -1,0 +1,248 @@
+About
+ElevenLabs Turbo v2.5 model for text-to-speech generation.
+
+High quality with lowest latency, ideal for real-time applications. Supports 32 languages while maintaining natural voice quality.
+
+1. Calling the API
+#
+Install the client
+#
+The client provides a convenient way to interact with the model API.
+
+npm
+yarn
+pnpm
+bun
+
+npm install --save @fal-ai/client
+Migrate to @fal-ai/client
+The @fal-ai/serverless-client package has been deprecated in favor of @fal-ai/client. Please check the migration guide for more information.
+
+Setup your API Key
+#
+Set FAL_KEY as an environment variable in your runtime.
+
+
+export FAL_KEY="YOUR_API_KEY"
+Submit a request
+#
+The client API handles the API submit protocol. It will handle the request status updates and return the result when the request is completed.
+
+
+import { fal } from "@fal-ai/client";
+
+const result = await fal.subscribe("fal-ai/elevenlabs/tts/turbo-v2.5", {
+  input: {
+    text: "Hello! This is a test of the text to speech system, powered by ElevenLabs. How does it sound?"
+  },
+  logs: true,
+  onQueueUpdate: (update) => {
+    if (update.status === "IN_PROGRESS") {
+      update.logs.map((log) => log.message).forEach(console.log);
+    }
+  },
+});
+console.log(result.data);
+console.log(result.requestId);
+Streaming
+#
+This model supports streaming requests. You can stream data directly to the model and get the result in real-time.
+
+
+import { fal } from "@fal-ai/client";
+
+const stream = await fal.stream("fal-ai/elevenlabs/tts/turbo-v2.5", {
+  input: {
+    text: "Hello! This is a test of the text to speech system, powered by ElevenLabs. How does it sound?"
+  }
+});
+
+for await (const event of stream) {
+  console.log(event);
+}
+
+const result = await stream.done();
+2. Authentication
+#
+The API uses an API Key for authentication. It is recommended you set the FAL_KEY environment variable in your runtime when possible.
+
+API Key
+#
+In case your app is running in an environment where you cannot set environment variables, you can set the API Key manually as a client configuration.
+
+import { fal } from "@fal-ai/client";
+
+fal.config({
+  credentials: "YOUR_FAL_KEY"
+});
+Protect your API Key
+When running code on the client-side (e.g. in a browser, mobile app or GUI applications), make sure to not expose your FAL_KEY. Instead, use a server-side proxy to make requests to the API. For more information, check out our server-side integration guide.
+
+3. Queue
+#
+Long-running requests
+For long-running requests, such as training jobs or models with slower inference times, it is recommended to check the Queue status and rely on Webhooks instead of blocking while waiting for the result.
+
+Submit a request
+#
+The client API provides a convenient way to submit requests to the model.
+
+
+import { fal } from "@fal-ai/client";
+
+const { request_id } = await fal.queue.submit("fal-ai/elevenlabs/tts/turbo-v2.5", {
+  input: {
+    text: "Hello! This is a test of the text to speech system, powered by ElevenLabs. How does it sound?"
+  },
+  webhookUrl: "https://optional.webhook.url/for/results",
+});
+Fetch request status
+#
+You can fetch the status of a request to check if it is completed or still in progress.
+
+
+import { fal } from "@fal-ai/client";
+
+const status = await fal.queue.status("fal-ai/elevenlabs/tts/turbo-v2.5", {
+  requestId: "764cabcf-b745-4b3e-ae38-1200304cf45b",
+  logs: true,
+});
+Get the result
+#
+Once the request is completed, you can fetch the result. See the Output Schema for the expected result format.
+
+
+import { fal } from "@fal-ai/client";
+
+const result = await fal.queue.result("fal-ai/elevenlabs/tts/turbo-v2.5", {
+  requestId: "764cabcf-b745-4b3e-ae38-1200304cf45b"
+});
+console.log(result.data);
+console.log(result.requestId);
+4. Files
+#
+Some attributes in the API accept file URLs as input. Whenever that's the case you can pass your own URL or a Base64 data URI.
+
+Data URI (base64)
+#
+You can pass a Base64 data URI as a file input. The API will handle the file decoding for you. Keep in mind that for large files, this alternative although convenient can impact the request performance.
+
+Hosted files (URL)
+#
+You can also pass your own URLs as long as they are publicly accessible. Be aware that some hosts might block cross-site requests, rate-limit, or consider the request as a bot.
+
+Uploading files
+#
+We provide a convenient file storage that allows you to upload files and use them in your requests. You can upload files using the client API and use the returned URL in your requests.
+
+
+import { fal } from "@fal-ai/client";
+
+const file = new File(["Hello, World!"], "hello.txt", { type: "text/plain" });
+const url = await fal.storage.upload(file);
+Auto uploads
+The client will auto-upload the file for you if you pass a binary object (e.g. File, Data).
+
+Read more about file handling in our file upload guide.
+
+5. Schema
+#
+Input
+#
+text string
+The text to convert to speech
+
+voice string
+The voice to use for speech generation Default value: "Rachel"
+
+stability float
+Voice stability (0-1) Default value: 0.5
+
+similarity_boost float
+Similarity boost (0-1) Default value: 0.75
+
+style float
+Style exaggeration (0-1)
+
+
+{
+  "text": "Hello! This is a test of the text to speech system, powered by ElevenLabs. How does it sound?",
+  "voice": "Aria",
+  "stability": 0.5,
+  "similarity_boost": 0.75
+}
+Output
+#
+audio File
+The generated audio file
+
+
+{
+  "audio": {
+    "url": "https://v3.fal.media/files/zebra/zJL_oRY8h5RWwjoK1w7tx_output.mp3"
+  }
+}
+Other types
+#
+SpeechToTextRequest
+#
+audio_url string
+URL of the audio file to transcribe
+
+language_code string
+Language code of the audio
+
+tag_audio_events boolean
+Tag audio events like laughter, applause, etc. Default value: true
+
+diarize boolean
+Whether to annotate who is speaking Default value: true
+
+SoundEffectRequest
+#
+text string
+The text describing the sound effect to generate
+
+duration_seconds float
+Duration in seconds (0.5-22). If None, optimal duration will be determined from prompt.
+
+prompt_influence float
+How closely to follow the prompt (0-1). Higher values mean less variation. Default value: 0.3
+
+TranscriptionWord
+#
+text string
+The transcribed word or audio event
+
+start float
+Start time in seconds
+
+end float
+End time in seconds
+
+type string
+Type of element (word, spacing, or audio_event)
+
+speaker_id string
+Speaker identifier if diarization was enabled
+
+File
+#
+url string
+The URL where the file can be downloaded from.
+
+content_type string
+The mime type of the file.
+
+file_name string
+The name of the file. It will be auto-generated if not provided.
+
+file_size integer
+The size of the file in bytes.
+
+AudioIsolationRequest
+#
+audio_url string
+URL of the audio file to isolate voice from
+
+Related Models

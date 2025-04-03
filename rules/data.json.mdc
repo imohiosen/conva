@@ -1,0 +1,2425 @@
+{
+  "Szenario 01": {
+    "summary": "Zwei Nachbarn begrüßen sich am Morgen; einer geht mit seinem jungen Hund spazieren.",
+    "conversation": [
+      {
+        "text": "Guten Morgen, Herr Müller.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Morgen, Frau Schneider. Wie geht es Ihnen heute?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke, gut. Und Ihnen? Ist das Ihr Hund?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, das ist er. Er ist noch jung. Wir gehen jetzt spazieren.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sehr süß. Dann schönen Tag noch!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Danke, ebenfalls!",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 02": {
+    "summary": "Zwei Personen fragen im Restaurant nach einem Tisch und bestellen die ersten Getränke.",
+    "conversation": [
+      {
+        "text": "Guten Abend. Haben Sie einen Tisch für zwei Personen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, folgen Sie mir bitte. Hier am Fenster?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Perfekt, danke. Wir möchten gern die Speisekarte sehen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sofort. Hier bitte. Haben Sie schon etwas zu trinken gewählt?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich nehme ein Wasser und mein Freund nimmt ein Bier.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gut. Kommt sofort.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 03": {
+    "summary": "Ein Kunde kauft ein bestimmtes Brot in einer Bäckerei und bezahlt.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Ich brauche ein Brot.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern. Dieses hier? Oder ein anderes?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das dunkle Brot dort, bitte. Ist das alles?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, das ist alles für heute. Das macht drei Euro.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Hier bitte. Danke schön.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Danke Ihnen. Auf Wiedersehen.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 04": {
+    "summary": "Ein Kunde bezahlt seinen Einkauf im Supermarkt mit Karte.",
+    "conversation": [
+      {
+        "text": "Hallo. Das ist alles, danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Haben Sie eine Kundenkarte?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, habe ich nicht. Ich zahle mit Karte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "In Ordnung. Bitte hier unterschreiben. Hier ist Ihr Beleg.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Schönen Tag noch.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ihnen auch.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 05": {
+    "summary": "Eine Person fragt nach dem Weg zum Bahnhof und erhält eine Wegbeschreibung.",
+    "conversation": [
+      {
+        "text": "Entschuldigung, können Sie mir helfen? Ich suche den Bahnhof.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, gern. Gehen Sie diese Straße geradeaus. Dann links.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Geradeaus und dann links. Ist es weit?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Nein, nicht weit. Etwa fünf Minuten zu Fuß.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank für die Hilfe!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 06": {
+    "summary": "Zwei Bekannte unterhalten sich kurz über das schöne Wetter.",
+    "conversation": [
+      {
+        "text": "Hallo Anna. Schönes Wetter heute, nicht wahr?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hallo Peter. Ja, endlich scheint die Sonne wieder. Es war so lange kalt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Stimmt. Hoffentlich bleibt es so.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich hoffe es auch. Ich will am Wochenende in den Park gehen.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 07": {
+    "summary": "Zwei Personen sprechen über ihre Wochenendpläne: Elternbesuch und Grillen mit Freunden.",
+    "conversation": [
+      {
+        "text": "Was machst du am Wochenende?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich weiß noch nicht genau. Vielleicht besuche ich meine Eltern.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das ist schön. Ich treffe mich mit Freunden. Wir wollen grillen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, das klingt gut! Viel Spaß dabei.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Dir auch ein schönes Wochenende.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 08": {
+    "summary": "Eine Person ruft in einer Arztpraxis an, um einen Termin zu vereinbaren.",
+    "conversation": [
+      {
+        "text": "Guten Tag, Praxis Dr. Klein. Was kann ich für Sie tun?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Guten Tag. Ich brauche einen Termin. Mein Name ist Schmidt.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Einen Moment, Frau Schmidt. Wann passt es Ihnen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Morgen Vormittag wäre gut.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Um zehn Uhr haben wir noch etwas frei. Passt das?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, das passt perfekt. Vielen Dank.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 09": {
+    "summary": "Zwei Kollegen unterhalten sich in der Kaffeeküche über ein vergangenes Meeting.",
+    "conversation": [
+      {
+        "text": "Hallo Thomas. Machst du gerade Kaffee?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, willst du auch eine Tasse?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh ja, gern. Mit Milch, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Die Milch steht im Kühlschrank.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Wie war dein Meeting?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Lang. Sehr lang. Aber das Ergebnis ist gut.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 10": {
+    "summary": "Eine Person kauft am Bahnhof eine einfache Fahrkarte nach Berlin.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Eine Fahrkarte nach Berlin, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Einfach oder hin und zurück?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nur einfach, bitte. Wann fährt der nächste Zug?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Der nächste Zug fährt in zehn Minuten von Gleis drei.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Das macht dann wie viel?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das macht sechzig Euro.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 11": {
+    "summary": "Eine Person fragt im Bus nach einem freien Platz und der Fahrtrichtung.",
+    "conversation": [
+      {
+        "text": "Entschuldigung, ist dieser Platz noch frei?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, der Platz ist frei. Bitte.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Fährt dieser Bus direkt zum Zentrum?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, er fährt direkt dorthin. Dauert etwa zwanzig Minuten.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gut zu wissen, danke.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 12": {
+    "summary": "Zwei Personen betrachten ein Bild in einem Museum und unterhalten sich über den Künstler.",
+    "conversation": [
+      {
+        "text": "Wow, dieses Bild ist beeindruckend.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, finde ich auch. Der Künstler hat interessante Farben benutzt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Stimmt. Kennst du den Künstler?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich habe den Namen schon gehört, aber ich kenne sein Werk nicht gut.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wir können nachher im Museumsshop nach einem Buch suchen.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 13": {
+    "summary": "Ein Vater spricht mit der Lehrerin über die schulischen Leistungen seines Sohnes.",
+    "conversation": [
+      {
+        "text": "Guten Tag, Frau Weber. Danke, dass Sie Zeit haben.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag, Herr Bauer. Gern. Wie kann ich Ihnen helfen bezüglich Ihres Sohnes?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich wollte fragen, wie er sich in Mathematik macht.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Er hat sich verbessert. Er arbeitet gut mit und stellt Fragen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das ist gut zu hören. Vielen Dank.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 14": {
+    "summary": "Eine Person fragt in der Bibliothek nach dem Standort von Geschichtsbüchern und leiht ein Buch aus.",
+    "conversation": [
+      {
+        "text": "Entschuldigung, wo finde ich die Bücher über Geschichte?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Die stehen dort drüben, im hinteren Bereich, links.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Kann ich dieses Buch hier ausleihen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, natürlich. Haben Sie einen Bibliotheksausweis?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, hier ist er.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 15": {
+    "summary": "Zwei Personen diskutieren über einen kürzlich gesehenen Kinofilm.",
+    "conversation": [
+      {
+        "text": "Hast du den neuen Film gesehen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, gestern Abend. Ich fand ihn sehr spannend.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wirklich? Ich fand die Geschichte etwas kompliziert.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, man musste gut aufpassen. Aber die Schauspieler waren toll.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das stimmt. Besonders die Hauptdarstellerin hat gut gespielt.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 16": {
+    "summary": "Zwei Personen planen eine Party und verteilen Aufgaben (Getränke, Musik, Kuchen).",
+    "conversation": [
+      {
+        "text": "Wir müssen die Party für Samstag planen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Wer kauft die Getränke?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich kann das machen. Kannst du dich um die Musik kümmern?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, kein Problem. Ich habe eine gute Musikliste.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super. Und wir brauchen noch ein paar Snacks.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich kann einen Kuchen backen.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 17": {
+    "summary": "Eine Person beschwert sich bei ihrem Nachbarn über laute Musik am Vorabend.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie, Herr Nachbar.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, bitte?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ihre Musik war gestern Abend sehr laut. Ich konnte nicht schlafen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, das tut mir leid. Das habe ich nicht bemerkt. Ich werde darauf achten.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank. Das ist sehr nett.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 18": {
+    "summary": "Ein Kunde möchte ein Hemd zurückgeben, weil es nicht passt, und erhält das Geld zurück.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Ich möchte dieses Hemd zurückgeben.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Haben Sie den Kassenbon dabei?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, hier bitte. Es passt leider nicht.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kein Problem. Möchten Sie das Geld zurück oder einen Gutschein?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das Geld zurück, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "In Ordnung. Hier bitte.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 19": {
+    "summary": "Eine Kundin kommt zu ihrem Friseurtermin und erkundigt sich nach der Dauer.",
+    "conversation": [
+      {
+        "text": "Hallo. Ich habe einen Termin um 14 Uhr.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hallo Frau Richter. Ja, bitte nehmen Sie kurz Platz. Wir sind gleich für Sie da.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Wie lange dauert das Schneiden ungefähr?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Etwa eine Stunde, mit Waschen und Föhnen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, gut.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 20": {
+    "summary": "Zwei Personen sprechen über ihre sportlichen Aktivitäten (Laufen, Schwimmen).",
+    "conversation": [
+      {
+        "text": "Gehst du heute zum Sport?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, ich will laufen gehen. Das Wetter ist perfekt dafür.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich war gestern schwimmen. Das hat gut getan.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Schwimmen ist auch toll. Vielleicht mache ich das nächste Woche.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 21": {
+    "summary": "Ein Paar überlegt, was es zum Abendessen kochen soll, und entscheidet sich für Nudeln mit Salat.",
+    "conversation": [
+      {
+        "text": "Was sollen wir heute Abend essen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich habe Lust auf Nudeln. Wir haben noch Tomaten.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gute Idee. Ich kann einen Salat dazu machen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Super. Dann fange ich schon mal mit den Nudeln an.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 22": {
+    "summary": "Eine Person möchte bei der Post ein Paket nach Frankreich verschicken und fragt nach den Kosten.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Ich möchte dieses Paket verschicken.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Wohin soll es gehen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nach Frankreich. Was kostet das?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das kommt auf das Gewicht an. Legen Sie es bitte hier auf die Waage.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay. Es wiegt fast zwei Kilo.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Dann kostet es neun Euro.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 23": {
+    "summary": "Zwei Kollegen sprechen über den Status eines Berichts.",
+    "conversation": [
+      {
+        "text": "Hast du den Bericht schon fertig?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Fast. Ich brauche noch etwa eine Stunde.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay. Kannst du ihn mir schicken, wenn du fertig bist?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, mache ich. Ich schicke dir eine E-Mail.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke dir.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 24": {
+    "summary": "Ein Gastgeber begrüßt einen Gast und bietet etwas zu trinken an.",
+    "conversation": [
+      {
+        "text": "Hallo! Schön, dass du da bist. Komm rein.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hallo! Danke für die Einladung. Deine Wohnung ist sehr schön.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Setz dich doch. Möchtest du etwas trinken? Kaffee, Tee, Wasser?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ein Wasser wäre nett, danke.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Kommt sofort.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 25": {
+    "summary": "Eine Person kauft in der Apotheke rezeptfreie Tabletten gegen Kopfschmerzen.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Ich brauche etwas gegen Kopfschmerzen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Haben Sie ein Rezept vom Arzt?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein. Gibt es etwas ohne Rezept?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, wir haben diese Tabletten hier. Sie helfen oft gut.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, die nehme ich. Danke.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 26": {
+    "summary": "Zwei Personen unterhalten sich über ein Buch, das eine der anderen geliehen hat.",
+    "conversation": [
+      {
+        "text": "Ich lese gerade ein sehr gutes Buch.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Wirklich? Worum geht es?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Es ist eine Geschichte über eine Reise. Sehr spannend geschrieben.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Wer ist der Autor?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Der Name steht hier... Ich kann ihn dir nachher zeigen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, gern.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 27": {
+    "summary": "Eine Person bietet einer anderen Hilfe beim Tragen einer schweren Tasche an.",
+    "conversation": [
+      {
+        "text": "Oh, diese Tasche ist schwer. Brauchen Sie Hilfe?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, das wäre sehr nett! Ja, bitte. Vielen Dank.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Kein Problem. Wohin müssen Sie?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Nur bis zur nächsten Ecke. Danke!",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gern geschehen.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 28": {
+    "summary": "Ein Kunde zahlt bei der Bank Geld auf sein Sparkonto ein.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Ich möchte Geld einzahlen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Auf welches Konto bitte?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Auf mein Sparkonto. Hier ist meine Karte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Danke. Wie viel möchten Sie einzahlen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Zweihundert Euro.",
+        "speaker_id": 0
+      },
+      {
+        "text": "In Ordnung. Hier ist Ihre Quittung.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 29": {
+    "summary": "Zwei Personen sprechen kurz über eine politische Nachrichtensendung.",
+    "conversation": [
+      {
+        "text": "Hast du die Nachrichten heute gehört?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Nein, noch nicht. Ist etwas Wichtiges passiert?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Es gab eine Rede vom Präsidenten zur Wirtschaft.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ach ja? Und was hat er gesagt?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Er hat neue Pläne vorgestellt. Ich kann es dir später erzählen.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 30": {
+    "summary": "Eine Person macht der anderen ein Kompliment für ihre neue Jacke.",
+    "conversation": [
+      {
+        "text": "Deine neue Jacke sieht toll aus!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Danke! Ich habe sie gestern gekauft.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sie steht dir wirklich gut. Die Farbe ist schön.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist nett von dir. Ich war mir zuerst unsicher.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 31": {
+    "summary": "Ein Passagier checkt am Flughafen für seinen Flug nach Rom ein.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Ich möchte für den Flug nach Rom einchecken.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Haben Sie Ihren Pass und Ihr Ticket bereit?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, hier bitte. Ich habe nur Handgepäck.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sehr gut. Hier ist Ihre Bordkarte. Ihr Flugsteig ist B15.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank. Schönen Tag.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 32": {
+    "summary": "Eine Person fragt im Fundbüro oder an einer Information nach einem verlorenen Schal und bekommt ihn zurück.",
+    "conversation": [
+      {
+        "text": "Entschuldigung, haben Sie vielleicht einen schwarzen Schal gefunden?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Einen Moment, ich schaue nach. Ja, hier ist einer. Ist das Ihrer?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, genau der! Oh, vielen Dank! Ich habe ihn schon gesucht.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Passen Sie gut darauf auf.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 33": {
+    "summary": "Ein Kunde bestellt im Café einen großen Kaffee mit Milch zum Mitnehmen.",
+    "conversation": [
+      {
+        "text": "Hallo. Einen Kaffee zum Mitnehmen, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Groß oder klein?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Groß, bitte. Mit etwas Milch.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Das macht drei Euro fünfzig.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Hier bitte. Danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Danke schön. Hier Ihr Kaffee.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 34": {
+    "summary": "Ein Vater bietet seinem Sohn Hilfe bei den schwierigen Deutsch-Hausaufgaben an.",
+    "conversation": [
+      {
+        "text": "Hast du deine Hausaufgaben für Deutsch gemacht?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Noch nicht ganz, Papa. Es ist schwer.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Soll ich dir helfen? Was musst du tun?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Wir müssen einen Text schreiben. Ich weiß nicht, wie ich anfangen soll.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, lass uns zusammen überlegen. Hol dein Heft.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 35": {
+    "summary": "Zwei Personen unterhalten sich kurz im Fitnessstudio über die Benutzung eines Geräts.",
+    "conversation": [
+      {
+        "text": "Hallo. Ist dieses Gerät frei?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, ich bin gerade fertig geworden.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super, danke. Warst du schon lange hier?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Etwa eine Stunde. Ich gehe jetzt duschen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, viel Spaß noch.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 36": {
+    "summary": "Zwei Personen genießen einen Spaziergang im frühlingshaften Park.",
+    "conversation": [
+      {
+        "text": "Was für ein schöner Tag für einen Spaziergang im Park.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, herrlich. So viele Blumen blühen schon.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Und die Vögel singen. Ich liebe den Frühling.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich auch. Es ist die beste Zeit des Jahres.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 37": {
+    "summary": "Zwei Bekannte unterhalten sich über ihre unterschiedlichen Urlaubspläne (Italienreise vs. Wohnungsrenovierung).",
+    "conversation": [
+      {
+        "text": "Wohin fahrt ihr in den Urlaub dieses Jahr?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Wir fahren ans Meer, nach Italien.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, wie schön! Italien ist wunderbar.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, wir freuen uns schon sehr. Und ihr?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wir bleiben zu Hause. Wir renovieren die Wohnung.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 38": {
+    "summary": "Ein Kunde tankt sein Auto voll und bezahlt an der Kasse mit Karte.",
+    "conversation": [
+      {
+        "text": "Einmal volltanken, bitte. Super.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Sonst noch etwas? Öl prüfen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein danke, das ist alles. Ich zahle mit Karte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "In Ordnung. Kommen Sie bitte mit zur Kasse.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 39": {
+    "summary": "Eine Person meldet eine kaputte Waschmaschine bei einem Reparaturservice und vereinbart einen Termin.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Meine Waschmaschine ist kaputt. Reparieren Sie so etwas?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, das machen wir. Was genau ist das Problem?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sie startet nicht mehr. Kein Licht, nichts.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Wir können einen Techniker schicken. Wann passt es Ihnen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Geht es morgen Nachmittag?",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 40": {
+    "summary": "Zwei Personen unterhalten sich über die Katze der einen, die gewachsen ist.",
+    "conversation": [
+      {
+        "text": "Deine Katze ist aber gewachsen!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, sie frisst sehr gut. Und sie spielt den ganzen Tag.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sie sieht sehr zufrieden aus.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist sie auch. Sie ist ein wichtiger Teil der Familie geworden.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 41": {
+    "summary": "Eine Person lädt eine andere zum selbstgekochten Abendessen am Freitag ein.",
+    "conversation": [
+      {
+        "text": "Hallo Lena. Hast du am Freitagabend schon etwas vor?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hallo Max. Nein, ich glaube nicht. Warum?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich wollte dich zum Essen einladen. Ich koche.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, das ist aber nett! Ja, sehr gern!",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super! Dann sehen wir uns Freitag.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 42": {
+    "summary": "Eine Person sagt eine Einladung zu einer Party ab, weil sie eine Familienfeier hat.",
+    "conversation": [
+      {
+        "text": "Danke für die Einladung zur Party, aber ich kann leider nicht kommen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, schade. Hast du andere Pläne?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, meine Schwester hat Geburtstag, wir feiern mit der Familie.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ah, verstehe. Das ist natürlich wichtig. Dann feiert schön!",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Euch auch viel Spaß auf der Party!",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 43": {
+    "summary": "Ein Nachbar leiht sich vom anderen einen Bohrer, um ein Regal aufzuhängen.",
+    "conversation": [
+      {
+        "text": "Hallo Herr Schmidt. Könnte ich mir vielleicht Ihren Bohrer leihen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Meinen Bohrer? Ja, klar. Wofür brauchen Sie ihn denn?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich möchte ein Regal an der Wand befestigen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kein Problem. Ich hole ihn eben. Brauchen Sie auch Schrauben?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, Schrauben habe ich. Vielen Dank!",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 44": {
+    "summary": "Eine Person bemerkt, dass die andere müde aussieht, und bietet Hilfe bei der Arbeit an.",
+    "conversation": [
+      {
+        "text": "Du siehst müde aus. Ist alles in Ordnung?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, nur viel Arbeit im Moment. Und schlecht geschlafen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Kann ich dir irgendwie helfen? Vielleicht etwas von deiner Arbeit übernehmen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist sehr lieb von dir, aber das geht schon. Danke für das Angebot!",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 45": {
+    "summary": "Zwei Kollegen sprechen über den morgendlichen Verkehr und die Alternative Fahrradfahren.",
+    "conversation": [
+      {
+        "text": "Der Verkehr heute Morgen war schrecklich.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh ja? Ich bin mit dem Fahrrad gekommen. Das ging schnell.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Du Glücklicher. Ich habe fast eine Stunde gebraucht.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist ärgerlich. Vielleicht solltest du auch Rad fahren?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielleicht. Ich denke darüber nach.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 46": {
+    "summary": "Zwei Personen schwärmen von einem fantastischen Konzert, das sie besucht haben.",
+    "conversation": [
+      {
+        "text": "Das Konzert war fantastisch!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, unglaublich gut! Die Band hat super gespielt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Und die Sängerin hat eine tolle Stimme.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Absolut. Das war das Geld wert.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 47": {
+    "summary": "Zwei Freundinnen diskutieren beim Kleiderkauf über ein Kleid und eine Jacke.",
+    "conversation": [
+      {
+        "text": "Wie findest du dieses Kleid?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Die Farbe ist schön, aber der Schnitt gefällt mir nicht so gut.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Echt? Ich finde es eigentlich ganz nett. Probier doch mal die Jacke dort an.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Wo ist die Umkleidekabine?",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 48": {
+    "summary": "Ein Kunde probiert Schuhe an, die zu eng sind, und der Verkäufer holt eine größere Größe.",
+    "conversation": [
+      {
+        "text": "Passen die Schuhe?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich glaube, sie sind ein bisschen zu eng.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Soll ich sie eine Nummer größer holen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, bitte. Das wäre gut.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Moment, ich bin gleich zurück.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 49": {
+    "summary": "Zwei Mütter unterhalten sich auf dem Spielplatz über ihre spielenden Kinder.",
+    "conversation": [
+      {
+        "text": "Ihr Sohn spielt aber schön im Sand.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, er liebt den Spielplatz. Ihre Tochter klettert ja schon richtig gut!",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Sie ist sehr mutig. Manchmal zu mutig.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das kenne ich.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 50": {
+    "summary": "Zwei Kollegen besprechen ein Problem mit einem Kundenprojekt und vereinbaren ein Meeting.",
+    "conversation": [
+      {
+        "text": "Es gibt ein Problem mit dem Projekt.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh nein. Was ist passiert?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Der Kunde ist unzufrieden mit dem ersten Entwurf.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Wir müssen darüber sprechen und eine Lösung finden. Treffen wir uns später?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, gute Idee. Um drei Uhr?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Passt.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 51": {
+    "summary": "Eine Person bittet eine andere, während ihrer Abwesenheit ihre Blumen zu gießen.",
+    "conversation": [
+      {
+        "text": "Kannst du mir einen Gefallen tun?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kommt darauf an. Was brauchst du?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Könntest du morgen meine Blumen gießen? Ich bin nicht da.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, klar. Kein Problem. Gib mir einfach den Schlüssel.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super, danke dir!",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 52": {
+    "summary": "Eine Person erzählt von einem Streit mit ihrer Freundin, und die andere rät zu einem ruhigen Gespräch.",
+    "conversation": [
+      {
+        "text": "Ich weiß nicht, was ich tun soll.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Was ist denn los?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich habe Streit mit meiner Freundin.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Vielleicht solltest du noch einmal mit ihr sprechen? Ganz ruhig.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Du meinst? Ja, vielleicht hast du recht.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 53": {
+    "summary": "Eine Person bietet einer anderen ein Stück selbstgebackenen Kuchen an.",
+    "conversation": [
+      {
+        "text": "Möchtest du auch ein Stück von meinem Kuchen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, der sieht lecker aus! Ja, gern, ein kleines Stück.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Hier, bitte. Ich habe ihn selbst gebacken.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Wow, schmeckt sehr gut! Danke.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 54": {
+    "summary": "Ein Kunde kauft auf dem Markt Äpfel und Bananen.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Ich hätte gern ein Kilo Äpfel.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern. Diese roten hier? Die sind sehr süß.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, die sehen gut aus. Und noch drei Bananen, bitte.",
+        "speaker_id": 0
+      },
+      {
+        "text": "In Ordnung. Sonst noch etwas?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, das ist alles, danke.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 55": {
+    "summary": "Zwei Personen erinnern sich wehmütig an einen schönen gemeinsamen Urlaub am Meer.",
+    "conversation": [
+      {
+        "text": "Erinnerst du dich an unseren Urlaub am Meer letztes Jahr?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, natürlich! Das war so schön. Besonders der Abend am Strand.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Stimmt. Wir müssen das unbedingt wiederholen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Unbedingt!",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 56": {
+    "summary": "Eine Person erkundigt sich nach dem Befinden eines kranken Bekannten und bietet Hilfe an.",
+    "conversation": [
+      {
+        "text": "Hallo Peter. Ich habe gehört, du bist krank. Wie geht es dir?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hallo Sabine. Ja, leider. Es geht schon etwas besser, danke.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das ist gut. Brauchst du etwas? Soll ich dir etwas vorbeibringen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist sehr lieb, danke. Aber meine Frau kümmert sich gut um mich.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay. Dann gute Besserung weiterhin!",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 57": {
+    "summary": "Ein Gast checkt im Hotel ein und erhält seinen Zimmerschlüssel.",
+    "conversation": [
+      {
+        "text": "Guten Abend. Ich habe ein Zimmer reserviert. Mein Name ist Wagner.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Abend, Herr Wagner. Ja, hier ist Ihre Reservierung. Füllen Sie bitte dieses Formular aus.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay. Bekomme ich dann den Schlüssel?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, sofort. Ihr Zimmer ist im zweiten Stock, Nummer 205.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielen Dank.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 58": {
+    "summary": "Eine Person erkundigt sich nach den Öffnungszeiten eines Geschäfts.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie, wann schließt das Geschäft heute?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Wir schließen um 18 Uhr.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, dann muss ich mich beeilen. Danke.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 59": {
+    "summary": "Zwei Nachbarn unterhalten sich über die Gartenarbeit und die Blumen.",
+    "conversation": [
+      {
+        "text": "Hallo Frau Meyer. Ich sehe, Sie gießen Ihre Blumen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, bei diesem warmen Wetter brauchen sie viel Wasser.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sie sehen sehr schön aus. Besonders die Rosen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Danke. Gartenarbeit macht mir viel Freude.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 60": {
+    "summary": "Zwei Kollegen legen die Tagesordnungspunkte für ein bevorstehendes Meeting fest.",
+    "conversation": [
+      {
+        "text": "Wir müssen die Agenda für das Meeting morgen festlegen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Punkt eins: die neuen Verkaufszahlen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gut. Punkt zwei: das Marketing-Budget.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Einverstanden. Und Punkt drei: Planung für das nächste Quartal.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Perfekt. Ich schreibe das so auf.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 61": {
+    "summary": "Zwei Personen warten auf eine dritte, die sich verspätet hat.",
+    "conversation": [
+      {
+        "text": "Wo bleibt er nur? Wir haben uns um drei Uhr verabredet.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Vielleicht steht er im Stau. Hast du versucht anzurufen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, aber er geht nicht ran. Ich warte noch zehn Minuten.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Ich warte mit dir.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 62": {
+    "summary": "Einer Person fällt ein Glas herunter, und die andere bietet Hilfe beim Aufräumen der Scherben an.",
+    "conversation": [
+      {
+        "text": "Oh nein, ich habe das Glas fallen lassen. Es ist kaputt.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ist dir etwas passiert? Hast du dich geschnitten?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, zum Glück nicht. Aber überall liegen Scherben.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Kein Problem. Ich hole Besen und Schaufel.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke, das ist lieb.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 63": {
+    "summary": "Ein Kunde beschreibt in einer Werkstatt ein komisches Geräusch seines Autos.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Mein Auto macht komische Geräusche beim Fahren.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Können Sie das Geräusch beschreiben?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Es ist ein Klopfen, besonders wenn ich bremse.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Wir müssen uns das ansehen. Können Sie das Auto heute hier lassen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, das geht.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 64": {
+    "summary": "Zwei Personen überlegen ein passendes Geburtstagsgeschenk für die Mutter und entscheiden sich für einen Buchgutschein.",
+    "conversation": [
+      {
+        "text": "Ich brauche ein Geschenk für meine Mutter zum Geburtstag.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Was mag sie denn gerne? Bücher, Schmuck, Blumen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sie liest gern. Vielleicht ein gutes Buch?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gute Idee. Oder ein Gutschein für die Buchhandlung?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, das ist vielleicht besser. Dann kann sie selbst wählen.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 65": {
+    "summary": "Zwei Personen unterhalten sich über ihre unterschiedlichen Musikgeschmäcker.",
+    "conversation": [
+      {
+        "text": "Welche Musik hörst du gern?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich mag Rockmusik, aber auch Jazz.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Echt? Ich höre lieber Popmusik und elektronische Musik.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Jeder hat seinen Geschmack. Das ist ja das Schöne.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 66": {
+    "summary": "Ein Paar plant einen Wanderausflug in die Berge am Wochenende.",
+    "conversation": [
+      {
+        "text": "Wollen wir am Wochenende einen Ausflug machen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, gern! Wohin denn?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielleicht in die Berge? Wir könnten wandern gehen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Super Idee! Das Wetter soll gut werden.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Dann packen wir den Rucksack.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 67": {
+    "summary": "Eine Person fragt am Bahnhof nach dem richtigen Zug nach München und wird korrigiert.",
+    "conversation": [
+      {
+        "text": "Entschuldigung, fährt dieser Zug nach München?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Nein, dieser Zug fährt nach Hamburg. Der Zug nach München fährt drüben von Gleis 5.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, danke! Fast wäre ich falsch eingestiegen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Passiert.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 68": {
+    "summary": "Zwei Personen unterhalten sich über die Schwierigkeiten bei der Wohnungssuche.",
+    "conversation": [
+      {
+        "text": "Die Wohnungssuche ist echt schwer.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, ich weiß. Die Preise sind so hoch.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Und es gibt so viele Bewerber für jede Wohnung.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gib nicht auf. Du findest bestimmt bald etwas.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ich hoffe es.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 69": {
+    "summary": "Ein Paar teilt sich die Aufgaben beim Kochen des Abendessens.",
+    "conversation": [
+      {
+        "text": "Soll ich die Kartoffeln schneiden?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, bitte. Ich kümmere mich um das Fleisch.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay. Brauchen wir noch Zwiebeln?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, eine Zwiebel wäre gut. Sie liegt im Kühlschrank.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Alles klar. Das wird lecker.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 70": {
+    "summary": "Zwei Personen betrachten alte Fotos und erinnern sich an vergangene Zeiten.",
+    "conversation": [
+      {
+        "text": "Schau mal, was ich gefunden habe! Alte Fotos von uns.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, zeig mal! Wahnsinn, wie jung wir da waren!",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, das ist bestimmt zehn Jahre her. Erinnerst du dich an den Tag?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, das war auf Peters Geburtstagsparty.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 71": {
+    "summary": "Eine Person klagt über einen langsamen Computer, und die andere gibt Tipps zur Verbesserung.",
+    "conversation": [
+      {
+        "text": "Mein Computer ist so langsam geworden.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hast du schon versucht, alte Dateien zu löschen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, noch nicht. Meinst du, das hilft?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, oft schon. Zu viele Programme im Hintergrund können auch ein Problem sein.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, ich versuche das mal. Danke für den Tipp.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 72": {
+    "summary": "Eine Person bittet die andere, den Tisch zu decken, während das Essen zubereitet wird.",
+    "conversation": [
+      {
+        "text": "Kannst du bitte den Tisch decken? Das Essen ist gleich fertig.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, mache ich. Teller, Besteck, Gläser?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Genau. Und Servietten liegen im Schrank.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Ist erledigt.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 73": {
+    "summary": "Zwei Personen teilen sich die Aufgaben beim Putzen der Wohnung.",
+    "conversation": [
+      {
+        "text": "Wollen wir heute zusammen die Wohnung putzen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Ich sauge Staub, und du putzt das Bad?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Einverstanden. Danach können wir einen Kaffee trinken.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gute Idee. Dann fangen wir an.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 74": {
+    "summary": "Zwei Personen unterhalten sich aufgeregt über das überraschende Ende einer Fernsehserie.",
+    "conversation": [
+      {
+        "text": "Hast du gestern Abend die Serie geschaut?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja! Das Ende war ja total überraschend.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Fand ich auch! Ich kann die nächste Folge kaum erwarten.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich auch nicht. Wann kommt die?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nächste Woche, glaube ich.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 75": {
+    "summary": "Zwei Personen unterhalten sich im Schwimmbad über die Wassertemperatur.",
+    "conversation": [
+      {
+        "text": "Das Wasser ist heute aber kalt.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Findest du? Ich finde es erfrischend.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Na gut, ich schwimme erst mal ein paar Bahnen, dann wird mir warm.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Mach das. Ich bleibe noch kurz hier am Rand.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 76": {
+    "summary": "Ein Enkelkind besucht seine Großeltern und freut sich über den Lieblingskuchen.",
+    "conversation": [
+      {
+        "text": "Hallo Oma, hallo Opa! Schön, euch zu sehen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hallo mein Kind! Komm rein. Wie war die Fahrt?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gut, danke. Kein Stau. Habt ihr Kuchen gebacken?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, dein Lieblingskuchen steht schon auf dem Tisch.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, wunderbar!",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 77": {
+    "summary": "Ein Mann kauft im Blumenladen einen bunten Strauß für seine Frau.",
+    "conversation": [
+      {
+        "text": "Ich möchte bitte einen Strauß Blumen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern. Für einen bestimmten Anlass?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Für meine Frau, einfach so.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Wie schön! Vielleicht Rosen? Oder etwas Buntes?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Etwas Buntes wäre toll. Nicht zu groß.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay, ich stelle Ihnen etwas Schönes zusammen.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 78": {
+    "summary": "Zwei Personen unterhalten sich beim Grillen über das Essen und bieten sich gegenseitig Hilfe an.",
+    "conversation": [
+      {
+        "text": "Riecht gut! Was grillst du da?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Fleisch und Gemüse. Möchtest du auch etwas?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, gern! Kann ich dir helfen? Vielleicht den Salat holen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, super. Er steht im Kühlschrank.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 79": {
+    "summary": "Zwei Nachbarn unterhalten sich über ihre Gärten und tauschen Tipps zur Tomatenpflege aus.",
+    "conversation": [
+      {
+        "text": "Dein Garten sieht toll aus dieses Jahr.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Danke. Ich habe viel Zeit investiert. Die Tomaten wachsen gut.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Kann ich sehen. Hast du einen Tipp für mich? Meine sind noch ganz klein.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Sie brauchen viel Sonne und regelmäßig Wasser.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Okay, danke.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 80": {
+    "summary": "Eine Person gibt ein geliehenes Buch zurück und bedankt sich, da es ihr gefallen hat.",
+    "conversation": [
+      {
+        "text": "Ich habe das Buch gelesen, das du mir geliehen hast.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Und, wie fandest du es?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Sehr gut! Wirklich spannend bis zum Schluss.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das freut mich! Ich fand es auch toll.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Hier hast du es zurück. Danke fürs Leihen.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 81": {
+    "summary": "Ein Nachbar bringt den geliehenen Bohrer zurück und bedankt sich.",
+    "conversation": [
+      {
+        "text": "Hallo Herr Nachbar. Ich bringe Ihnen Ihren Bohrer zurück.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ah, danke schön. Hat alles geklappt mit dem Regal?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, perfekt. Vielen Dank nochmal für Ihre Hilfe.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Wenn Sie wieder etwas brauchen, sagen Sie Bescheid.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 82": {
+    "summary": "Zwei Fußballfans unterhalten sich begeistert über ein spannendes Spiel vom Vortag.",
+    "conversation": [
+      {
+        "text": "Hast du das Fußballspiel gestern gesehen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, klar! Was für ein Spiel! So spannend.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Stimmt! Das Tor in der letzten Minute war unglaublich.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Absolut! Ein verdienter Sieg, finde ich.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 83": {
+    "summary": "Eine Person findet einen Schlüssel und gibt ihn dem erleichterten Besitzer zurück.",
+    "conversation": [
+      {
+        "text": "Ist das Ihr Schlüssel? Er lag hier auf dem Boden.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh ja! Mein Schlüssel! Vielen, vielen Dank! Ich habe ihn schon überall gesucht.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Gern geschehen. Gut, dass ich ihn gefunden habe.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, wirklich! Danke nochmal!",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 84": {
+    "summary": "Eine Person sucht ihre Brille, und die andere findet sie im Bad.",
+    "conversation": [
+      {
+        "text": "Hast du meine Brille gesehen? Ich finde sie nicht.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Lag sie nicht eben noch auf dem Tisch im Wohnzimmer?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, da habe ich schon geschaut. Vielleicht im Bad?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich schaue mal nach... Ja, hier liegt sie!",
+        "speaker_id": 1
+      },
+      {
+        "text": "Oh, danke! Ich bin manchmal so vergesslich.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 85": {
+    "summary": "Eine Person bestellt telefonisch ein Taxi zum Flughafen.",
+    "conversation": [
+      {
+        "text": "Hallo, Taxi-Zentrale? Ich brauche ein Taxi zum Flughafen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Für wann brauchen Sie das Taxi?",
+        "speaker_id": 1
+      },
+      {
+        "text": "So bald wie möglich, bitte. Meine Adresse ist Hauptstraße 10.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Ein Wagen ist in etwa zehn Minuten bei Ihnen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super, vielen Dank.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 86": {
+    "summary": "Eine Person lobt einen Kuchen und bittet um das Rezept.",
+    "conversation": [
+      {
+        "text": "Dieser Kuchen schmeckt fantastisch! Hast du das Rezept für mich?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Danke! Ja, klar. Es ist ganz einfach.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Was kommt denn alles rein?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hauptsächlich Schokolade, Butter, Eier und wenig Zucker. Ich schreibe es dir auf.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das wäre toll, danke!",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 87": {
+    "summary": "Zwei Personen beobachten im Zoo lustige Affen und planen, als Nächstes zu den Löwen zu gehen.",
+    "conversation": [
+      {
+        "text": "Schau mal, die Affen sind lustig!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, besonders der Kleine dort. Er klettert überall hin.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wollen wir als Nächstes zu den Löwen gehen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, gute Idee. Ich hoffe, sie sind wach.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 88": {
+    "summary": "Zwei Studenten verabreden sich zum gemeinsamen Lernen in der Bibliothek.",
+    "conversation": [
+      {
+        "text": "Treffen wir uns morgen Nachmittag zum Lernen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, passt gut. Bei dir oder in der Bibliothek?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Vielleicht besser in der Bibliothek? Da ist es ruhiger.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Okay. Um 15 Uhr?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Perfekt. Bis morgen!",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 89": {
+    "summary": "Zwei Personen unterhalten sich über Zukunftspläne nach der Schule (Studium, Ausbildung).",
+    "conversation": [
+      {
+        "text": "Was willst du nach der Schule machen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ich weiß es noch nicht genau. Vielleicht studieren. Oder eine Ausbildung.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Hast du schon eine Idee, in welche Richtung?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Etwas mit Technik interessiert mich. Oder Sprachen.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Das klingt beides spannend.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 90": {
+    "summary": "Zwei Eltern unterhalten sich über die sportlichen Hobbys ihrer Kinder (Fußball, Tanzen).",
+    "conversation": [
+      {
+        "text": "Geht dein Sohn jetzt auch zum Fußball?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, seit letztem Monat. Es macht ihm großen Spaß.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Meine Tochter will lieber tanzen gehen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das ist doch auch schön. Hauptsache, sie haben Bewegung.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 91": {
+    "summary": "Eine Person fragt im Fundbüro nach einem vergessenen Regenschirm und bekommt ihn zurück.",
+    "conversation": [
+      {
+        "text": "Guten Tag. Ich habe gestern meinen Regenschirm im Bus vergessen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Guten Tag. Beschreiben Sie den Schirm bitte.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Er ist blau und hat einen Holzgriff.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Einen Moment... Ja, wir haben einen blauen Schirm gefunden. Hier bitte.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, das ist er! Vielen Dank!",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 92": {
+    "summary": "Zwei Nachbarn sprechen über nächtlichen Lärm aus einer anderen Wohnung und überlegen, wie man reagieren soll.",
+    "conversation": [
+      {
+        "text": "Der Nachbar über uns ist nachts immer so laut.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Echt? Das ist ärgerlich. Hast du schon mal mit ihm gesprochen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Nein, noch nicht. Ich traue mich nicht so recht.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Vielleicht versuchst du es mal ganz freundlich? Manchmal wissen die Leute es gar nicht.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, vielleicht hast du recht.",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 93": {
+    "summary": "Zwei Freunde verabreden sich für ein Treffen auf einen Kaffee am Dienstagabend.",
+    "conversation": [
+      {
+        "text": "Wollen wir uns nächste Woche mal wieder treffen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, sehr gern! Wann hast du Zeit?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wie wäre es mit Dienstagabend? Auf einen Kaffee?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Dienstagabend passt super. Wo treffen wir uns?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Im Cafe am Markt?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Perfekt. Bis Dienstag!",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 94": {
+    "summary": "Eine Person fragt im Bürogebäude nach dem Weg zum Büro einer Kollegin.",
+    "conversation": [
+      {
+        "text": "Entschuldigung, ich suche das Büro von Frau Klein.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gehen Sie diesen Gang entlang, die zweite Tür links.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Zweite Tür links. Vielen Dank.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 95": {
+    "summary": "Ein Gast im Restaurant beschwert sich höflich über kaltes Essen.",
+    "conversation": [
+      {
+        "text": "Entschuldigung, mein Essen ist kalt.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Oh, das tut mir sehr leid. Ich bringe es sofort zurück in die Küche.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Können Sie es bitte richtig warm machen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Selbstverständlich. Entschuldigen Sie bitte vielmals.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 96": {
+    "summary": "Eine Person bittet eine andere, ihr einen Fünf-Euro-Schein in Münzen zu wechseln.",
+    "conversation": [
+      {
+        "text": "Entschuldigen Sie, können Sie mir vielleicht fünf Euro wechseln?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Mal sehen... Ja, ich glaube schon. Brauchen Sie Münzen?",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, bitte. Ich brauche Kleingeld für den Automaten.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Hier bitte. Fünfmal ein Euro.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Super, vielen Dank!",
+        "speaker_id": 0
+      }
+    ]
+  },
+  "Szenario 97": {
+    "summary": "Eine Person bedankt sich herzlich für ein Geschenk.",
+    "conversation": [
+      {
+        "text": "Vielen Dank für das tolle Geschenk!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen! Ich freue mich, dass es dir gefällt.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Ja, sehr! Das war eine schöne Überraschung.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Das freut mich zu hören.",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 98": {
+    "summary": "Eine Person beruhigt eine andere, die wegen einer bevorstehenden Präsentation nervös ist, und bietet an, gemeinsam zu üben.",
+    "conversation": [
+      {
+        "text": "Bist du nervös wegen deiner Präsentation morgen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, ein bisschen. Ich hoffe, ich vergesse nichts.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Du hast dich gut vorbereitet. Das schaffst du!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Danke. Das ist nett.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Wollen wir es heute Abend nochmal zusammen durchgehen?",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, das wäre super!",
+        "speaker_id": 1
+      }
+    ]
+  },
+  "Szenario 99": {
+    "summary": "Gäste verabschieden sich nach einem Besuch, bedanken sich und bekommen gute Wünsche für den Heimweg.",
+    "conversation": [
+      {
+        "text": "Es war schön bei euch. Wir müssen jetzt leider gehen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Schade, dass ihr schon geht. Es war ein schöner Abend.",
+        "speaker_id": 1
+      },
+      {
+        "text": "Fanden wir auch. Danke für die Einladung und das leckere Essen.",
+        "speaker_id": 0
+      },
+      {
+        "text": "Gern geschehen. Kommt gut nach Hause!",
+        "speaker_id": 1
+      },
+      {
+        "text": "Danke. Bis bald!",
+        "speaker_id": 0
+      },
+      {
+        "text": "Ja, bis bald!",
+        "speaker_id": 1
+      }
+    ]
+  }
+}
