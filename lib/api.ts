@@ -25,7 +25,7 @@ export async function loadScenarios(): Promise<ScenariosData> {
 // Generate audio from text using the FAL API
 export async function generateAudio(text: string, voice: string): Promise<string> {
   try {
-    const result = await fal.subscribe("fal-ai/elevenlabs/tts/turbo-v2.5", {
+    const result = await fal.subscribe("fal-ai/elevenlabs/tts/multilingual-v2", {
       input: {
         text,
         voice,
