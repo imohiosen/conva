@@ -51,6 +51,7 @@ interface ConversationItemProps {
   isCurrentInQueue: boolean;
   onAudioLoaded?: (index: number, url: string) => void;
   preloadedAudio?: string | null;
+  onClick?: () => void; // New prop for handling clicks on the whole card
 }
 
 export function ConversationItem({ 
@@ -63,7 +64,8 @@ export function ConversationItem({
   onAudioEnded,
   isCurrentInQueue,
   onAudioLoaded,
-  preloadedAudio
+  preloadedAudio,
+  onClick
 }: ConversationItemProps) {
   const [audioUrl, setAudioUrl] = useState<string | null>(preloadedAudio || null);
   const [loading, setLoading] = useState(false);
@@ -153,14 +155,21 @@ export function ConversationItem({
   }, [isPlaying, isPlayingAll, audioUrl]);
 
   return (
-    <div className={`flex flex-col p-3 rounded-md mb-2 ${conversation.speaker_id === 0 ? 'bg-blue-50 ml-auto' : 'bg-gray-50 mr-auto'}`} style={{ maxWidth: '80%' }}>
+    <div 
+      className={`flex flex-col p-3 rounded-md mb-2 ${conversation.speaker_id === 0 ? 'bg-blue-50 ml-auto' : 'bg-gray-50 mr-auto'} ${isPlayingAll || onClick ? 'cursor-pointer hover:shadow-md transition-shadow' : ''}`} 
+      style={{ maxWidth: '80%' }}
+      onClick={() => onClick && onClick()}
+    >
       <div className="flex items-center mb-2">
         <User className="h-4 w-4 mr-2" />
         <span className="text-sm font-medium">Speaker {conversation.speaker_id === 0 ? 'Liam' : 'Aria'}</span>
         <Button 
           variant="ghost" 
           size="sm" 
-          onClick={fetchAudio} 
+          onClick={(e) => {
+            e.stopPropagation(); // Prevent card click handler from firing
+            fetchAudio();
+          }} 
           disabled={loading || isPlayingAll}
           className="ml-2"
         >
@@ -187,6 +196,7 @@ export function ConversationItem({
           className="mt-2 w-full" 
           controls
           autoPlay
+          onClick={(e) => e.stopPropagation()} // Prevent card click handler from firing when clicking player controls
         />
       )}
     </div>
@@ -375,6 +385,17 @@ export function ScenarioDetail({
     }
   };
 
+  // Function to handle dialog card click (jumps to that point in the conversation)
+  const handleDialogClick = (index: number) => {
+    if (!isPlayingAll) {
+      // If not in full playback mode, toggle individual audio
+      playConversation(index);
+    } else {
+      // In full playback mode, jump to this index
+      setCurrentPlayingIndex(index);
+    }
+  };
+
   return (
     <Card className="w-full">
       <CardHeader>
@@ -492,6 +513,7 @@ export function ScenarioDetail({
               isCurrentInQueue={isPlayingAll && currentPlayingIndex === index}
               onAudioLoaded={handleAudioLoaded}
               preloadedAudio={preloadedAudio[index] || null}
+              onClick={() => handleDialogClick(index)} // Add click handler to jump to this dialog
             />
           ))}
         </div>
