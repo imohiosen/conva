@@ -1,0 +1,147 @@
+name: PR Preview Deployment
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - develop
+      - main
+
+jobs:
+  preview:
+    name: Build and Deploy Preview
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+      
+    - name: Login to Container Registry
+      uses: docker/login-action@v2
+      with:
+        registry: ${{ secrets.DOCKER_REGISTRY }}
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        
+    - name: Generate preview name
+      id: preview
+      run: |
+        PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
+        echo "NAME=pr-${PR_NUMBER}" >> $GITHUB_OUTPUT
+        
+    - name: Build and push preview image
+      uses: docker/build-push-action@v4
+      with:
+        context: .
+        push: true
+        tags: ${{ secrets.DOCKER_REGISTRY }}/conva/app:${{ steps.preview.outputs.NAME }}
+        
+    - name: Install kubectl
+      uses: azure/setup-kubectl@v3
+      
+    - name: Configure kubectl
+      uses: azure/k8s-set-context@v3
+      with:
+        kubeconfig: ${{ secrets.KUBE_CONFIG_DEV }}
+        
+    - name: Deploy preview environment
+      run: |
+        # Use a template or create a new manifest for the preview deployment
+        export PREVIEW_NAME=${{ steps.preview.outputs.NAME }}
+        export IMAGE=${{ secrets.DOCKER_REGISTRY }}/conva/app:${{ steps.preview.outputs.NAME }}
+        
+        # Create namespace if it doesn't exist
+        kubectl create namespace preview-$PREVIEW_NAME --dry-run=client -o yaml | kubectl apply -f -
+        
+        # Apply deployment
+        cat <<EOF | kubectl apply -f -
+        apiVersion: apps/v1
+        kind: Deployment
+        metadata:
+          name: conva-preview-$PREVIEW_NAME
+          namespace: preview-$PREVIEW_NAME
+          labels:
+            app: conva-preview
+            preview: "$PREVIEW_NAME"
+        spec:
+          replicas: 1
+          selector:
+            matchLabels:
+              app: conva-preview
+              preview: "$PREVIEW_NAME"
+          template:
+            metadata:
+              labels:
+                app: conva-preview
+                preview: "$PREVIEW_NAME"
+            spec:
+              containers:
+              - name: conva
+                image: $IMAGE
+                ports:
+                - containerPort: 3000
+                resources:
+                  requests:
+                    cpu: "100m"
+                    memory: "128Mi"
+                  limits:
+                    cpu: "200m"
+                    memory: "256Mi"
+                env:
+                - name: NODE_ENV
+                  value: "development"
+        ---
+        apiVersion: v1
+        kind: Service
+        metadata:
+          name: conva-preview-service
+          namespace: preview-$PREVIEW_NAME
+        spec:
+          selector:
+            app: conva-preview
+            preview: "$PREVIEW_NAME"
+          ports:
+          - port: 80
+            targetPort: 3000
+          type: ClusterIP
+        ---
+        apiVersion: networking.k8s.io/v1
+        kind: Ingress
+        metadata:
+          name: conva-preview-ingress
+          namespace: preview-$PREVIEW_NAME
+          annotations:
+            kubernetes.io/ingress.class: nginx
+            nginx.ingress.kubernetes.io/ssl-redirect: "false"
+        spec:
+          rules:
+          - host: $PREVIEW_NAME.preview.conva.app
+            http:
+              paths:
+              - path: /
+                pathType: Prefix
+                backend:
+                  service:
+                    name: conva-preview-service
+                    port:
+                      number: 80
+        EOF
+        
+        # Wait for the deployment to be ready
+        kubectl rollout status deployment/conva-preview-$PREVIEW_NAME -n preview-$PREVIEW_NAME --timeout=180s
+        
+    - name: Comment on PR
+      uses: actions/github-script@v6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const previewUrl = "${{ steps.preview.outputs.NAME }}.preview.conva.app";
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `🚀 Preview environment is ready!\n\nYou can access it at: https://${previewUrl}`
+          })

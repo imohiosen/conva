@@ -1,0 +1,32 @@
+name: Cleanup PR Preview
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - develop
+      - main
+
+jobs:
+  cleanup:
+    name: Cleanup Preview Environment
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Generate preview name
+      id: preview
+      run: |
+        PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
+        echo "NAME=pr-${PR_NUMBER}" >> $GITHUB_OUTPUT
+        
+    - name: Install kubectl
+      uses: azure/setup-kubectl@v3
+      
+    - name: Configure kubectl
+      uses: azure/k8s-set-context@v3
+      with:
+        kubeconfig: ${{ secrets.KUBE_CONFIG_DEV }}
+        
+    - name: Delete preview namespace
+      run: |
+        kubectl delete namespace preview-${{ steps.preview.outputs.NAME }} --ignore-not-found

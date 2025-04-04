@@ -1,0 +1,82 @@
+name: Deploy to Development
+
+on:
+  push:
+    branches: [ develop ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build and Push Docker Image
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+      
+    - name: Login to Container Registry
+      uses: docker/login-action@v2
+      with:
+        registry: ${{ secrets.DOCKER_REGISTRY }}
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v4
+      with:
+        context: .
+        push: true
+        tags: |
+          ${{ secrets.DOCKER_REGISTRY }}/conva/app:dev
+          ${{ secrets.DOCKER_REGISTRY }}/conva/app:dev-${{ github.sha }}
+        cache-from: type=registry,ref=${{ secrets.DOCKER_REGISTRY }}/conva/app:dev-cache
+        cache-to: type=registry,ref=${{ secrets.DOCKER_REGISTRY }}/conva/app:dev-cache,mode=max
+  
+  deploy:
+    name: Deploy to Kubernetes (Dev)
+    needs: build
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Install kubectl
+      uses: azure/setup-kubectl@v3
+      
+    - name: Configure kubectl
+      uses: azure/k8s-set-context@v3
+      with:
+        kubeconfig: ${{ secrets.KUBE_CONFIG_DEV }}
+      
+    - name: Update deployment image
+      run: |
+        kubectl set image deployment/conva-app conva=${{ secrets.DOCKER_REGISTRY }}/conva/app:dev-${{ github.sha }} -n conva-dev
+        
+    - name: Apply ConfigMap
+      run: |
+        chmod +x ./k8s/apply-configmap.sh
+        ./k8s/apply-configmap.sh dev
+      env:
+        NODE_ENV: development
+        LOG_LEVEL: debug
+        API_URL: ${{ secrets.DEV_API_URL }}
+        DATABASE_URL: ${{ secrets.DEV_DATABASE_URL }}
+        CACHE_HOST: ${{ secrets.DEV_CACHE_HOST }}
+        CACHE_PORT: ${{ secrets.DEV_CACHE_PORT }}
+        
+    - name: Verify deployment
+      run: |
+        kubectl rollout status deployment/conva-app -n conva-dev --timeout=180s
+        
+    - name: Notify Slack of Deployment
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_CHANNEL: deployments
+        SLACK_TITLE: Dev Deployment Completed
+        SLACK_MESSAGE: "Conva app was deployed to the development environment"
+        SLACK_COLOR: good

@@ -1,0 +1,103 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [ main ]
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build and Push Docker Image
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+      
+    - name: Login to Container Registry
+      uses: docker/login-action@v2
+      with:
+        registry: ${{ secrets.DOCKER_REGISTRY }}
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        
+    - name: Extract tag name
+      id: tag
+      run: |
+        if [[ $GITHUB_REF == refs/tags/* ]]; then
+          echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+        else
+          echo "VERSION=latest" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v4
+      with:
+        context: .
+        push: true
+        tags: |
+          ${{ secrets.DOCKER_REGISTRY }}/conva/app:${{ steps.tag.outputs.VERSION }}
+          ${{ secrets.DOCKER_REGISTRY }}/conva/app:latest
+        cache-from: type=registry,ref=${{ secrets.DOCKER_REGISTRY }}/conva/app:build-cache
+        cache-to: type=registry,ref=${{ secrets.DOCKER_REGISTRY }}/conva/app:build-cache,mode=max
+  
+  deploy:
+    name: Deploy to Kubernetes (Prod)
+    needs: build
+    runs-on: ubuntu-latest
+    environment: production
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Install kubectl
+      uses: azure/setup-kubectl@v3
+      
+    - name: Configure kubectl
+      uses: azure/k8s-set-context@v3
+      with:
+        kubeconfig: ${{ secrets.KUBE_CONFIG_PROD }}
+      
+    - name: Extract tag name
+      id: tag
+      run: |
+        if [[ $GITHUB_REF == refs/tags/* ]]; then
+          echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+        else
+          echo "VERSION=latest" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Update deployment image
+      run: |
+        kubectl set image deployment/conva-app conva=${{ secrets.DOCKER_REGISTRY }}/conva/app:${{ steps.tag.outputs.VERSION }} -n conva-prod
+        
+    - name: Apply ConfigMap
+      run: |
+        chmod +x ./k8s/apply-configmap.sh
+        ./k8s/apply-configmap.sh prod
+      env:
+        NODE_ENV: production
+        LOG_LEVEL: info
+        API_URL: ${{ secrets.PROD_API_URL }}
+        DATABASE_URL: ${{ secrets.PROD_DATABASE_URL }}
+        CACHE_HOST: ${{ secrets.PROD_CACHE_HOST }}
+        CACHE_PORT: ${{ secrets.PROD_CACHE_PORT }}
+        
+    - name: Verify deployment
+      run: |
+        kubectl rollout status deployment/conva-app -n conva-prod --timeout=300s
+        
+    - name: Notify Slack of Deployment
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_CHANNEL: deployments
+        SLACK_TITLE: Production Deployment Completed
+        SLACK_MESSAGE: "Conva app v${{ steps.tag.outputs.VERSION }} was deployed to production"
+        SLACK_COLOR: good
