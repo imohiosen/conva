@@ -203,16 +203,32 @@ export default function ScenarioList({ scenarios }: ScenarioListProps) {
           hasPrevious={hasPrevious}
         />
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filteredScenarios.map(([id, scenario]) => (
-            <ScenarioCard
-              key={id}
-              id={id}
-              scenario={scenario}
-              onSelect={() => handleScenarioSelect(id)}
-            />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {filteredScenarios.map(([id, scenario]) => (
+              <ScenarioCard
+                key={id}
+                id={id}
+                scenario={scenario}
+                onSelect={() => handleScenarioSelect(id)}
+              />
+            ))}
+          </div>
+          
+          {/* Floating Random Button */}
+          {filteredScenarios.length > 0 && (
+            <Button
+              onClick={() => {
+                handleUserInteraction();
+                navigateToRandom();
+              }}
+              className="fixed bottom-6 right-6 shadow-lg rounded-full w-14 h-14 p-0 z-10"
+              title="Go to a random scenario"
+            >
+              <Shuffle className="h-6 w-6" />
+            </Button>
+          )}
+        </>
       )}
     </div>
   );

@@ -314,42 +314,7 @@ export function ScenarioDetail({
       <CardHeader>
         <div className="flex justify-between items-center mb-4">
           <CardTitle>{shortTitle}</CardTitle>
-          <div className="flex gap-2">
-            <Button 
-              variant="outline" 
-              size="icon" 
-              onClick={onClose} 
-              title="Return to scenario list"
-            >
-              <ListRestart className="h-4 w-4" />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="icon" 
-              onClick={() => handleNavigate(onPrevious)} 
-              disabled={!hasPrevious}
-              title="Previous scenario"
-            >
-              <ArrowLeft className="h-4 w-4" />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="icon" 
-              onClick={() => handleNavigate(onNext)} 
-              disabled={!hasNext}
-              title="Next scenario"
-            >
-              <ArrowRight className="h-4 w-4" />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="icon" 
-              onClick={() => handleNavigate(onRandom)} 
-              title="Random scenario"
-            >
-              <Shuffle className="h-4 w-4" />
-            </Button>
-          </div>
+          {/* Remove the Back button from here since it will be in the floating controls */}
         </div>
         
         <CardDescription className="flex items-center">
@@ -376,28 +341,8 @@ export function ScenarioDetail({
           <AudioPlayer src={summaryUrl} className="mt-2" />
         )}
         
-        <div className="flex flex-wrap mt-4 gap-2 items-center">
-          <Button 
-            onClick={playAllConversation} 
-            disabled={isPlayingAll}
-            size="icon"
-            title="Play Full Conversation"
-          >
-            <Play className="h-4 w-4" />
-          </Button>
-          
-          {isPlayingAll && (
-            <Button 
-              variant="outline"
-              onClick={stopPlayingAll}
-              size="icon"
-              title="Stop Playback"
-            >
-              <StopCircle className="h-4 w-4" />
-            </Button>
-          )}
-          
-          <div className="flex items-center ml-auto gap-2">
+        <div className="flex items-center mt-4 gap-2">
+          <div className="flex items-center gap-2">
             <Switch
               id="auto-repeat"
               checked={autoRepeat}
@@ -449,17 +394,90 @@ export function ScenarioDetail({
           ))}
         </div>
         
-        {/* Floating button to jump to active conversation */}
-        {showJumpButton && currentPlayingIndex !== null && (
-          <Button
-            className="fixed bottom-8 right-8 rounded-full shadow-lg z-50 w-10 h-10 p-0 flex items-center justify-center"
-            onClick={handleJumpToActive}
-            title="Jump to active conversation"
-            size="icon"
-          >
-            <ChevronsDown className="h-5 w-5" />
-          </Button>
-        )}
+        {/* Unified floating control panel */}
+        <div className="fixed bottom-8 right-8 flex flex-col gap-2 z-50">
+          {/* Group 1: Navigation buttons */}
+          <div className="flex flex-col gap-2 p-2 bg-white/80 backdrop-blur-sm rounded-lg shadow-lg">
+            <Button 
+              variant="outline" 
+              size="icon" 
+              onClick={onClose} 
+              title="Return to scenario list"
+              className="bg-white shadow-sm"
+            >
+              <ListRestart className="h-4 w-4" />
+            </Button>
+            
+            <Button 
+              variant="outline" 
+              size="icon" 
+              onClick={() => handleNavigate(onPrevious)} 
+              disabled={!hasPrevious}
+              title="Previous scenario"
+              className="bg-white shadow-sm"
+            >
+              <ArrowLeft className="h-4 w-4" />
+            </Button>
+            
+            <Button 
+              variant="outline" 
+              size="icon" 
+              onClick={() => handleNavigate(onNext)} 
+              disabled={!hasNext}
+              title="Next scenario"
+              className="bg-white shadow-sm"
+            >
+              <ArrowRight className="h-4 w-4" />
+            </Button>
+            
+            <Button 
+              variant="outline" 
+              size="icon" 
+              onClick={() => handleNavigate(onRandom)} 
+              title="Random scenario"
+              className="bg-white shadow-sm"
+            >
+              <Shuffle className="h-4 w-4" />
+            </Button>
+
+            {/* Only show jump button when needed but keep it in the same group */}
+            {showJumpButton && currentPlayingIndex !== null && (
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={handleJumpToActive}
+                title="Jump to active conversation"
+                className="bg-primary/20 shadow-sm"
+              >
+                <ChevronsDown className="h-4 w-4" />
+              </Button>
+            )}
+          </div>
+          
+          {/* Group 2: Playback control - larger and more prominent */}
+          <div className="mt-2 flex justify-center">
+            {!isPlayingAll ? (
+              <Button 
+                onClick={playAllConversation}
+                size="icon"
+                title="Play Full Conversation"
+                className="rounded-full bg-primary shadow-lg w-12 h-12"
+              >
+                <Play className="h-5 w-5" />
+              </Button>
+            ) : (
+              <Button 
+                variant="destructive"
+                onClick={stopPlayingAll}
+                size="icon"
+                title="Stop Playback"
+                className="rounded-full shadow-lg w-12 h-12"
+              >
+                <StopCircle className="h-5 w-5" />
+              </Button>
+            )}
+          </div>
+        </div>
       </CardContent>
     </Card>
   );
