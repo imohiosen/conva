@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { ScenarioCard, ScenarioDetail } from "@/components/scenario-card";
+import { ScenarioCard } from "@/components/scenario-card";
+import { ScenarioDetail } from "@/components/scenario-detail";
 import { ScenariosData } from "@/lib/types";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Search, X, Shuffle } from "lucide-react";
+import { Search, Shuffle } from "lucide-react";
 
 interface ScenarioListProps {
   scenarios: ScenariosData;
