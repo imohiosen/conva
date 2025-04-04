@@ -215,7 +215,7 @@ export default function ScenarioList({ scenarios }: ScenarioListProps) {
             ))}
           </div>
           
-          {/* Floating Random Button */}
+          {/* Floating Random Button with dark mode support */}
           {filteredScenarios.length > 0 && (
             <Button
               onClick={() => {

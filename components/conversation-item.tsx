@@ -120,7 +120,11 @@ export const ConversationItem = forwardRef<HTMLDivElement, ConversationItemProps
 
   return (
     <div 
-      className={`flex flex-col p-3 rounded-md mb-2 ${conversation.speaker_id === 0 ? 'bg-blue-50 ml-auto' : 'bg-gray-50 mr-auto'} ${isPlayingAll || onClick ? 'cursor-pointer hover:shadow-md transition-shadow' : ''}`} 
+      className={`flex flex-col p-3 rounded-md mb-2 ${
+        conversation.speaker_id === 0 
+          ? 'bg-blue-50 dark:bg-blue-900/30 ml-auto' 
+          : 'bg-gray-50 dark:bg-gray-800/50 mr-auto'
+      } ${isPlayingAll || onClick ? 'cursor-pointer hover:shadow-md transition-shadow' : ''}`} 
       style={{ maxWidth: '80%' }}
       onClick={() => onClick && onClick()}
       ref={ref}
@@ -142,7 +146,7 @@ export const ConversationItem = forwardRef<HTMLDivElement, ConversationItemProps
           <Headphones className="h-4 w-4" />
         </Button>
         {audioUrl && (
-          <span className="ml-2 text-xs text-green-600">
+          <span className="ml-2 text-xs text-green-600 dark:text-green-400">
             ✓
           </span>
         )}

@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { DownloadQueue } from '@/components/audio';
 import { ConversationItem } from './conversation-item';
+import { useTheme } from 'next-themes';
 
 interface ScenarioDetailProps {
   id: string;
@@ -41,6 +42,7 @@ export function ScenarioDetail({
   hasNext,
   hasPrevious
 }: ScenarioDetailProps) {
+  const { theme } = useTheme();
   const [currentPlayingIndex, setCurrentPlayingIndex] = useState<number | null>(null);
   const [summaryUrl, setSummaryUrl] = useState<string | null>(null);
   const [loadingSummary, setLoadingSummary] = useState(false);
@@ -397,13 +399,13 @@ export function ScenarioDetail({
         {/* Unified floating control panel */}
         <div className="fixed bottom-8 right-8 flex flex-col gap-2 z-50">
           {/* Group 1: Navigation buttons */}
-          <div className="flex flex-col gap-2 p-2 bg-white/80 backdrop-blur-sm rounded-lg shadow-lg">
+          <div className="flex flex-col gap-2 p-2 bg-card/80 dark:bg-card/80 backdrop-blur-sm rounded-lg shadow-lg">
             <Button 
               variant="outline" 
               size="icon" 
               onClick={onClose} 
               title="Return to scenario list"
-              className="bg-white shadow-sm"
+              className="bg-background shadow-sm"
             >
               <ListRestart className="h-4 w-4" />
             </Button>
@@ -414,7 +416,7 @@ export function ScenarioDetail({
               onClick={() => handleNavigate(onPrevious)} 
               disabled={!hasPrevious}
               title="Previous scenario"
-              className="bg-white shadow-sm"
+              className="bg-background shadow-sm"
             >
               <ArrowLeft className="h-4 w-4" />
             </Button>
@@ -425,7 +427,7 @@ export function ScenarioDetail({
               onClick={() => handleNavigate(onNext)} 
               disabled={!hasNext}
               title="Next scenario"
-              className="bg-white shadow-sm"
+              className="bg-background shadow-sm"
             >
               <ArrowRight className="h-4 w-4" />
             </Button>
@@ -435,7 +437,7 @@ export function ScenarioDetail({
               size="icon" 
               onClick={() => handleNavigate(onRandom)} 
               title="Random scenario"
-              className="bg-white shadow-sm"
+              className="bg-background shadow-sm"
             >
               <Shuffle className="h-4 w-4" />
             </Button>
