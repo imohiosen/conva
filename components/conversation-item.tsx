@@ -130,13 +130,14 @@ export const ConversationItem = forwardRef<HTMLDivElement, ConversationItemProps
         <span className="text-sm font-medium">Speaker {conversation.speaker_id === 0 ? 'Liam' : 'Aria'}</span>
         <Button 
           variant="ghost" 
-          size="sm" 
+          size="icon" 
           onClick={(e) => {
             e.stopPropagation(); // Prevent card click handler from firing
             fetchAudio();
           }} 
           disabled={loading || isPlayingAll}
-          className="ml-2"
+          className="ml-2 h-8 w-8"
+          title="Play audio"
         >
           <Headphones className="h-4 w-4" />
         </Button>

@@ -317,16 +317,15 @@ export function ScenarioDetail({
           <div className="flex gap-2">
             <Button 
               variant="outline" 
-              size="sm" 
+              size="icon" 
               onClick={onClose} 
               title="Return to scenario list"
             >
-              <ListRestart className="h-4 w-4 mr-2" />
-              Back to List
+              <ListRestart className="h-4 w-4" />
             </Button>
             <Button 
               variant="outline" 
-              size="sm" 
+              size="icon" 
               onClick={() => handleNavigate(onPrevious)} 
               disabled={!hasPrevious}
               title="Previous scenario"
@@ -335,7 +334,7 @@ export function ScenarioDetail({
             </Button>
             <Button 
               variant="outline" 
-              size="sm" 
+              size="icon" 
               onClick={() => handleNavigate(onNext)} 
               disabled={!hasNext}
               title="Next scenario"
@@ -344,7 +343,7 @@ export function ScenarioDetail({
             </Button>
             <Button 
               variant="outline" 
-              size="sm" 
+              size="icon" 
               onClick={() => handleNavigate(onRandom)} 
               title="Random scenario"
             >
@@ -358,7 +357,7 @@ export function ScenarioDetail({
           {scenario.summary}
           <Button 
             variant="ghost" 
-            size="sm" 
+            size="icon" 
             onClick={fetchSummaryAudio} 
             disabled={loadingSummary}
             className="ml-2"
@@ -381,18 +380,20 @@ export function ScenarioDetail({
           <Button 
             onClick={playAllConversation} 
             disabled={isPlayingAll}
+            size="icon"
+            title="Play Full Conversation"
           >
-            <Play className="h-4 w-4 mr-2" />
-            Play Full Conversation
+            <Play className="h-4 w-4" />
           </Button>
           
           {isPlayingAll && (
             <Button 
               variant="outline"
               onClick={stopPlayingAll}
+              size="icon"
+              title="Stop Playback"
             >
-              <StopCircle className="h-4 w-4 mr-2" />
-              Stop Playback
+              <StopCircle className="h-4 w-4" />
             </Button>
           )}
           
@@ -402,9 +403,8 @@ export function ScenarioDetail({
               checked={autoRepeat}
               onCheckedChange={setAutoRepeat}
             />
-            <Label htmlFor="auto-repeat" className="flex items-center gap-1 cursor-pointer">
+            <Label htmlFor="auto-repeat" className="flex items-center gap-1 cursor-pointer" title="Auto-repeat">
               <Repeat className="h-4 w-4" />
-              Auto-repeat
             </Label>
           </div>
         </div>
@@ -452,11 +452,12 @@ export function ScenarioDetail({
         {/* Floating button to jump to active conversation */}
         {showJumpButton && currentPlayingIndex !== null && (
           <Button
-            className="fixed bottom-8 right-8 rounded-full shadow-lg z-50 w-12 h-12 p-0 flex items-center justify-center"
+            className="fixed bottom-8 right-8 rounded-full shadow-lg z-50 w-10 h-10 p-0 flex items-center justify-center"
             onClick={handleJumpToActive}
             title="Jump to active conversation"
+            size="icon"
           >
-            <ChevronsDown className="h-6 w-6" />
+            <ChevronsDown className="h-5 w-5" />
           </Button>
         )}
       </CardContent>
