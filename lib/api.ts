@@ -54,7 +54,7 @@ export function getVoiceForSpeaker(speakerId: number): string {
 }
 
 // Cache audio files locally
-export async function cacheAudio(url: string, scenarioId: string, index: number): Promise<string> {
+export async function cacheAudio(url: string, scenarioId: string, index: number | string): Promise<string> {
   const cacheDir = path.join(process.cwd(), 'public', 'audio-cache');
   const fileName = `${scenarioId}_${index}.mp3`;
   const filePath = path.join(cacheDir, fileName);
