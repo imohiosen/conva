@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: conva-app
+  namespace: conva-dev
+  labels:
+    app: conva
+    environment: development
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: conva
+  template:
+    metadata:
+      labels:
+        app: conva
+        environment: development
+    spec:
+      containers:
+      - name: conva
+        image: conva/app:dev
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "256Mi"
+          limits:
+            cpu: "500m"
+            memory: "512Mi"
+        envFrom:
+        - configMapRef:
+            name: conva-config
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 3000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 3000
+          initialDelaySeconds: 5
+          periodSeconds: 5

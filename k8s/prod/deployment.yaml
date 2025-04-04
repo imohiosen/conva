@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: conva-app
+  namespace: conva-prod
+  labels:
+    app: conva
+    environment: production
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: conva
+  template:
+    metadata:
+      labels:
+        app: conva
+        environment: production
+    spec:
+      containers:
+      - name: conva
+        image: conva/app:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000
+        resources:
+          requests:
+            cpu: "500m"
+            memory: "512Mi"
+          limits:
+            cpu: "1000m"
+            memory: "1Gi"
+        envFrom:
+        - configMapRef:
+            name: conva-config
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 3000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 3000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+      imagePullSecrets:
+      - name: registry-credentials

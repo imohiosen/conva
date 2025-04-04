@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: conva-service
+  namespace: conva-dev
+spec:
+  selector:
+    app: conva
+    environment: development
+  ports:
+  - port: 80
+    targetPort: 3000
+    protocol: TCP
+    name: http
+  type: ClusterIP
