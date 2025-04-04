@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, forwardRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { Conversation } from '@/lib/types';
@@ -18,7 +18,7 @@ interface ConversationItemProps {
   onClick?: () => void;
 }
 
-export function ConversationItem({ 
+export const ConversationItem = forwardRef<HTMLDivElement, ConversationItemProps>(({
   conversation, 
   index, 
   scenarioId, 
@@ -30,7 +30,7 @@ export function ConversationItem({
   onAudioLoaded,
   preloadedAudio,
   onClick
-}: ConversationItemProps) {
+}, ref) => {
   const [audioUrl, setAudioUrl] = useState<string | null>(preloadedAudio || null);
   const [loading, setLoading] = useState(false);
   const [loadingProgress, setLoadingProgress] = useState(0);
@@ -123,6 +123,7 @@ export function ConversationItem({
       className={`flex flex-col p-3 rounded-md mb-2 ${conversation.speaker_id === 0 ? 'bg-blue-50 ml-auto' : 'bg-gray-50 mr-auto'} ${isPlayingAll || onClick ? 'cursor-pointer hover:shadow-md transition-shadow' : ''}`} 
       style={{ maxWidth: '80%' }}
       onClick={() => onClick && onClick()}
+      ref={ref}
     >
       <div className="flex items-center mb-2">
         <User className="h-4 w-4 mr-2" />
@@ -165,4 +166,6 @@ export function ConversationItem({
       )}
     </div>
   );
-}
+});
+
+ConversationItem.displayName = 'ConversationItem';

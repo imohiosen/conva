@@ -14,7 +14,8 @@ import {
   ListRestart,
   StopCircle,
   Shuffle,
-  Repeat
+  Repeat,
+  ChevronsDown
 } from 'lucide-react';
 import { DownloadQueue } from '@/components/audio';
 import { ConversationItem } from './conversation-item';
@@ -57,6 +58,12 @@ export function ScenarioDetail({
   // Download queue system
   const [downloadQueue, setDownloadQueue] = useState<number[]>([]);
   const [preloadedAudio, setPreloadedAudio] = useState<Record<number, string>>({});
+  
+  // Refs for conversation items and user interaction tracking
+  const conversationRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const [userHasInteracted, setUserHasInteracted] = useState(false);
+  const [showJumpButton, setShowJumpButton] = useState(false);
+  const cardContentRef = useRef<HTMLDivElement>(null);
 
   // Start playback automatically when component mounts
   useEffect(() => {
@@ -67,6 +74,85 @@ export function ScenarioDetail({
     
     return () => clearTimeout(timer);
   }, [id]); // Re-trigger when scenario changes
+
+  // Initialize conversation refs array when conversation length changes
+  useEffect(() => {
+    conversationRefs.current = Array(scenario.conversation.length).fill(null);
+  }, [scenario.conversation.length]);
+
+  // Track user interaction with the page
+  useEffect(() => {
+    const handleUserInteraction = () => {
+      setUserHasInteracted(true);
+    };
+
+    window.addEventListener('scroll', handleUserInteraction);
+    window.addEventListener('click', handleUserInteraction);
+    window.addEventListener('touchstart', handleUserInteraction);
+
+    return () => {
+      window.removeEventListener('scroll', handleUserInteraction);
+      window.removeEventListener('click', handleUserInteraction);
+      window.removeEventListener('touchstart', handleUserInteraction);
+    };
+  }, []);
+
+  // Function to scroll to active conversation
+  const scrollToActiveConversation = useCallback(() => {
+    if (
+      currentPlayingIndex !== null && 
+      conversationRefs.current[currentPlayingIndex] && 
+      !userHasInteracted
+    ) {
+      const activeElement = conversationRefs.current[currentPlayingIndex];
+      if (activeElement) {
+        activeElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+  }, [currentPlayingIndex, userHasInteracted]);
+
+  // Check if current playing item is in viewport
+  const checkIfInViewport = useCallback(() => {
+    if (currentPlayingIndex === null || !conversationRefs.current[currentPlayingIndex]) {
+      setShowJumpButton(false);
+      return;
+    }
+
+    const element = conversationRefs.current[currentPlayingIndex];
+    if (!element) {
+      setShowJumpButton(false);
+      return;
+    }
+
+    const rect = element.getBoundingClientRect();
+    const isInViewport = 
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+
+    setShowJumpButton(!isInViewport);
+  }, [currentPlayingIndex]);
+
+  // Auto-scroll when current playing index changes and check viewport
+  useEffect(() => {
+    scrollToActiveConversation();
+    
+    // Set up interval to check if element is in viewport
+    const checkInterval = setInterval(checkIfInViewport, 1000);
+    
+    return () => clearInterval(checkInterval);
+  }, [currentPlayingIndex, scrollToActiveConversation, checkIfInViewport]);
+
+  // Handle jump button click
+  const handleJumpToActive = () => {
+    if (currentPlayingIndex !== null && conversationRefs.current[currentPlayingIndex]) {
+      const activeElement = conversationRefs.current[currentPlayingIndex];
+      if (activeElement) {
+        activeElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+  };
 
   const playConversation = (index: number) => {
     if (isPlayingAll) return;
@@ -342,7 +428,7 @@ export function ScenarioDetail({
           onAudioLoaded={handleAudioLoaded}
         />
       </CardHeader>
-      <CardContent>
+      <CardContent ref={cardContentRef}>
         <div className="space-y-2">
           {scenario.conversation.map((item, index) => (
             <ConversationItem 
@@ -358,9 +444,21 @@ export function ScenarioDetail({
               onAudioLoaded={handleAudioLoaded}
               preloadedAudio={preloadedAudio[index] || null}
               onClick={() => handleDialogClick(index)}
+              ref={(el) => { conversationRefs.current[index] = el; }}
             />
           ))}
         </div>
+        
+        {/* Floating button to jump to active conversation */}
+        {showJumpButton && currentPlayingIndex !== null && (
+          <Button
+            className="fixed bottom-8 right-8 rounded-full shadow-lg z-50 w-12 h-12 p-0 flex items-center justify-center"
+            onClick={handleJumpToActive}
+            title="Jump to active conversation"
+          >
+            <ChevronsDown className="h-6 w-6" />
+          </Button>
+        )}
       </CardContent>
     </Card>
   );
