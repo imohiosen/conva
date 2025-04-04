@@ -13,9 +13,12 @@ import {
   ArrowRight, 
   ListRestart,
   StopCircle,
-  Shuffle
+  Shuffle,
+  Repeat
 } from 'lucide-react';
 import { Progress } from '@/components/ui/progress';
+import { Switch } from '@/components/ui/switch';
+import { Label } from '@/components/ui/label';
 
 interface ScenarioCardProps {
   id: string;
@@ -235,6 +238,12 @@ export function ScenarioDetail({
   const [loadingSummaryProgress, setLoadingSummaryProgress] = useState(0);
   const [isPlayingAll, setIsPlayingAll] = useState(false);
   
+  // Auto-repeat feature
+  const [autoRepeat, setAutoRepeat] = useState(false);
+  const [isRepeating, setIsRepeating] = useState(false);
+  const repeatDelayRef = useRef<NodeJS.Timeout | null>(null);
+  const REPEAT_DELAY_MS = 3000; // 3 seconds delay between repeats
+  
   // Download queue system
   const [downloadQueue, setDownloadQueue] = useState<number[]>([]);
   const [isDownloading, setIsDownloading] = useState(false);
@@ -362,24 +371,61 @@ export function ScenarioDetail({
         setCurrentPlayingIndex(currentPlayingIndex + 1);
       } else {
         // End of conversation
-        setIsPlayingAll(false);
-        setCurrentPlayingIndex(null);
+        if (autoRepeat) {
+          // If auto-repeat is enabled, schedule restart after delay
+          setIsRepeating(true);
+          repeatDelayRef.current = setTimeout(() => {
+            setCurrentPlayingIndex(0); // Start from the beginning
+            setIsRepeating(false);
+          }, REPEAT_DELAY_MS);
+        } else {
+          // Normal end behavior
+          setIsPlayingAll(false);
+          setCurrentPlayingIndex(null);
+        }
       }
     }
   };
 
+  // Clean up any timeout when component unmounts or scenario changes
+  useEffect(() => {
+    return () => {
+      if (repeatDelayRef.current) {
+        clearTimeout(repeatDelayRef.current);
+      }
+    };
+  }, [id]);
+
+  // Also clean up when auto-repeat is disabled
+  useEffect(() => {
+    if (!autoRepeat && repeatDelayRef.current) {
+      clearTimeout(repeatDelayRef.current);
+      repeatDelayRef.current = null;
+      setIsRepeating(false);
+    }
+  }, [autoRepeat]);
+
+  const stopPlayingAll = () => {
+    setIsPlayingAll(false);
+    setCurrentPlayingIndex(null);
+    
+    // Clear any scheduled repeat
+    if (repeatDelayRef.current) {
+      clearTimeout(repeatDelayRef.current);
+      repeatDelayRef.current = null;
+      setIsRepeating(false);
+    }
+    
+    // Clear download queue when stopping
+    setDownloadQueue([]);
+  };
+
+  // Handle audio loaded from a conversation item
   const handleAudioLoaded = (index: number, url: string) => {
     setPreloadedAudio(prev => ({
       ...prev,
       [index]: url
     }));
-  };
-
-  const stopPlayingAll = () => {
-    setIsPlayingAll(false);
-    setCurrentPlayingIndex(null);
-    // Clear download queue when stopping
-    setDownloadQueue([]);
   };
 
   // Handle navigation - stop any playback
@@ -474,7 +520,7 @@ export function ScenarioDetail({
           <AudioPlayer src={summaryUrl} className="mt-2" />
         )}
         
-        <div className="flex mt-4 gap-2">
+        <div className="flex flex-wrap mt-4 gap-2 items-center">
           <Button 
             onClick={playAllConversation} 
             disabled={isPlayingAll}
@@ -492,7 +538,25 @@ export function ScenarioDetail({
               Stop Playback
             </Button>
           )}
+          
+          <div className="flex items-center ml-auto gap-2">
+            <Switch
+              id="auto-repeat"
+              checked={autoRepeat}
+              onCheckedChange={setAutoRepeat}
+            />
+            <Label htmlFor="auto-repeat" className="flex items-center gap-1 cursor-pointer">
+              <Repeat className="h-4 w-4" />
+              Auto-repeat
+            </Label>
+          </div>
         </div>
+        
+        {isRepeating && (
+          <div className="mt-2 text-xs text-gray-500">
+            Repeating in {REPEAT_DELAY_MS/1000} seconds...
+          </div>
+        )}
         
         {/* Download queue status */}
         {downloadQueue.length > 0 && (
