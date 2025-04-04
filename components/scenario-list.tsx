@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { ScenarioCard } from "@/components/scenario-card";
 import { ScenarioDetail } from "@/components/scenario-detail";
 import { ScenariosData } from "@/lib/types";
@@ -15,6 +15,9 @@ interface ScenarioListProps {
 export default function ScenarioList({ scenarios }: ScenarioListProps) {
   const [selectedScenario, setSelectedScenario] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [userInteracted, setUserInteracted] = useState(false);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const AUTO_SELECT_DELAY = 5000; // 5 seconds
 
   const filteredScenarios = Object.entries(scenarios).filter(([id, scenario]) => {
     const lowerQuery = searchQuery.toLowerCase();
@@ -25,12 +28,70 @@ export default function ScenarioList({ scenarios }: ScenarioListProps) {
     );
   });
 
+  // Function to handle any user interaction
+  const handleUserInteraction = () => {
+    setUserInteracted(true);
+    
+    // Clear any existing timeout
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+  };
+
+  // Set up auto-selection timer when component mounts
+  useEffect(() => {
+    if (!selectedScenario && !userInteracted && filteredScenarios.length > 0) {
+      timeoutRef.current = setTimeout(() => {
+        navigateToRandom();
+      }, AUTO_SELECT_DELAY);
+    }
+
+    return () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+    };
+  }, [selectedScenario, userInteracted, filteredScenarios.length]);
+
+  // Add event listeners for user interaction
+  useEffect(() => {
+    const interactionEvents = ['mousedown', 'keydown', 'touchstart', 'scroll'];
+    
+    const interactionHandler = () => {
+      handleUserInteraction();
+    };
+    
+    interactionEvents.forEach(event => {
+      window.addEventListener(event, interactionHandler);
+    });
+    
+    return () => {
+      interactionEvents.forEach(event => {
+        window.removeEventListener(event, interactionHandler);
+      });
+    };
+  }, []);
+
   const handleScenarioSelect = (id: string) => {
+    handleUserInteraction(); // Mark that user has interacted
     setSelectedScenario(id);
   };
 
   const clearSelection = () => {
+    setUserInteracted(false); // Reset interaction flag to re-enable auto-selection
     setSelectedScenario(null);
+    
+    // Start a new auto-selection timer
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    
+    timeoutRef.current = setTimeout(() => {
+      if (!selectedScenario && !userInteracted && filteredScenarios.length > 0) {
+        navigateToRandom();
+      }
+    }, AUTO_SELECT_DELAY);
   };
 
   const navigateToNext = () => {
@@ -91,7 +152,7 @@ export default function ScenarioList({ scenarios }: ScenarioListProps) {
   const hasPrevious = currentIndex > 0;
 
   return (
-    <div>
+    <div onMouseMove={handleUserInteraction}>
       <div className="mb-4 relative">
         <div className="flex gap-2">
           <div className="relative flex-1">
@@ -101,14 +162,20 @@ export default function ScenarioList({ scenarios }: ScenarioListProps) {
               placeholder="Search scenarios..."
               className="pl-8"
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={(e) => {
+                handleUserInteraction();
+                setSearchQuery(e.target.value);
+              }}
             />
           </div>
           {!selectedScenario && filteredScenarios.length > 0 && (
             <Button 
               variant="outline" 
               size="sm"
-              onClick={navigateToRandom}
+              onClick={() => {
+                handleUserInteraction();
+                navigateToRandom();
+              }}
               title="Go to a random scenario"
             >
               <Shuffle className="h-4 w-4 mr-2" />
@@ -116,6 +183,12 @@ export default function ScenarioList({ scenarios }: ScenarioListProps) {
             </Button>
           )}
         </div>
+        
+        {!selectedScenario && !userInteracted && (
+          <div className="text-xs text-gray-500 mt-2">
+            Auto-selecting a random scenario in {AUTO_SELECT_DELAY/1000} seconds...
+          </div>
+        )}
       </div>
 
       {selectedScenario ? (

@@ -46,15 +46,27 @@ export function ScenarioDetail({
   const [loadingSummaryProgress, setLoadingSummaryProgress] = useState(0);
   const [isPlayingAll, setIsPlayingAll] = useState(false);
   
-  // Auto-repeat feature
-  const [autoRepeat, setAutoRepeat] = useState(false);
+  // Auto-repeat feature - enabled by default
+  const [autoRepeat, setAutoRepeat] = useState(true);
   const [isRepeating, setIsRepeating] = useState(false);
   const repeatDelayRef = useRef<NodeJS.Timeout | null>(null);
   const REPEAT_DELAY_MS = 3000; // 3 seconds delay between repeats
+  const MAX_REPEATS = 3; // Maximum number of repeats
+  const [repeatCount, setRepeatCount] = useState(0); // Track number of repeats
   
   // Download queue system
   const [downloadQueue, setDownloadQueue] = useState<number[]>([]);
   const [preloadedAudio, setPreloadedAudio] = useState<Record<number, string>>({});
+
+  // Start playback automatically when component mounts
+  useEffect(() => {
+    // Short delay to allow component to fully render
+    const timer = setTimeout(() => {
+      playAllConversation();
+    }, 500);
+    
+    return () => clearTimeout(timer);
+  }, [id]); // Re-trigger when scenario changes
 
   const playConversation = (index: number) => {
     if (isPlayingAll) return;
@@ -113,8 +125,20 @@ export function ScenarioDetail({
       } else {
         // End of conversation
         if (autoRepeat) {
+          // Check if we've reached the maximum repeats
+          if (repeatCount >= MAX_REPEATS - 1) {
+            // Reached max repeats, go back to scenario list
+            setTimeout(() => {
+              stopPlayingAll();
+              onClose(); // Return to scenario list
+            }, 1000); // Short delay before returning
+            return;
+          }
+          
           // If auto-repeat is enabled, schedule restart after delay
           setIsRepeating(true);
+          setRepeatCount(prev => prev + 1); // Increment repeat counter
+          
           repeatDelayRef.current = setTimeout(() => {
             setCurrentPlayingIndex(0); // Start from the beginning
             setIsRepeating(false);
@@ -146,9 +170,15 @@ export function ScenarioDetail({
     }
   }, [autoRepeat]);
 
+  // Reset repeat counter when scenario changes
+  useEffect(() => {
+    setRepeatCount(0);
+  }, [id]);
+
   const stopPlayingAll = () => {
     setIsPlayingAll(false);
     setCurrentPlayingIndex(null);
+    setRepeatCount(0); // Reset repeat counter when stopping
     
     // Clear any scheduled repeat
     if (repeatDelayRef.current) {
@@ -295,7 +325,13 @@ export function ScenarioDetail({
         
         {isRepeating && (
           <div className="mt-2 text-xs text-gray-500">
-            Repeating in {REPEAT_DELAY_MS/1000} seconds...
+            Repeating in {REPEAT_DELAY_MS/1000} seconds... (Repeat {repeatCount}/{MAX_REPEATS})
+          </div>
+        )}
+        
+        {repeatCount > 0 && !isRepeating && (
+          <div className="mt-2 text-xs text-gray-500">
+            Repeat {repeatCount}/{MAX_REPEATS}
           </div>
         )}
         
