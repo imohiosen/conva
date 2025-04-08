@@ -364,7 +364,7 @@ export function ScenarioDetail({
           <AudioPlayer src={summaryUrl} className="mt-2" />
         )}
         
-        <div className="flex items-center mt-4 gap-2 justify-between">
+        <div className="flex items-center mt-4 gap-2">
           <div className="flex items-center gap-2">
             <Switch
               id="auto-repeat"
@@ -375,17 +375,6 @@ export function ScenarioDetail({
               <Repeat className="h-4 w-4" />
             </Label>
           </div>
-          
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={handleTranslateAll}
-            className="flex items-center gap-1"
-            title={allTranslated ? "Show Original" : "Translate All"}
-          >
-            <Languages className="h-4 w-4" />
-            {allTranslated ? "Show Original" : "Translate All"}
-          </Button>
         </div>
         
         {isRepeating && (
@@ -440,48 +429,36 @@ export function ScenarioDetail({
         {/* Unified floating control panel */}
         <div className="fixed bottom-8 right-8 flex flex-col gap-2 z-50">
           {/* Group 1: Navigation buttons */}
-          <div className="flex flex-col gap-2 p-2 bg-card/80 dark:bg-card/80 backdrop-blur-sm rounded-lg shadow-lg">
+          <div className="flex flex-col gap-2 p-2 bg-card/20 dark:bg-card/20 backdrop-blur-sm rounded-lg shadow-lg">
             <Button 
               variant="outline" 
               size="icon" 
               onClick={onClose} 
               title="Return to scenario list"
-              className="bg-background shadow-sm"
+              className="bg-background/20 shadow-sm hover:bg-background/40"
             >
               <ListRestart className="h-4 w-4" />
             </Button>
-            
-            <Button 
-              variant="outline" 
-              size="icon" 
-              onClick={() => handleNavigate(onPrevious)} 
-              disabled={!hasPrevious}
-              title="Previous scenario"
-              className="bg-background shadow-sm"
-            >
-              <ArrowLeft className="h-4 w-4" />
-            </Button>
-            
-            <Button 
-              variant="outline" 
-              size="icon" 
-              onClick={() => handleNavigate(onNext)} 
-              disabled={!hasNext}
-              title="Next scenario"
-              className="bg-background shadow-sm"
-            >
-              <ArrowRight className="h-4 w-4" />
-            </Button>
-            
             <Button 
               variant="outline" 
               size="icon" 
               onClick={() => handleNavigate(onRandom)} 
               title="Random scenario"
-              className="bg-background shadow-sm"
+              className="bg-background/20 shadow-sm hover:bg-background/40"
             >
               <Shuffle className="h-4 w-4" />
             </Button>
+            
+            <Button
+              variant={allTranslated ? "secondary" : "outline"}
+              size="icon"
+              onClick={handleTranslateAll}
+              title={allTranslated ? "Show Original" : "Translate All"}
+              className={allTranslated ? "bg-secondary/20 shadow-sm hover:bg-secondary/40" : "bg-background/20 shadow-sm hover:bg-background/40"}
+            >
+              <Languages className="h-4 w-4" />
+            </Button>
+            
             {/* Only show jump button when needed but keep it in the same group */}
             {showJumpButton && currentPlayingIndex !== null && (
               <Button
@@ -489,7 +466,7 @@ export function ScenarioDetail({
                 size="icon"
                 onClick={handleJumpToActive}
                 title="Jump to active conversation"
-                className="bg-primary/20 shadow-sm"
+                className="bg-primary/20 shadow-sm hover:bg-primary/40"
               >
                 <ChevronsDown className="h-4 w-4" />
               </Button>
@@ -503,7 +480,7 @@ export function ScenarioDetail({
                 onClick={playAllConversation}
                 size="icon"
                 title="Play Full Conversation"
-                className="rounded-full bg-primary shadow-lg w-12 h-12"
+                className="rounded-full bg-primary/20 shadow-lg w-12 h-12 hover:bg-primary/40"
               >
                 <Play className="h-5 w-5" />
               </Button>
@@ -513,7 +490,7 @@ export function ScenarioDetail({
                 onClick={stopPlayingAll}
                 size="icon"
                 title="Stop Playback"
-                className="rounded-full shadow-lg w-12 h-12"
+                className="rounded-full shadow-lg w-12 h-12 bg-destructive/20 hover:bg-destructive/40"
               >
                 <StopCircle className="h-5 w-5" />
               </Button>
