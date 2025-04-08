@@ -15,7 +15,8 @@ import {
   StopCircle,
   Shuffle,
   Repeat,
-  ChevronsDown
+  ChevronsDown,
+  Languages
 } from 'lucide-react';
 import { DownloadQueue } from '@/components/audio';
 import { ConversationItem } from './conversation-item';
@@ -60,6 +61,10 @@ export function ScenarioDetail({
   // Download queue system
   const [downloadQueue, setDownloadQueue] = useState<number[]>([]);
   const [preloadedAudio, setPreloadedAudio] = useState<Record<number, string>>({});
+  
+  // Translation state
+  const [isTranslatingAll, setIsTranslatingAll] = useState(false);
+  const [allTranslated, setAllTranslated] = useState(false);
   
   // Refs for conversation items and user interaction tracking
   const conversationRefs = useRef<(HTMLDivElement | null)[]>([]);
@@ -261,6 +266,7 @@ export function ScenarioDetail({
   // Reset repeat counter when scenario changes
   useEffect(() => {
     setRepeatCount(0);
+    setAllTranslated(false);
   }, [id]);
 
   const stopPlayingAll = () => {
@@ -305,6 +311,21 @@ export function ScenarioDetail({
       setCurrentPlayingIndex(index);
     }
   };
+  
+  // Function to translate all conversation items
+  const handleTranslateAll = () => {
+    // Toggle translation state
+    setAllTranslated(!allTranslated);
+    
+    if (!allTranslated) {
+      setIsTranslatingAll(true);
+      
+      // Short timeout to allow the state to update before the individual conversation items process it
+      setTimeout(() => {
+        setIsTranslatingAll(false);
+      }, 300);
+    }
+  };
 
   // Create a shortened title from the summary (first 50 characters + ellipsis if needed)
   const shortTitle = scenario.summary.length > 50 
@@ -343,7 +364,7 @@ export function ScenarioDetail({
           <AudioPlayer src={summaryUrl} className="mt-2" />
         )}
         
-        <div className="flex items-center mt-4 gap-2">
+        <div className="flex items-center mt-4 gap-2 justify-between">
           <div className="flex items-center gap-2">
             <Switch
               id="auto-repeat"
@@ -354,6 +375,17 @@ export function ScenarioDetail({
               <Repeat className="h-4 w-4" />
             </Label>
           </div>
+          
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={handleTranslateAll}
+            className="flex items-center gap-1"
+            title={allTranslated ? "Show Original" : "Translate All"}
+          >
+            <Languages className="h-4 w-4" />
+            {allTranslated ? "Show Original" : "Translate All"}
+          </Button>
         </div>
         
         {isRepeating && (
@@ -365,6 +397,13 @@ export function ScenarioDetail({
         {repeatCount > 0 && !isRepeating && (
           <div className="mt-2 text-xs text-gray-500">
             Repeat {repeatCount}/{MAX_REPEATS}
+          </div>
+        )}
+        
+        {isTranslatingAll && (
+          <div className="mt-2 w-full">
+            <Progress value={50} className="h-1 w-full" />
+            <span className="text-xs text-gray-500">Translating all items...</span>
           </div>
         )}
         
@@ -391,6 +430,8 @@ export function ScenarioDetail({
               onAudioLoaded={handleAudioLoaded}
               preloadedAudio={preloadedAudio[index] || null}
               onClick={() => handleDialogClick(index)}
+              translateAll={allTranslated}
+              isTranslatingAll={isTranslatingAll}
               ref={(el) => { conversationRefs.current[index] = el; }}
             />
           ))}
@@ -441,7 +482,6 @@ export function ScenarioDetail({
             >
               <Shuffle className="h-4 w-4" />
             </Button>
-
             {/* Only show jump button when needed but keep it in the same group */}
             {showJumpButton && currentPlayingIndex !== null && (
               <Button
